@@ -94,15 +94,10 @@ form.pmpro_form .pmpro_submit{
 }
 
 .pmpro_btn.pmpro_btn-submit-checkout{
-font-size: 14px;
-font-weight: 400;
-padding: 13px 29px;
-line-height: 17px;
-text-transform: uppercase;
-background: rgba(26, 131, 190, 0.7);
+font-size: 21px;
+padding: 27px 38px;
 border-radius: 5em;
 border: none;
-color: #fff;
 cursor: pointer;
 display: block;
 outline: none;
