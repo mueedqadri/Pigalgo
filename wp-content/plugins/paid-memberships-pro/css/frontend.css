@@ -147,7 +147,6 @@ form.pmpro_form select,
 #loginform input[type=text],
 #loginform input[type=password] {
 	display: inline-block;
-	max-width: 90%;
 }
 form.pmpro_form .pmpro_checkout-field-bcity_state_zip .input,
 form.pmpro_form .pmpro_checkout-field-bcity_state_zip select {

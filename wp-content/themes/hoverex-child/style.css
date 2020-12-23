@@ -17,3 +17,118 @@ Text Domain: hoverex
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+a.um-button.um-alt {
+    background-color: whitesmoke;
+}
+
+a.um-button.um-alt:hover {
+    background-color: #D2538A;
+}
+
+/*Hide the arrow on the dropdown*/
+.um-dropdown-arr {
+    display: none;
+}
+
+.pmpro_table {
+    font-size: 1.15em;
+}
+
+img.gravatar.avatar.avatar-40.um-avatar.um-avatar-default {
+    border-radius: 4em;
+    margin: -6px 0px 0px 14px;
+}
+
+form.pmpro_form > div{
+margin: 30px 0;
+}
+
+#pmpro_form .pmpro_checkout h3{
+display: block;
+font-size: 32px;
+color: #fff;
+background: rgba(26, 131, 190, 0.7);
+padding: 14px 10px 2px 50px;
+	border-radius:5em
+}
+
+.pmpro_checkout h3 span{
+color: #fff;
+margin: 10px;
+}
+
+hr{
+    display: none;
+    
+}
+
+.pmpro_checkout-fields{
+margin: 20px 0;
+}
+
+form.pmpro_form .pmpro_checkout-field{
+width: 45%;
+margin-left: 1%;
+display: inline-block;
+height: 35px;
+}
+
+.pmpro_checkout .pmpro_checkout-fields .pmpro_checkout-field label{
+text-align: left;
+margin-top: 15px;
+}
+
+form.pmpro_form .input{
+font-size: 16px;
+border-radius: 5em;
+border:none;
+}
+
+form.pmpro_form .input:focus,
+form.pmpro_form select{
+outline: none;
+}
+
+form.pmpro_form .pmpro_submit{
+    text-align: left;
+}
+
+.pmpro_btn.pmpro_btn-submit-checkout{
+font-size: 14px;
+font-weight: 400;
+padding: 13px 29px;
+line-height: 17px;
+text-transform: uppercase;
+background: rgba(26, 131, 190, 0.7);
+border-radius: 5em;
+border: none;
+color: #fff;
+cursor: pointer;
+display: block;
+outline: none;
+}
+
+.pmpro_btn.pmpro_btn-submit-checkout:hover{
+background: rgb(26, 131, 190);
+}
+
+form.pmpro_form select{
+display: inline-block;
+border: none;
+box-shadow: none;
+}
+.pmpro_checkout-field.pmpro_checkout-field-username{
+    display: block !important;
+}
+
+.pmpro_checkout-field.pmpro_payment-cvv{
+    clear: right;
+}
+
+
+.select_container{
+  border-radius:5em;
+  display:-webkit-inline-box;
+  overflow:hidden;
+	width:auto;
+}
