@@ -1,0 +1,1920 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codelight
+# This file is distributed under the same license as the The GDPR Framework package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: The GDPR Framework 1.0\n"
+"Report-Msgid-Bugs-To: gdpr@codelight.eu\n"
+"POT-Creation-Date: 2018-04-16 10:50+0000\n"
+"PO-Revision-Date: 2019-09-19 12:36+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Last-Translator: Zankov Group LTD. <office@zankov-group.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg_BG\n"
+
+#: gdpr-framework.php:26
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Error"
+msgstr ""
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "Invalid PHP version"
+msgstr "Невалидна версия на PHP"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "You must be using PHP 5.6.33 or greater."
+msgstr "Трябва да използвате PHP 5.6.33 или по-нова."
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "Invalid WordPress version"
+msgstr "Невалидна версия на WordPress"
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "You must be using WordPress 4.3.0 or greater."
+msgstr "Трябва да използвате WordPress 4.3.0 или по-нова."
+
+#: gdpr-framework.php:52
+msgctxt "(Admin)"
+msgid ""
+"You appear to be running a development version of GDPR. You must run "
+"<code>composer install</code> from the plugin directory."
+msgstr ""
+"Изглежда, че използвате версия за разработка на GDPR. Трябва да стартирате "
+"<code> install композитор </ code> от директорията на добавката."
+
+#: gdpr-framework.php:53
+msgctxt "(Admin)"
+msgid "Autoloader not found."
+msgstr "Autoloader не е намерен."
+
+#: gdpr-framework.php:115
+msgctxt "(Admin)"
+msgid "Anonymous"
+msgstr "анонимен"
+
+#: src/Admin/AdminTab.php:115
+msgctxt "(Admin)"
+msgid "Save"
+msgstr "Запази"
+
+#: src/Admin/AdminTab.php:151
+msgctxt "(Admin)"
+msgid "Policy generated!"
+msgstr "Политиката е генерирана!"
+
+#: src/Admin/AdminTabGeneral.php:11
+msgctxt "(Admin)"
+msgid "General"
+msgstr "Главни"
+
+#: src/Admin/AdminTabGeneral.php:38
+msgctxt "(Admin)"
+msgid "General Settings"
+msgstr "Главни настройки"
+
+#: src/Admin/AdminTabGeneral.php:43
+msgctxt "(Admin)"
+msgid "Enable Privacy Tools"
+msgstr "Включи Политика за лични данни"
+
+#: src/Admin/AdminTabGeneral.php:53
+msgctxt "(Admin)"
+msgid "Pages"
+msgstr "Страници"
+
+#: src/Admin/AdminTabGeneral.php:58 src/Admin/WordpressAdmin.php:151
+msgctxt "(Admin)"
+msgid "Privacy Tools Page"
+msgstr "Страница с инструменти "
+
+#: src/Admin/AdminTabGeneral.php:65 src/Admin/WordpressAdmin.php:147
+msgctxt "(Admin)"
+msgid "Privacy Policy Page"
+msgstr "Страница за лични данни"
+
+#: src/Admin/AdminTabGeneral.php:72
+msgctxt "(Admin)"
+msgid "Terms & Conditions Page"
+msgstr "Страница за Общи условия"
+
+#: src/Admin/AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "View & Export Data"
+msgstr "Преглед и Експортиране на данни"
+
+#: src/Admin/AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "Export action"
+msgstr "Действие за експортиране"
+
+#: src/Admin/AdminTabGeneral.php:94 src/Admin/AdminTabGeneral.php:133
+msgctxt "(Admin)"
+msgid "Email to notify"
+msgstr "Email за уведомяване"
+
+#: src/Admin/AdminTabGeneral.php:105
+msgctxt "(Admin)"
+msgid "Delete & Anonymize Data"
+msgstr "Изтриване и Анонимни данни"
+
+#: src/Admin/AdminTabGeneral.php:110
+msgctxt "(Admin)"
+msgid "Delete action"
+msgstr "Действие при изтриване"
+
+#: src/Admin/AdminTabGeneral.php:117
+msgctxt "(Admin)"
+msgid "Delete or reassign content?"
+msgstr "Да се ​​изтрие ли или да се присвои съдържание?"
+
+#: src/Admin/AdminTabGeneral.php:125
+msgctxt "(Admin)"
+msgid "Reassign content to"
+msgstr "Пренасочване на съдържание към"
+
+#: src/Admin/AdminTabGeneral.php:145
+msgctxt "(Admin)"
+msgid "Styling"
+msgstr "Стил"
+
+#: src/Admin/AdminTabGeneral.php:150
+msgctxt "(Admin)"
+msgid "Enable basic styling on Privacy Tools page"
+msgstr "Активирайте основния стил на страницата Инструменти за поверителност"
+
+#: src/Admin/AdminTabGeneral.php:162
+msgctxt "(Admin)"
+msgid "Compatibility"
+msgstr "Съвместимост"
+
+#: src/Admin/AdminTabGeneral.php:167
+msgctxt "(Admin)"
+msgid "Enable automatic theme compatibility"
+msgstr "Активирайте автоматичната съвместимост на темите"
+
+#: src/Admin/AdminTabGeneral.php:184 src/Admin/AdminTabGeneral.php:200
+#: src/Admin/AdminTabGeneral.php:213 src/Admin/AdminTabGeneral.php:252
+#: views/installer/steps/configuration-settings.php:62
+#, fuzzy
+msgctxt "(Admin)"
+msgid "&mdash; Select &mdash;"
+msgstr "Избери размера на бутона."
+
+#: src/Admin/WordpressAdmin.php:65
+msgctxt "(Admin)"
+msgid "Privacy & GDPR Settings"
+msgstr "Настройки за поверителност и GDPR"
+
+#: src/Admin/WordpressAdmin.php:66
+msgctxt "(Admin)"
+msgid "Privacy"
+msgstr "поверителност"
+
+#: src/Components/Consent/AdminTabConsent.php:30
+#: src/Components/Consent/AdminTabConsent.php:49
+msgctxt "(Admin)"
+msgid "Consent"
+msgstr "Съгласие"
+
+#: src/Components/Consent/AdminTabConsent.php:157
+msgctxt "(Admin)"
+msgid "Consent slug is a required field!"
+msgstr "Консултантската слуз е задължително поле!"
+
+#: src/Components/Consent/AdminTabConsent.php:162
+msgctxt "(Admin)"
+msgid ""
+"You may only use alphanumeric characters, dash and underscore in the consent "
+"slug field."
+msgstr ""
+"Можете да използвате само буквено-цифрени символи, тире и долни черти в "
+"полето за съгласие за складиране."
+
+#: src/Components/Consent/AdminTabConsent.php:167
+msgctxt "(Admin)"
+msgid "Consent title is a required field!"
+msgstr "Типовото съгласие е задължително поле!"
+
+#: src/Components/Consent/ConsentManager.php:46
+#: views/modules/contact-form-7/content-privacy.php:2
+#: views/modules/wordpress-comments/terms-checkbox.php:14
+#: views/modules/wordpress-user/registration-terms-checkbox.php:15
+#, php-format
+msgid "I accept the %sPrivacy Policy%s"
+msgstr "Приемам %sPrivacy Policy%s"
+
+#: src/Components/Consent/ConsentManager.php:50
+#: src/Components/Consent/ConsentManager.php:69
+msgctxt "(Admin)"
+msgid ""
+"This consent is not visible by default. If someone wishes to withdraw it, "
+"they should simply request to delete all their data."
+msgstr ""
+"Това съгласие не се вижда по подразбиране. Ако някой желае да го оттегли, "
+"той трябва просто да поиска да изтрие всичките си данни."
+
+#: src/Components/Consent/ConsentManager.php:65
+#, php-format
+msgid "I accept the %sTerms & Conditions%s"
+msgstr "Приемам %sTerms & Conditions%s"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:19
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:61
+#: views/admin/privacy-policy/generated.php:1 views/installer/header.php:41
+msgctxt "(Admin)"
+msgid "Privacy Policy"
+msgstr "Политика за Лични данни"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:70
+msgctxt "(Admin)"
+msgid "Company information"
+msgstr "Информация за Фирмата"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:75
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:209
+msgctxt "(Admin)"
+msgid "Company Name"
+msgstr "Име на Фирмата"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:82
+msgctxt "(Admin)"
+msgid "Company Email"
+msgstr "Фирмен Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:89
+msgctxt "(Admin)"
+msgid "Company Location"
+msgstr "Местоположение на Фирмата"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:105
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:245
+msgctxt "(Admin)"
+msgid "Representative Contact Name"
+msgstr "Представително име за контакт"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:112
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:252
+msgctxt "(Admin)"
+msgid "Representative Contact Email"
+msgstr "Представителни имейл за контакт"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:119
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:259
+msgctxt "(Admin)"
+msgid "Representative Contact Phone"
+msgstr "Представителна контактна телефония"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:135
+msgctxt "(Admin)"
+msgid "Data Protection Authority"
+msgstr "Орган за защита на данните"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:141
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:286
+msgctxt "(Admin)"
+msgid "Data Protection Authority Website"
+msgstr "Уебсайт на Органа за защита на данните"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:148
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:293
+msgctxt "(Admin)"
+msgid "Data Protection Authority Email"
+msgstr "Имейл за защитата на данни"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:155
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:300
+msgctxt "(Admin)"
+msgid "Data Protection Authority Phone"
+msgstr "Орган за защита на данните"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:165
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:175
+msgctxt "(Admin)"
+msgid "Data Protection Officer"
+msgstr "Служителя за защита на данните"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:168
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgstr "База знания: Трябва ли да назнача служител по защита на данните?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:182
+msgctxt "(Admin)"
+msgid "Data Protection Officer Name"
+msgstr "Име на Служителя по защита на данните"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:190
+msgctxt "(Admin)"
+msgid "Data Protection Officer Email"
+msgstr "Email на Служителя по защита на данните"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:216
+msgctxt "(Admin)"
+msgid "Contact Email"
+msgstr "Email за конакт"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:235
+msgctxt "(Admin)"
+msgid "Representative Contact"
+msgstr "Представителен контакти"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:238
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgstr "База знания: Трябва ли да назнача представител на ЕС?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:317
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:324
+msgctxt "(Admin)"
+msgid "DPO Name"
+msgstr "ДПО Име"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:420
+msgctxt "(Admin)"
+msgid "Save & Generate Policy"
+msgstr "Запазване и генериране на правила"
+
+#: src/Components/PrivacyPolicy/PrivacyPolicy.php:82
+#: src/Installer/Installer.php:271 src/Installer/Steps/PolicySettings.php:199
+#: views/themes/storefront/footer.php:3
+#: views/themes/twentyseventeen/footer.php:3
+#: views/themes/twentysixteen/footer.php:4
+msgid "Privacy Policy"
+msgstr "Политика за Лични данни"
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:19
+msgid "This page is currently disabled."
+msgstr "Тази страница не е активна."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:35
+#: src/Installer/Installer.php:279
+#: src/Installer/Steps/ConfigurationPages.php:55
+#: views/themes/storefront/footer.php:7
+#: views/themes/twentyseventeen/footer.php:7
+#: views/themes/twentysixteen/footer.php:9
+msgid "Privacy Tools"
+msgstr "Управление на Лични данни"
+
+#: src/Components/Support/AdminTabSupport.php:13
+#: src/Components/Support/AdminTabSupport.php:20
+msgctxt "(Admin)"
+msgid "Support"
+msgstr ""
+
+#: src/Components/WordpressComments/WordpressComments.php:90
+#, php-format
+msgid "%sERROR:%s You need to accept the privacy policy to post a comment."
+msgstr ""
+"%sГРЕШКА:%s Трябва да приемете декларацията за поверителност, за да "
+"публикувате коментар."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:54
+#: views/privacy-tools/notices.php:19
+msgid "We have received your request and will reply within 30 days."
+msgstr "Получихме Вашето искане и ще отговорим в рамките на 30 дни."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:59
+#: views/privacy-tools/notices.php:15
+msgid "Consent withdrawn."
+msgstr "Съгласието е оттеглено."
+
+#: src/Components/WordpressUser/RegistrationForm.php:42
+msgid "<strong>ERROR</strong>: You must accept the terms and conditions."
+msgstr "<strong>ERROR</strong>: Трябва да приемете Общите условия."
+
+#: src/Components/WordpressUser/WordpressUser.php:63
+#: src/Components/WordpressUser/WordpressUser.php:64
+#: views/modules/wordpress-user/dashboard/data-page/header.php:2
+msgctxt "(Admin)"
+msgid "Privacy Tools"
+msgstr "Управление на Лични данни"
+
+#: src/DataSubject/AdminTabDataSubject.php:27
+#: src/DataSubject/AdminTabDataSubject.php:41
+msgctxt "(Admin)"
+msgid "Data Subjects"
+msgstr "Субекти на данни"
+
+#: src/DataSubject/DataRepository.php:143
+msgid "Data exported"
+msgstr "Данните са Експортирани"
+
+#: src/DataSubject/DataRepository.php:158
+msgid "Data export request"
+msgstr "Заявка за Експорт на данни"
+
+#: src/DataSubject/DataRepository.php:171
+msgid "Data removed"
+msgstr "Данните са премахнати"
+
+#: src/DataSubject/DataRepository.php:186
+msgid "Data removal request"
+msgstr "Заявка за премахване на Данни"
+
+#: src/DataSubject/DataSubjectIdentificator.php:65
+#: src/DataSubject/DataSubjectIdentificator.php:82
+msgid "Your personal data on"
+msgstr "Вашите лични данни за"
+
+#: src/Helpers.php:27
+msgctxt "(Admin)"
+msgid "Austria"
+msgstr ""
+
+#: src/Helpers.php:28
+msgctxt "(Admin)"
+msgid "Belgium"
+msgstr ""
+
+#: src/Helpers.php:29
+msgctxt "(Admin)"
+msgid "Bulgaria"
+msgstr ""
+
+#: src/Helpers.php:30
+msgctxt "(Admin)"
+msgid "Croatia"
+msgstr ""
+
+#: src/Helpers.php:31
+msgctxt "(Admin)"
+msgid "Cyprus"
+msgstr ""
+
+#: src/Helpers.php:32
+msgctxt "(Admin)"
+msgid "Czech Republic"
+msgstr ""
+
+#: src/Helpers.php:33
+msgctxt "(Admin)"
+msgid "Denmark"
+msgstr ""
+
+#: src/Helpers.php:34
+msgctxt "(Admin)"
+msgid "Estonia"
+msgstr ""
+
+#: src/Helpers.php:35
+msgctxt "(Admin)"
+msgid "Finland"
+msgstr ""
+
+#: src/Helpers.php:36
+msgctxt "(Admin)"
+msgid "France"
+msgstr ""
+
+#: src/Helpers.php:37
+msgctxt "(Admin)"
+msgid "Germany"
+msgstr ""
+
+#: src/Helpers.php:38
+msgctxt "(Admin)"
+msgid "Greece"
+msgstr ""
+
+#: src/Helpers.php:39
+msgctxt "(Admin)"
+msgid "Hungary"
+msgstr ""
+
+#: src/Helpers.php:40
+msgctxt "(Admin)"
+msgid "Ireland"
+msgstr ""
+
+#: src/Helpers.php:41
+msgctxt "(Admin)"
+msgid "Italy"
+msgstr ""
+
+#: src/Helpers.php:42
+msgctxt "(Admin)"
+msgid "Latvia"
+msgstr ""
+
+#: src/Helpers.php:43
+msgctxt "(Admin)"
+msgid "Lithuania"
+msgstr ""
+
+#: src/Helpers.php:44
+msgctxt "(Admin)"
+msgid "Luxembourg"
+msgstr ""
+
+#: src/Helpers.php:45
+msgctxt "(Admin)"
+msgid "Malta"
+msgstr ""
+
+#: src/Helpers.php:46
+msgctxt "(Admin)"
+msgid "Netherlands"
+msgstr ""
+
+#: src/Helpers.php:47
+msgctxt "(Admin)"
+msgid "Poland"
+msgstr ""
+
+#: src/Helpers.php:48
+msgctxt "(Admin)"
+msgid "Portugal"
+msgstr ""
+
+#: src/Helpers.php:49
+msgctxt "(Admin)"
+msgid "Romania"
+msgstr ""
+
+#: src/Helpers.php:50
+msgctxt "(Admin)"
+msgid "Slovakia"
+msgstr ""
+
+#: src/Helpers.php:51
+msgctxt "(Admin)"
+msgid "Slovenia"
+msgstr ""
+
+#: src/Helpers.php:52
+msgctxt "(Admin)"
+msgid "Spain"
+msgstr ""
+
+#: src/Helpers.php:53
+msgctxt "(Admin)"
+msgid "Sweden"
+msgstr ""
+
+#: src/Helpers.php:54
+msgctxt "(Admin)"
+msgid "United Kingdom"
+msgstr ""
+
+#: src/Helpers.php:69
+msgctxt "(Admin)"
+msgid "Iceland"
+msgstr ""
+
+#: src/Helpers.php:70
+msgctxt "(Admin)"
+msgid "Norway"
+msgstr ""
+
+#: src/Helpers.php:71
+msgctxt "(Admin)"
+msgid "Liechtenstein"
+msgstr ""
+
+#: src/Helpers.php:72
+msgctxt "(Admin)"
+msgid "Switzerland"
+msgstr ""
+
+#: src/Helpers.php:73
+msgctxt "(Admin)"
+msgid "United States"
+msgstr ""
+
+#: src/Helpers.php:74
+msgctxt "(Admin)"
+msgid "Rest of the world"
+msgstr "Останалата част от света"
+
+#: src/Helpers.php:145
+msgid "An error has occurred. Please contact the site administrator."
+msgstr "Възникна грешка. Моля, свържете се с администратора на сайта."
+
+#: src/Installer/Installer.php:135
+msgctxt "(Admin)"
+msgid "Setup Wizard"
+msgstr "Помощник за инсталиране"
+
+#: src/Installer/Steps/ConfigurationPages.php:23
+#: src/Installer/Steps/PolicySettings.php:23
+#: src/Installer/Steps/PolicySettings.php:48
+msgctxt "(Admin)"
+msgid "&mdash; Create a new page &mdash;"
+msgstr "&mdash; Създайте нова страница &mdash;"
+
+#: src/Installer/Steps/PolicySettings.php:38
+msgctxt "(Admin)"
+msgid ""
+"We have automatically selected your WooCommerce Terms & Conditions page."
+msgstr ""
+"Ние автоматично сме избрали Вашата Условия за Условия за търговия на "
+"WooCommerce."
+
+#: src/Modules/ContactForm7/ContactForm7.php:35
+msgctxt "(Admin)"
+msgid "gdpr terms txt"
+msgstr "gdpr термини txt"
+
+#: src/Router.php:80 src/Router.php:92 src/Router.php:125 src/Router.php:141
+#, php-format
+msgid "Nonce error for action \"%s\". Please go back and try again!"
+msgstr "Nonce error for action \"%s\". Please go back and try again!"
+
+#: src/Router.php:149
+msgctxt "(Admin)"
+msgid "You do not have the required permissions to perform this action!"
+msgstr "Нямате необходимите разрешения за изпълнение на това действие!"
+
+#: views/admin/consent.php:3
+msgctxt "(Admin)"
+msgid "Default consent types"
+msgstr "Стандартни типове съгласие"
+
+#: views/admin/consent.php:4
+msgctxt "(Admin)"
+msgid ""
+"These are the consent types that have been automatically registered by the "
+"framework or a plugin."
+msgstr ""
+"Това са типовете съгласие, които са били автоматично регистрирани от рамката "
+"или приставката."
+
+#: views/admin/consent.php:7 views/admin/consent.php:52
+msgctxt "(Admin)"
+msgid "Slug"
+msgstr "плужек"
+
+#: views/admin/consent.php:8 views/admin/consent.php:38
+#: views/admin/consent.php:60
+msgctxt "(Admin)"
+msgid "Title"
+msgstr "Заглавие"
+
+#: views/admin/consent.php:9 views/admin/consent.php:41
+#: views/admin/consent.php:63
+msgctxt "(Admin)"
+msgid "Description"
+msgstr "Описание"
+
+#: views/admin/consent.php:10
+msgctxt "(Admin)"
+msgid "Visibility"
+msgstr "Видимост"
+
+#: views/admin/consent.php:18
+msgctxt "(Admin)"
+msgid "Visible"
+msgstr "Видимо"
+
+#: views/admin/consent.php:20
+msgctxt "(Admin)"
+msgid "Hidden"
+msgstr "Скрито"
+
+#: views/admin/consent.php:29
+msgctxt "(Admin)"
+msgid "Custom consent types"
+msgstr "Типове персонализирано съгласие"
+
+#: views/admin/consent.php:30
+msgctxt "(Admin)"
+msgid ""
+"Here you can add custom consent types to track. They will not be used "
+"anywhere by default - you will need to build an integration for each of them."
+msgstr ""
+"Тук можете да добавяте персонализирани типове съгласие за проследяване. Те "
+"няма да бъдат използвани никъде по подразбиране - ще трябва да изградите "
+"интеграция за всеки от тях."
+
+#: views/admin/consent.php:35
+msgctxt "(Admin)"
+msgid "Machine-readable slug"
+msgstr "Машинно четене"
+
+#: views/admin/consent.php:44 views/admin/consent.php:68
+msgctxt "(Admin)"
+msgid "Visible?"
+msgstr "Видим?"
+
+#: views/admin/consent.php:72
+msgctxt "(Admin)"
+msgid "Remove"
+msgstr "Премахни"
+
+#: views/admin/consent.php:93
+msgctxt "(Admin)"
+msgid "Additional info"
+msgstr "ПОВЕЧЕ ИНФОРМАЦИЯ"
+
+#: views/admin/consent.php:95
+msgctxt "(Admin)"
+msgid ""
+"This text will be displayed to your data subjects on the Privacy Tools page."
+msgstr ""
+"Този текст ще се покаже на субектите Ви на данни на страницата Инструменти "
+"за поверителност."
+
+#: views/admin/data-subjects/search-form.php:2
+msgctxt "(Admin)"
+msgid ""
+"On this page, you can find which data subjects personal data you are storing "
+"and download, export or delete it."
+msgstr ""
+"На тази страница можете да намерите кои данни за лични данни съхранявате и "
+"изтегляте, експортирате или изтривате."
+
+#: views/admin/data-subjects/search-form.php:10
+msgctxt "(Admin)"
+msgid "Find data subject by email"
+msgstr "Намери данни по Email"
+
+#: views/admin/data-subjects/search-form.php:11
+msgctxt "(Admin)"
+msgid "Email address"
+msgstr "Email адрес"
+
+#: views/admin/data-subjects/search-form.php:16
+msgctxt "(Admin)"
+msgid "Search"
+msgstr "ТЪРСИ"
+
+#: views/admin/data-subjects/search-results.php:7
+msgctxt "(Admin)"
+msgid "Username"
+msgstr "ПОТРЕБИТЕЛСКО ИМЕ"
+
+#: views/admin/data-subjects/search-results.php:12
+msgctxt "(Admin)"
+msgid "is not a registered user."
+msgstr "не е регистриран потребител."
+
+#: views/admin/data-subjects/search-results.php:16
+msgctxt "(Admin)"
+msgid "Download data (html)"
+msgstr "Свали данните (html) формат"
+
+#: views/admin/data-subjects/search-results.php:17
+msgctxt "(Admin)"
+msgid "Export data (json)"
+msgstr "Свали данните (json) формат"
+
+#: views/admin/data-subjects/search-results.php:21
+msgctxt "(Admin)"
+msgid ""
+"This user has admin capabilities. Deleting data via this interface is "
+"disabled."
+msgstr ""
+"Този потребител има администраторски възможности. Изтриването на данни през "
+"този интерфейс е деактивирано."
+
+#: views/admin/data-subjects/search-results.php:24
+msgctxt "(Admin)"
+msgid "Anonymize data"
+msgstr "Анонимни данни"
+
+#: views/admin/data-subjects/search-results.php:25
+msgctxt "(Admin)"
+msgid "Delete data"
+msgstr "Изтрий данните"
+
+#: views/admin/data-subjects/search-results.php:29
+msgctxt "(Admin)"
+msgid "No data found!"
+msgstr "Нищо не е намерено"
+
+#: views/admin/general/delete-action-email.php:5
+#: views/admin/general/export-action-email.php:5
+#: views/installer/steps/configuration-settings.php:29
+#: views/installer/steps/configuration-settings.php:79
+msgid "Email address"
+msgstr "Email адрес"
+
+#: views/admin/general/delete-action-reassign.php:3
+#: views/installer/steps/configuration-settings.php:50
+msgctxt "(Admin)"
+msgid "Delete content"
+msgstr "Изтриване на съдържание"
+
+#: views/admin/general/delete-action-reassign.php:6
+#: views/installer/steps/configuration-settings.php:53
+msgctxt "(Admin)"
+msgid "Reassign content to a user"
+msgstr "Преназначаване съдържание на потребител"
+
+#: views/admin/general/delete-action-reassign.php:10
+msgctxt "(Admin)"
+msgid ""
+"If the user has submitted any content on your site, should it be deleted or "
+"reassigned to another user?"
+msgstr ""
+"Ако потребителят е изпратил съдържание на сайта Ви, трябва ли да бъде изтрит "
+"или превъзложен на друг потребител?"
+
+#: views/admin/general/description-data-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"Select the page where users can go to control their data. This page must "
+"contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Изберете страницата, на която потребителите могат да отидат да контролират "
+"данните си. Тази страница трябва да съдържа този код [gdpr_privacy_tools]"
+
+#: views/admin/general/enable.php:9
+msgctxt "(Admin)"
+msgid "Enable the view, export and forget functionality for users and visitors"
+msgstr ""
+"Активирайте изгледа, експортирайте и забравете функционалността на "
+"потребителите и посетителите"
+
+#: views/admin/general/enable.php:12
+msgctxt "(Admin)"
+msgid ""
+"Enable the Privacy Tools page on front-end and dashboard. This allows "
+"visitors to request viewing and deleting their personal data and withdraw "
+"consents."
+msgstr ""
+"Активирайте страницата Инструменти за поверителност на предния и на таблото "
+"за управление. Това позволява на посетителите да изискват преглеждането и "
+"изтриването на личните им данни и да оттеглят съгласието си."
+
+#: views/admin/general/theme-compatibility.php:9
+#: views/installer/steps/integrations.php:21
+msgctxt "(Admin)"
+msgid ""
+"Automatically add Privacy Policy and Privacy Tools links to your site footer."
+msgstr ""
+"Автоматично добавяне на страниците Политика за лични данни и Управление на "
+"лични данни в долната част на сайта."
+
+#: views/admin/notices/header.php:4 views/admin/settings-page.php:3
+#: views/installer/header.php:23
+msgctxt "(Admin)"
+msgid "The GDPR Framework"
+msgstr "Рамката на GDPR"
+
+#: views/admin/notices/helper-autoinstall.php:2
+msgctxt "(Admin)"
+msgid ""
+"A Privacy Policy page has been created, but it is empty. You can generate a "
+"policy template on this page."
+msgstr ""
+"Страницата с правила за поверителност е създадена, но е празна. Можете да "
+"генерирате шаблон за правила на тази страница."
+
+#: views/admin/notices/helper-policy.php:2
+msgctxt "(Admin)"
+msgid ""
+"Heads up - your Privacy Policy still requires some attention. Find the "
+"places marked with [TODO] and replace them with real content!"
+msgstr ""
+"Глави - Вашата политика за поверителност все още изисква известно внимание. "
+"Намерете местата, маркирани с [TODO], и ги заменете с истинско съдържание!"
+
+#: views/admin/notices/helper-tools.php:2
+msgctxt "(Admin)"
+msgid ""
+"The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Съдържанието на тази страница трябва да съдържа краткия код "
+"[gdpr_privacy_tools]."
+
+#: views/admin/privacy-policy/description-policy-page.php:2
+msgctxt "(Admin)"
+msgid "Select the page which will contain your Privacy Policy"
+msgstr "Изберете страницата, която ще съдържа вашата Политика за Лични данни"
+
+#: views/admin/privacy-policy/generated.php:3
+msgctxt "(Admin)"
+msgid "Your Privacy Policy has been generated."
+msgstr "Политиката за Лични данни беше генерирана."
+
+#: views/admin/privacy-policy/generated.php:20
+msgctxt "(Admin)"
+msgid "&laquo; Back"
+msgstr "&laquo; Назад"
+
+#: views/admin/privacy-policy/header.php:2
+msgctxt "(Admin)"
+msgid ""
+"This page allows you to generate a Privacy Policy based on the information "
+"you entered below."
+msgstr ""
+"Тази страница ви позволява да генерирате Политика за личните данни въз "
+"основа на въведената по-долу информация."
+
+#: views/admin/settings-page.php:31
+#, php-format
+msgctxt "(Admin)"
+msgid "The GDPR Framework. Built with &#9829; by %sCodelight%s."
+msgstr "Рамката на GDPR. Построен с & # 9829; от% sЦветна светлина% s."
+
+#: views/admin/support/contents.php:5 views/installer/steps/finish.php:10
+msgctxt "(Admin)"
+msgid "Need more info?"
+msgstr "Нуждаете се от повече информация?"
+
+#: views/admin/support/contents.php:11 views/installer/steps/finish.php:16
+msgctxt "(Admin)"
+msgid "Site Owner's guide to GDPR"
+msgstr "Ръководство на собственика на сайта за GDPR"
+
+#: views/admin/support/contents.php:14 views/installer/steps/finish.php:19
+msgctxt "(Admin)"
+msgid "Read the full guide on GDPR compliance."
+msgstr "Прочетете пълния наръчник за съответствие с GDPR."
+
+#: views/admin/support/contents.php:20 views/installer/steps/finish.php:25
+msgctxt "(Admin)"
+msgid "Knowledge base"
+msgstr "Знание"
+
+#: views/admin/support/contents.php:23 views/installer/steps/finish.php:28
+msgctxt "(Admin)"
+msgid "Check out the knowledge base for common questions and answers."
+msgstr "Проверете базата знания за често срещани въпроси и отговори."
+
+#: views/admin/support/contents.php:29 views/installer/steps/finish.php:34
+msgctxt "(Admin)"
+msgid "Developer's guide to GDPR"
+msgstr "Ръководство за програмисти за GDPR"
+
+#: views/admin/support/contents.php:32 views/installer/steps/finish.php:37
+msgctxt "(Admin)"
+msgid "We have a thorough guide to help making custom sites compliant."
+msgstr ""
+"Имаме задълбочено ръководство, което ни помага да направим персонализираните "
+"сайтове съвместими."
+
+#: views/admin/support/contents.php:40 views/installer/steps/finish.php:45
+msgctxt "(Admin)"
+msgid "Need help?"
+msgstr "Нужда от помощ?"
+
+#: views/admin/support/contents.php:46 views/installer/steps/finish.php:51
+msgctxt "(Admin)"
+msgid "Submit a support request"
+msgstr "Изпратете заявка за поддръжка"
+
+#: views/admin/support/contents.php:49 views/installer/steps/finish.php:54
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or problem with the plugin? Post in the wordpress.org support "
+"forum."
+msgstr ""
+"Намерихте ли бъг или проблем с приставката? Публикувайте във форума за "
+"поддръжка на wordpress.org."
+
+#: views/admin/support/contents.php:55 views/installer/steps/finish.php:60
+msgctxt "(Admin)"
+msgid "Request a consultation"
+msgstr "Поискайте консултация"
+
+#: views/admin/support/contents.php:58 views/installer/steps/finish.php:63
+msgctxt "(Admin)"
+msgid ""
+"Need development or legal assistance in making your site compliant? We can "
+"help!"
+msgstr ""
+"Нуждаете се от развитие или правна помощ за привеждане на сайта Ви в "
+"съответствие? Можем да помогнем!"
+
+#: views/admin/wizard-buttons.php:2
+msgctxt "(Admin)"
+msgid "Restart setup wizard"
+msgstr "Рестартирай настройката"
+
+#: views/email/action-export.php:8 views/email/action-forget.php:12
+msgctxt "(Admin)"
+msgid ""
+"This email is just for your information. You don't need to take any action"
+msgstr ""
+"Този имейл е само за вашата информация. Не е необходимо да предприемате "
+"никакви действия"
+
+#: views/email/action-forget.php:8
+msgctxt "(Admin)"
+msgid "The data subject had a user account on your website."
+msgstr "Субектът на данните има потребителски профил на уебсайта Ви."
+
+#: views/email/identify-data-subject.php:2
+msgid "Someone has requested access to your data on"
+msgstr "Някой е поискал достъп до данните ви"
+
+#: views/email/identify-data-subject.php:3
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Ако това е грешка, просто игнорирайте този имейл и нищо няма да се случи. "
+"Никой няма да има достъп до Вашите данни, ако няма по - долния линк. За "
+"всеки случай ни уведомете на Email: privacy@zankov-group.com"
+
+#: views/email/identify-data-subject.php:4
+msgid "To manage your data, visit the following address:"
+msgstr "За да управлявате данните си, посетете следния адрес:"
+
+#: views/email/identify-data-subject.php:10
+msgid "This link is valid for 15 minutes."
+msgstr "Този линк ще бъде валиден само за 15 мин."
+
+#: views/email/no-data.php:2
+msgid "Someone has requested information about your personal data on"
+msgstr "Някой е поискал информация за вашите лични данни"
+
+#: views/email/no-data.php:3
+msgid "None of your personal data is stored on"
+msgstr "Не съхраняваме Ваши лични данни"
+
+#: views/email/no-data.php:5
+msgid ""
+"If this was a mistake or you did not request this email, just ignore it and "
+"nothing will happen."
+msgstr ""
+"Ако това е грешка, просто игнорирайте този имейл и нищо няма да се случи. "
+"Никой няма да има достъп до Вашите данни, ако няма по - долния линк. За "
+"всеки случай ни уведомете на Email: privacy@zankov-group.com"
+
+#: views/email/request-export.php:13 views/email/request-forget.php:13
+msgctxt "(Admin)"
+msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgstr "Напомняне: според GDPR имате 30 дни, за да се съобразите."
+
+#: views/global/delete-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically anonymize data"
+msgstr "Автоматично анонимизиране на данните"
+
+#: views/global/delete-action.php:5
+msgctxt "(Admin)"
+msgid "Automatically delete data"
+msgstr "Автоматично изтриване на данните"
+
+#: views/global/delete-action.php:9
+msgctxt "(Admin)"
+msgid "Automatically anonymize data and notify me via email"
+msgstr "Автоматично анонимизиране на данните и уведомяване чрез Email."
+
+#: views/global/delete-action.php:13
+msgctxt "(Admin)"
+msgid "Automatically delete data and notify me via email"
+msgstr "Автоматично изтриване на данните и уведомяване чрез Email."
+
+#: views/global/delete-action.php:16 views/global/export-action.php:10
+msgctxt "(Admin)"
+msgid "Only notify me via email"
+msgstr "Само ме уведоми чрез Email."
+
+#: views/global/export-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically download data"
+msgstr "Автоматично сваляне на данните"
+
+#: views/global/export-action.php:6
+msgctxt "(Admin)"
+msgid "Automatically download data and notify me via email"
+msgstr "Автоматично сваляне на данните и уведомяване чрез Email."
+
+#: views/installer/continue-notice.php:2
+msgctxt "(Admin)"
+msgid "The The GDPR Framework setup has not been finalized yet."
+msgstr "Настройката на GDPR все още не е финализирана."
+
+#: views/installer/continue-notice.php:3
+msgctxt "(Admin)"
+msgid "You can continue the setup at any time."
+msgstr "Можете да продължите настройката по всяко време."
+
+#: views/installer/continue-notice.php:6
+msgctxt "(Admin)"
+msgid "Continue the setup wizard"
+msgstr "Продължи с настройката"
+
+#: views/installer/continue-notice.php:9
+msgctxt "(Admin)"
+msgid "Hide this message"
+msgstr "Скрий съобщението"
+
+#: views/installer/footer.php:7
+msgid "Back"
+msgstr "Назад"
+
+#: views/installer/header.php:26
+msgctxt "(Admin)"
+msgid "I need help"
+msgstr "Нуждая се от помощ"
+
+#: views/installer/header.php:29
+msgctxt "(Admin)"
+msgid "Developer Docs"
+msgstr "Документация за програмисти"
+
+#: views/installer/header.php:36
+msgctxt "(Admin)"
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: views/installer/header.php:46
+msgctxt "(Admin)"
+msgid "Forms & Consent"
+msgstr "Форми и съгласие"
+
+#: views/installer/header.php:51
+msgctxt "(Admin)"
+msgid "Integrations"
+msgstr "Интеграции"
+
+#: views/installer/steps/configuration-settings.php:23
+#: views/installer/steps/configuration-settings.php:73
+msgctxt "(Admin)"
+msgid "Enter the email address to notify"
+msgstr "Въведете имейл адреса за уведомяване"
+
+#: views/installer/steps/disclaimer.php:21
+msgctxt "(Admin)"
+msgid "I accept"
+msgstr "Приемам"
+
+#: views/installer/welcome-notice.php:7
+msgctxt "(Admin)"
+msgid "Run the setup wizard"
+msgstr "Пуснете помощника за настройка"
+
+#: views/installer/welcome-notice.php:11
+msgctxt "(Admin)"
+msgid "Auto-install pages"
+msgstr "Автоматично инсталиране на страници"
+
+#: views/installer/welcome-notice.php:15
+msgctxt "(Admin)"
+msgid "Skip and install manually"
+msgstr "Инсталирай ръчно"
+
+#: views/modules/contact-form-7/generator-privacy.php:6
+msgctxt "(Admin)"
+msgid ""
+"This tag generates the default text for Terms & Conditions and/or Privacy "
+"Policy checkbox."
+msgstr ""
+"Този маркер генерира стандартния текст за чекбокса за Общи условия и / или "
+"Политика за Лични данни."
+
+#: views/modules/contact-form-7/generator-privacy.php:15
+msgid "Insert"
+msgstr "Вмъкни"
+
+#: views/modules/wordpress-comments/terms-checkbox.php:6
+#: views/modules/wordpress-user/registration-terms-checkbox.php:7
+#, php-format
+msgid "I accept the %sTerms and Conditions%s and the %sPrivacy Policy%s"
+msgstr "Приемам %sTerms and Conditions%s и %sPrivacy Policy%s"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:3
+msgid "Manage consents"
+msgstr "Управлявайте съгласията"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:6
+#: views/privacy-tools/form-consent.php:6
+msgid "Here you can withdraw any consents you have given."
+msgstr "Тук можете да оттеглите всички съгласия, които сте дали."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:8
+#: views/privacy-tools/form-consent.php:9
+msgid "Consent types"
+msgstr "Типове съгласие"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:23
+#: views/privacy-tools/form-consent.php:24
+msgid "Withdraw"
+msgstr "Оттегляне"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:5
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:5
+msgctxt "(Admin)"
+msgid "Delete this user and all data"
+msgstr "Изтрийте този потребител и всички данни"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete my data"
+msgstr "Изтрий данните ми"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:15
+#: views/privacy-tools/form-delete.php:13
+msgid "Delete all data we have gathered about you."
+msgstr "Изтрийте всички данни, които сме събрали за вас."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:16
+#: views/privacy-tools/form-delete.php:14
+msgid "If you have a user account on our site, it will also be deleted."
+msgstr "Ако имате потребителски акаунт на нашия сайт, той също ще бъде изтрит."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:17
+#: views/privacy-tools/form-delete.php:15
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr "Бъдете внимателни - това действие е не може да бъде отменено."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:22
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:23
+msgctxt "(Admin)"
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/"
+"anonymizing via this page is disabled."
+msgstr ""
+"Изглежда, че имате администратор или еквивалентна роля, така че "
+"изтриването / анонимирането чрез тази страница е деактивирано."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:7
+#: views/privacy-tools/form-export.php:1
+msgid "Download your data"
+msgstr "Изтеглете данните си"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:12
+#: views/privacy-tools/form-export.php:13
+msgid "Download as table"
+msgstr "Изтеглете в Таблица"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:15
+#: views/privacy-tools/form-export.php:22
+msgid "Export as JSON"
+msgstr "Експортирайте в JSON"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:19
+#: views/privacy-tools/form-export.php:4
+msgid "You can download all your data formatted as a table for viewing."
+msgstr ""
+"Можете да изтеглите всичките си данни, форматирани като таблица за преглед."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:20
+#: views/privacy-tools/form-export.php:5
+msgid "Alternatively, you can export it in machine-readable JSON format."
+msgstr "Друга възможност е да го експортирате във машинно четене JSON формат."
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete user and all data"
+msgstr "Изтрий потребителя и всички данни"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:14
+msgctxt "(Admin)"
+msgid "Anonymize user and all data"
+msgstr "Анонимизиране на потребителя и всички данни"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:2
+msgctxt "(Admin)"
+msgid "GDPR Data"
+msgstr "GDPR данни"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:6
+msgctxt "(Admin)"
+msgid "This user has been anonymized."
+msgstr "Потребителя беше добавен, като анонимен."
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:4
+msgctxt "(Admin)"
+msgid "Consents given"
+msgstr "Дадени съгласия"
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:17
+msgctxt "(Admin)"
+msgid "No consents given"
+msgstr "Няма дадени съгласия"
+
+#: views/privacy-tools/form-consent.php:2
+msgid "Consent"
+msgstr "Съгласие"
+
+#: views/privacy-tools/form-delete.php:1
+#: views/privacy-tools/notice-admin-role.php:1
+msgid "Delete my user and data"
+msgstr "Изтрий ме, като потребител и данни."
+
+#: views/privacy-tools/form-delete.php:7
+msgid "Delete my data"
+msgstr "Изтрий моите данни"
+
+#: views/privacy-tools/form-identify.php:8
+msgid "Back to Privacy Tools"
+msgstr "Обратно в Политика за Лични данни"
+
+#: views/privacy-tools/form-identify.php:14
+msgid "Please identify yourself via e-mail!"
+msgstr "Идентифицирай се!"
+
+#: views/privacy-tools/form-identify.php:17
+#: views/privacy-tools/form-identify.php:20
+msgid "Enter your email address"
+msgstr "Въведете вашия Email адрес"
+
+#: views/privacy-tools/form-identify.php:23
+msgid "Send email"
+msgstr "Изпрати Emial"
+
+#: views/privacy-tools/notice-admin-role.php:4
+msgctxt "(Admin)"
+msgid "Data deletion is disabled for administrative accounts."
+msgstr "Изтриването на данни е забранено за административните профили."
+
+#: views/privacy-tools/notices.php:3
+msgid ""
+"We will send you an email with the link to access your data. Please check "
+"your spam folder as well!"
+msgstr ""
+"Ще ви изпратим имейл с връзката, за да получите достъп до вашите данни. "
+"Моля, проверете и папката си за спам!"
+
+#: views/privacy-tools/notices.php:7
+msgid "The email you entered does not appear to be a valid email."
+msgstr "Въведеният от вас имейл адрес не изглежда валиден имейл."
+
+#: views/privacy-tools/notices.php:11
+msgid "Sorry - the link seems to have expired. Please try again!"
+msgstr "За съжаление - връзката изглежда е изтекла. Моля, опитайте отново!"
+
+#: views/privacy-tools/notices.php:23
+msgid "Your personal data has been removed!"
+msgstr "Вашите лични данни бяха премахнати!"
+
+#: views/privacy-tools/privacy-tools.php:5
+msgid "You are identified as"
+msgstr "Вие сте идентифицирани като"
+
+#: views\admin\general\enable-tac.php:9
+msgctxt "(Admin)"
+msgid "Enable the term and condition page."
+msgstr "Активирайте страницата за термини и условия."
+
+#: src\Admin\AdminTabGeneral.php:51
+msgctxt "(Admin)"
+msgid "Enable Term and Conditions"
+msgstr "Активиране на термин и условия"
+
+#: gdpr-framework.php:121
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Този уебсайт използва \"бисквитки\", за да гарантирате, че получавате най-"
+"доброто изживяване на нашия уебсайт."
+
+#: gdpr-framework.php:121
+msgid "Decline"
+msgstr "упадък"
+
+#: gdpr-framework.php:121
+msgid "Accept"
+msgstr "приемам"
+
+#: gdpr-framework.php:133
+msgid "Learn more"
+msgstr "Научете повече"
+
+#: AdminTabGeneral.php:94
+msgctxt "(Admin)"
+msgid "From Email"
+msgstr "От имейл"
+
+#: AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "From Name"
+msgstr "От името"
+
+#: AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "Email Setting"
+msgstr "Настройка на имейла"
+
+#: AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "Acceptance Popup Setting"
+msgstr "Приемане на изскачащи настройки"
+
+#: AdminTabGeneral.php:109
+msgctxt "(Admin)"
+msgid "Popup Position"
+msgstr "Изскачаща позиция"
+
+#: AdminTabGeneral.php:116
+msgctxt "(Admin)"
+msgid "Popup theme"
+msgstr "Изскачаща тема"
+
+#: AdminTabGeneral.php:123
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Background Color"
+msgstr "Бял цвят на фоновото приемане на бисквитките"
+
+#: AdminTabGeneral.php:130
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Text Color"
+msgstr "Цвят на текста за приемане на бисквитките"
+
+#: AdminTabGeneral.php:137
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Backgroung Color"
+msgstr "Бутон за приемане на бисквитките"
+
+#: AdminTabGeneral.php:144
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Color"
+msgstr "Цвят на бутона за приемане на бисквитките"
+
+#: AdminTabGeneral.php:151
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Border Color"
+msgstr "Цвят на границата на приемане на бисквитките"
+
+#: AdminTabGeneral.php:67
+msgctxt "(Admin)"
+msgid "Enable Cookie Acceptance Popup"
+msgstr "Активиране на изскачащия прозорец за приемане на \"бисквитките\""
+
+#: AdminTabGeneral.php:73
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup Content"
+msgstr "Съдържание на изскачащи прозорци за приемане на бисквитки"
+
+#: description-position-action.php
+msgctxt "(Admin)"
+msgid "Select position of the Popup"
+msgstr "Изберете позицията на изскачащия прозорец"
+
+#: description-theme-action.php
+msgctxt "(Admin)"
+msgid "Select theme of the Popup"
+msgstr "Изберете тема на изскачащия прозорец"
+
+#: description-theme-action.php:69
+msgctxt "(Admin)"
+msgid "Disable Comment Checkbox"
+msgstr "Деактивирайте квадратчето за отметки за коментарите"
+
+#: description-theme-action.php:76
+msgctxt "(Admin)"
+msgid "Disable Register Form Checkbox"
+msgstr "Деактивиране на формуляр за регистрация на формуляр"
+
+#: description-theme-action.php:312
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Comments"
+msgstr "Забранете квадратчето за отметка за коментари"
+
+#: AdminTabGeneral.php:319
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Register Form"
+msgstr "Деактивиране на квадратчето за регистрация"
+
+#: advanced-integration\header.php:2
+msgctxt "(Admin)"
+msgid "This page allows you to advance integration with ClassiDocs™"
+msgstr ""
+"Тази страница ви позволява да усъвършенствате интеграцията с ClassiDocs ™"
+
+#: AdminTabAdvancedIntegration.php:97
+msgctxt "(Admin)"
+msgid "ClassiDocs Password"
+msgstr "ClassiDocs парола"
+
+#: AdminTabAdvancedIntegration.php:88
+msgctxt "(Admin)"
+msgid "ClassiDocs Username"
+msgstr "ClassiDocs Потребител"
+
+#: AdminTabAdvancedIntegration.php:79
+msgctxt "(Admin)"
+msgid "ClassiDocs URL"
+msgstr "URL адрес на ClassiDocs"
+
+#: AdminTabAdvancedIntegration.php:69
+msgctxt "(Admin)"
+msgid "Enable Response with related queries?"
+msgstr "Да се ​​разреши отговор със свързани заявки?"
+
+#: AdminTabAdvancedIntegration.php:60
+msgctxt "(Admin)"
+msgid "Submit SAR request details?"
+msgstr "Подайте подробности за заявката за SAR?"
+
+#: AdminTabAdvancedIntegration.php:51
+msgctxt "(Admin)"
+msgid "Integrate with ClassiDocs?"
+msgstr "Интегриране с ClassiDocs?"
+
+#: AdminTabAdvancedIntegration.php:43
+msgctxt "(Admin)"
+msgid "Integration Settings"
+msgstr "Настройки за интегриране"
+
+#: AdminTabAdvancedIntegration.php:35
+msgctxt "(Admin)"
+msgid "Advanced Integration"
+msgstr "Разширена интеграция"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Sign up for free here"
+msgstr "Регистрирайте се безплатно тук"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Click Here"
+msgstr "Натисни тук"
+
+#: ClassiDocs-results.php:12
+msgid "Previous Results"
+msgstr "Предишни резултати"
+
+#: ClassiDocs-results.php:13
+msgid "Current Results"
+msgstr "Текущи резултати"
+
+#: ClassiDocs-results.php:19
+msgid "Name"
+msgstr "име"
+
+#: ClassiDocs-results.php:22
+msgid "Path"
+msgstr "път"
+
+#: ClassiDocs-results.php:34
+msgid "Workstation"
+msgstr "Workstation"
+
+#: ClassiDocs-results.php:37
+msgid "Last Scan"
+msgstr "Последно сканиране"
+
+#: ClassiDocs-results.php:62
+msgid "No ClassiDocs data found!"
+msgstr "Няма намерени данни за ClassiDocs!"
+
+#: enable_popup_header.php:5
+msgid "Cookies used on the website!"
+msgstr "Бисквитки, използвани на сайта!"
+
+#: enable_popup_header.php:9
+msgid "Leave blank if don't want header to get display."
+msgstr "Оставете празно, ако не искате заглавката да се покаже."
+
+#: AdminTabCookiePopup.php:39
+msgctxt "(Admin)"
+msgid "Cookie Popup Settings"
+msgstr "Настройки на изскачащи прозорци"
+
+#: AdminTabCookiePopup.php:17
+msgctxt "(Admin)"
+msgid "Cookie Popup"
+msgstr "Изскачащ"
+
+#: AdminTabCookiePopup.php:49
+msgctxt "(Admin)"
+msgid "Enable One Time Cookie Acceptance Popup"
+msgstr ""
+"Активиране на изскачащия прозорец за приемане на бисквитки за еднократно "
+"време"
+
+#: consent.php:79
+msgctxt "(Admin)"
+msgid "Show Consent types"
+msgstr "Показване на типовете съгласия"
+
+msgctxt "(Admin)"
+msgid "Hide consent types"
+msgstr "Скриване на типовете съгласие"
+
+msgctxt "(Admin)"
+msgid "Do you want form to be GDPR compliance."
+msgstr "Искате ли формата да бъде съответствие с GDPR."
+
+msgctxt "(Admin)"
+msgid ""
+"You have installed flamingo, To make this GDPR compliance in individual "
+"contact form's privacy tab check the checkbox for include data to be search "
+"on Privacy tool."
+msgstr ""
+"Имате инсталиран фламинго. За да направите това съответствие с GDPR в "
+"раздела за поверителност на отделната форма за контакти, поставете отметка в "
+"квадратчето за отметка, за да включите данни за търсене в инструмента за "
+"поверителност."
+
+msgctxt "(Admin)"
+msgid "Enable Policy Link On Popup"
+msgstr "Активиране на връзката по правилата при изскачащи прозорци"
+
+msgctxt "(Admin)"
+msgid "Enable Privacy policy on Popup"
+msgstr "Активирайте правилата за поверителност в изскачащите прозорци"
+
+#: AdminTabCookiePopup.php
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup header"
+msgstr "Притурка за приемане на бисквитки"
+
+#: views\admin\privacy-manager\header.php:2
+msgctxt "(Admin)"
+msgid "Data443™ Privacy Manager"
+msgstr "Data443™ Privacy Manager"
+
+#: views\admin\privacy-manager\header.php:3
+msgctxt "(Admin)"
+msgid ""
+"ensures privacy regulation compliance, such as GDPR, CCPA, LGPD, etc, at the "
+"next level."
+msgstr ""
+"гарантира спазването на правилата за поверителност, като например GDPR, "
+"CCPA, LGPD и т.н., на следващото ниво."
+
+#: views\admin\privacy-manager\header.php:4
+msgctxt "(Admin)"
+msgid ""
+"In addition to DSAR tracking and management, Privacy Manager adds the "
+"following features to your data protection compliance resources:"
+msgstr ""
+"В допълнение към DSAR проследяването и управлението, Privacy Manager добавя "
+"следните функции към вашите ресурси за защита на данните:"
+
+#: views\admin\privacy-manager\header.php:6
+msgctxt "(Admin)"
+msgid "Log and store ICO breach notifications"
+msgstr "Влезте и съхранете уведомленията за нарушения на ICO"
+
+#: views\admin\privacy-manager\header.php:7
+msgctxt "(Admin)"
+msgid "Keeps full record of all requests, ticketed and timeline"
+msgstr "Съхранява пълен запис на всички заявки, билети и времева линия"
+
+#: views\admin\privacy-manager\header.php:8
+msgctxt "(Admin)"
+msgid "Gap analysis and breach notifications"
+msgstr "Анализ на пропуските и уведомления за нарушения"
+
+#: views\admin\privacy-manager\header.php:9
+msgctxt "(Admin)"
+msgid "In depth activity log with all GDPR, CCPA, etc actions evidenced"
+msgstr ""
+"В дълбочина на дневника за дейностите се разкриват всички действия на GDPR, "
+"CCPA и т.н."
+
+#: views\admin\privacy-manager\header.php:10
+msgctxt "(Admin)"
+msgid "Highlights areas of concern and where you need to focus"
+msgstr "Подчертава областите на загриженост и къде трябва да се съсредоточите"
+
+#: views\admin\privacy-manager\header.php:11
+msgctxt "(Admin)"
+msgid ""
+"eLearning platform with access for all staff to ensure privacy regulation "
+"compliance and obligations"
+msgstr ""
+"eLearning платформа с достъп за целия персонал, за да се гарантира "
+"спазването и задълженията за регулиране на поверителността"
+
+#: views\admin\privacy-manager\header.php:12
+msgctxt "(Admin)"
+msgid "Tracks who accesses the system, when and why"
+msgstr "Проследява кой влиза в системата, кога и защо"
+
+#: views\admin\privacy-manager\header.php:15
+msgctxt "(Admin)"
+msgid ""
+"Our system enables your business to demonstrate its obligations in "
+"protecting your customer data, show understanding of your business "
+"activities and deliver eLearning and online tests to employees, ensuring "
+"everyone in your company understands your privacy compliance rules and best "
+"practices to operate."
+msgstr ""
+"Нашата система дава възможност на вашия бизнес да демонстрира задълженията "
+"си в защитата на вашите клиентски данни, да покаже разбиране на вашите "
+"бизнес дейности и да предостави електронно обучение и онлайн тестове на "
+"служителите, като гарантира, че всеки във вашата компания разбира правилата "
+"за спазване на поверителността и най-добрите практики за работа."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid ""
+"No matter where you are on your data privacy journey, the ultimate goal is "
+"compliance."
+msgstr ""
+"Без значение къде сте на път за поверителност на данните, крайната цел е "
+"спазването на правилата."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid "enables your organization to comply with all privacy regulations."
+msgstr ""
+"позволява на вашата организация да спазва всички правила за поверителност."
+
+#: views\admin\support\contents.php:49
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or have a question about the plugin? Submit a support request "
+"and we’ll get right on it!"
+msgstr ""
+"Открихте грешка или имате въпрос относно приставката? Изпратете заявка за "
+"поддръжка и ще се оправим!"
+
+#: views\admin\support\contents.php:58
+msgctxt "(Admin)"
+msgid "Need assistance in making your site compliant? We can help!"
+msgstr "Нуждаете се от помощ при съгласуването на сайта Ви? Можем да помогнем!"
+
+#: views\admin\general\woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool"
+msgstr "Активиране на данните за WooCommerce за инструмента GDPR"
+
+#: src\Admin\AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Enable WooCommerce Compatibility"
+msgstr "Активиране на съвместимостта на WooCommerce"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:19
+msgid "Note Regarding Order:"
+msgstr "Забележка относно поръчката:"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:20
+msgid ""
+"Your order with status Processing will not get deleted until status change."
+msgstr ""
+"Вашата поръчка със статус Обработка няма да бъде изтрита до промяна на "
+"статуса."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:21
+msgid "Your order with status Completed will get anonymize."
+msgstr "Вашата поръчка със завършен статус ще стане анонимна."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:22
+msgid "If you delete Completed order you can't apply for refund."
+msgstr ""
+"Ако изтриете попълнената поръчка, не можете да кандидатствате за "
+"възстановяване."
+
+#: views\admin\general\woo-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for WooCommerce Version 3.4.0 or later."
+msgstr "Ще работи за WooCommerce версия 3.4.0 или по-нова."
+
+#: views\admin\general\edd-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable EDD data on GDPR tool."
+msgstr "Активиране на EDD данни за инструмента GDPR."
+
+#: views\admin\general\edd-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for EDD Version 2.0.0 or later."
+msgstr "Ще работи за EDD версия 2.0.0 или по-нова."
+
+#: src\Admin\AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Enable EDD Compatibility"
+msgstr "Активиране на EDD съвместимостта"
+
+#: gdpr-framework.php:298
+msgid "Cookie Policy"
+msgstr "Политика за „бисквитките“"
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid ""
+"This consent is visible by default on woocommerce checkout page. If someone "
+"wishes to withdraw it, they should simply request to delete all their data."
+msgstr ""
+"Това съгласие е видимо по подразбиране на страницата за плащане на "
+"woocommerce. Ако някой желае да го оттегли, те трябва просто да поискат да "
+"изтрият всичките си данни."
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid "Woocommerce Policy Consent"
+msgstr "Съгласие за политиката на Woocommerce"
+
+#: WoocommerceGdpr.php:150
+msgid "Please acknowledge the Privacy Policy"
+msgstr "Моля, потвърдете Декларацията за поверителност"
+
+#: woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool."
+msgstr "Активиране на данните за WooCommerce за инструмента GDPR."
+
+#: views\admin\general\enable-popup.php:12
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+"accepted on popup accept button."
+msgstr ""
+"<b> Забележка: </b> Необходимо е да добавите персонализирано съдържание <b> "
+"gdpr_cookie_consent </b> неговия приет в изскачащ прозорец бутон за приемане."
+
+#: AdminTabCookiePopup.php:105
+msgctxt "(Admin)"
+msgid "Popup Dismiss Text"
+msgstr "Изскачащ отказ от текст"
+
+#: AdminTabCookiePopup.php:98
+msgctxt "(Admin)"
+msgid "Popup Allow Text"
+msgstr "Изскачащ Allow Text"
+
+#: AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Woocommerce Integration"
+msgstr "Интеграция с Woocommerce"
+
+#: AdminTabGeneral.php:259
+msgctxt "(Admin)"
+msgid "Easy Digital Download Integration"
+msgstr "Лесна интеграция с цифрово изтегляне"
+
+#: has-dpo.php:11
+msgctxt "(Admin)"
+msgid "I have appointed a Data Protection Officer (DPO)"
+msgstr "Назначих служител по защита на данните (ДЗД)"
+
+#: views/admin/general/stylesheet.php:9
+msgctxt "(Admin)"
+msgid "Enable basic styling for Privacy Tools page."
+msgstr ""
+"Активиране на основния стил на страницата Инструменти за поверителност."
+
+#: AdminTabPrivacyPolicy.php:204
+msgctxt "(Admin)"
+msgid "Delete Text"
+msgstr "Изтриване на текст"
+
+#: consent.php:80
+msgctxt "(Admin)"
+msgid "Add consent type"
+msgstr "Добавете тип съгласие"
+
+#: AdminTabGeneral.php:127
+msgctxt "(Admin)"
+msgid "Privacy Policy Custom URL"
+msgstr "Политика за поверителност Потребителски URL"
+
+#: custom-policy-url.php:6
+msgctxt "(Admin)"
+msgid "Leave blank if privacy policy page already selected"
+msgstr ""
+"Оставете празно, ако страницата за Декларация за поверителност вече е избрана"
+
+#: views/admin/general/description-delete-action.php:2
+msgctxt "(Admin)"
+msgid "What should happen if a data subject requests deleting their data."
+msgstr ""
+"Какво трябва да се случи, ако субектът на данни поиска да изтрие техните "
+"данни."
+
+#: views/admin/general/description-export-action.php:2
+msgctxt "(Admin)"
+msgid "Optional. Select the page which contains your Terms & Conditions"
+msgstr ""
+"Не е задължително. Изберете страницата, която съдържа вашите Общи условия"
+
+#: views/admin/general/description-terms-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"What should happen if a data subject requests viewing or exporting their "
+"data."
+msgstr ""
+"Какво трябва да се случи, ако субектът на данни поиска да прегледа или "
+"експортира своите данни."
+
+#: woo-disable_checkbox.php:9
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Privacy Checkbox"
+msgstr "Деактивирайте квадратчето за поверителност на WooCommerce"
+
+#: AdminTabCookiePopup.php:133
+msgctxt "(Admin)"
+msgid "Popup Learn More Text"
+msgstr "Изскачане Научете повече текст"
+
+#: AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Register Privacy Checkbox"
+msgstr ""
+"Деактивирайте полето за поверителност на регистъра за поверителност на "
+"WooCommerce"
+
+#: AdminTabCookiePopup.php:121
+msgctxt "(Admin)"
+msgid "Cookie Acceptance link target"
+msgstr "Цел на връзката Приемане на бисквитки"
+
+#: popup_link_target.php:3
+msgctxt "(Admin)"
+msgid "Next Tab"
+msgstr "Следващ раздел"
+
+#: popup_link_target.php:5
+msgctxt "(Admin)"
+msgid "Self"
+msgstr "себе си"

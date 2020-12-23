@@ -1,0 +1,84 @@
+.cqcarousel-container{
+	clear: both;
+	position: relative;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.slick-list{
+	/*width: 100%;*/
+	/*overflow: visible;*/
+  	/*background: #000;*/
+}
+
+.carousel-gallery{
+	padding: 0;
+	overflow: hidden;
+}
+
+.carousel-thumb{
+	padding: 0;
+	margin-top: -22px;
+}
+
+.carousel-thumb.is-gallery .slick-list .slick-slide{
+	/*opacity: 0.4;*/
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	/*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */*/
+	filter: gray;
+}
+.carousel-thumb.is-gallery .slick-list .slick-slide:hover, .carousel-thumb.is-gallery .slick-list .slick-center, .carousel-thumb.is-gallery .slick-list .slick-current{
+	/*opacity: 1;*/
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	filter: none;
+}
+
+/*.owl-carousel{
+  overflow: visible;
+}
+*/
+.cqcarousel-container img{
+  border-radius: 0;
+  box-shadow: none;
+}
+.cqcarousel-container .slick-prev { left: 15px; }
+.cqcarousel-container .slick-next { right: 15px; }
+.cqcarousel-container .slick-dots { bottom:-48px; }
+/*.slick-dots { bottom: 0px; }*/
+.cqcarousel-container .slick-dots li { height: 10px; width: 10px; margin: 0 2px; }
+
+/*.cqcarousel-container .slick-dots li button:before{ line-height: 12px;}*/
+.cqcarousel-container .carousel-gallery .slick-prev, .cqcarousel-container .carousel-gallery .slick-next{
+	width: 32px;
+	height: 32px;
+}
+.cqcarousel-container button:focus{
+	/*margin: 0;*/
+	padding: 0;
+	text-decoration: none;
+	background: none;
+}
+
+.cqcarousel-container .carousel-gallery .slick-prev:before, .cqcarousel-container .carousel-gallery .slick-next:before { font-size: 32px; }
+.cqcarousel-container .carousel-thumb .slick-prev:before, .cqcarousel-container .carousel-thumb .slick-next:before {
+	color: #fff;
+	opacity: 1;
+}
+
+@media screen and (min-width: 479px) and (max-width: 640px) {
+	.cqcarousel-container{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.cqcarousel-container{
+		width: 100%;
+	}
+}
+

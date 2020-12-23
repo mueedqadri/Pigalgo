@@ -1,0 +1,94 @@
+.ccpa-framework-privacy-tools .ccpa-notice {
+  padding: 10px 20px;
+  border: 1px solid #666;
+}
+
+.ccpa-framework-privacy-tools .ccpa-consent td {
+  padding: 0.6em;
+}
+
+.ccpa-framework-privacy-tools .ccpa-consent td:first-child {
+  padding-left: 0;
+}
+
+.ccpa-framework-privacy-tools .ccpa-consent td:last-child {
+  padding-right: 0;
+}
+
+.ccpa-framework-privacy-tools .ccpa-download-button,
+.ccpa-framework-privacy-tools .ccpa-export-button,
+.ccpa-framework-privacy-tools .ccpa-delete-button {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.ccpa-framework-privacy-tools .ccpa-download-button input.button,
+.ccpa-framework-privacy-tools .ccpa-export-button input.button,
+.ccpa-framework-privacy-tools .ccpa-delete-button input.button {
+  min-width: 200px;
+}
+
+.g-recaptcha {
+    margin: 10px 0px 10px 0px;
+}
+.ccpa-download-button, .ccpa-export-button {
+	margin: 6px 6px;
+	display: inline-block;
+}
+.form_row {
+    margin: 0 -15px;
+}
+.form_row .col_6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.form_row .form-group {
+    margin-bottom: 30px;
+}	
+.form_row .col_12 {
+    padding: 0 15px;
+}
+.form_row .form-group .form-control {
+    width: 100% !important;
+	border-radius: 4px;
+	x-fastborder: solid 1px#a1a1a1;
+}
+.form-group .form_p {
+    color:  #717d89;
+    font-size: 14px;
+}
+.form-group .form_check{
+    margin-right: 10px;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
+#form-new-post .msg {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+	width: 100%;
+    float: left;
+}
+#form-new-post .msg.donotsell-msg {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+#form-new-post .msg.donotsell-error-msg {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+/**  Responsive **/
+
+@media only screen and (max-width: 767px) {
+  .form_row .col_6 {
+    width: 100%;
+	float: none;
+  }
+}

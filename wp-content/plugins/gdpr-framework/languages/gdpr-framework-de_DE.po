@@ -1,0 +1,1944 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codelight
+# This file is distributed under the same license as the The GDPR Framework package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: The GDPR Framework 1.0\n"
+"Report-Msgid-Bugs-To: gdpr@codelight.eu\n"
+"POT-Creation-Date: 2018-04-16 10:50+0000\n"
+"PO-Revision-Date: 2019-09-19 12:38+0530\n"
+"Last-Translator: Stefan Butz <webmaster@die-blaue-eisdiele.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de-DE\n"
+"Language-Team: Deutsch\n"
+
+#: gdpr-framework.php:26
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Error"
+msgstr "WordPress GDPR &rsaquo; Fehler"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "Invalid PHP version"
+msgstr "Ungültige PHP-Version"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "You must be using PHP 5.6.33 or greater."
+msgstr "Du musst PHP 5.6.33 oder höher verwenden."
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "Invalid WordPress version"
+msgstr "Ungültige WordPress-Version"
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "You must be using WordPress 4.3.0 or greater."
+msgstr "Du musst WordPress 4.3.0 oder höher verwenden."
+
+#: gdpr-framework.php:52
+msgctxt "(Admin)"
+msgid ""
+"You appear to be running a development version of GDPR. You must run "
+"<code>composer install</code> from the plugin directory."
+msgstr ""
+"Es scheint, dass Du eine Entwicklungsversion des GDPR Framework Plugins "
+"verwendest. Du musst im Pluginverzeichnis <code>composer install</code> "
+"laufen lassen."
+
+#: gdpr-framework.php:53
+msgctxt "(Admin)"
+msgid "Autoloader not found."
+msgstr "Autoloader nicht gefunden."
+
+#: gdpr-framework.php:115
+msgctxt "(Admin)"
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: src/Admin/AdminTab.php:115
+msgctxt "(Admin)"
+msgid "Save"
+msgstr "Speichern"
+
+#: src/Admin/AdminTab.php:151
+msgctxt "(Admin)"
+msgid "Policy generated!"
+msgstr "Richtlinie erstellt!"
+
+#: src/Admin/AdminTabGeneral.php:11
+msgctxt "(Admin)"
+msgid "General"
+msgstr "Allgemein"
+
+#: src/Admin/AdminTabGeneral.php:38
+msgctxt "(Admin)"
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: src/Admin/AdminTabGeneral.php:43
+msgctxt "(Admin)"
+msgid "Enable Privacy Tools"
+msgstr "Datenschutz-Tools aktivieren"
+
+#: src/Admin/AdminTabGeneral.php:53
+msgctxt "(Admin)"
+msgid "Pages"
+msgstr "Seiten"
+
+#: src/Admin/AdminTabGeneral.php:58 src/Admin/WordpressAdmin.php:151
+msgctxt "(Admin)"
+msgid "Privacy Tools Page"
+msgstr "Seite der Datenschutz-Tools"
+
+#: src/Admin/AdminTabGeneral.php:65 src/Admin/WordpressAdmin.php:147
+msgctxt "(Admin)"
+msgid "Privacy Policy Page"
+msgstr "Seite der Datenschutzerklärung"
+
+#: src/Admin/AdminTabGeneral.php:72
+msgctxt "(Admin)"
+msgid "Terms & Conditions Page"
+msgstr "Seite der Allgemeinen Geschäftsbedingungen"
+
+#: src/Admin/AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "View & Export Data"
+msgstr "Daten ansehen & exportieren"
+
+#: src/Admin/AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "Export action"
+msgstr "Export-Aktion"
+
+#: src/Admin/AdminTabGeneral.php:94 src/Admin/AdminTabGeneral.php:133
+msgctxt "(Admin)"
+msgid "Email to notify"
+msgstr "E-Mail für die Benachrichtigung"
+
+#: src/Admin/AdminTabGeneral.php:105
+msgctxt "(Admin)"
+msgid "Delete & Anonymize Data"
+msgstr "Daten löschen & anonymisieren"
+
+#: src/Admin/AdminTabGeneral.php:110
+msgctxt "(Admin)"
+msgid "Delete action"
+msgstr "Lösch-Aktion"
+
+#: src/Admin/AdminTabGeneral.php:117
+msgctxt "(Admin)"
+msgid "Delete or reassign content?"
+msgstr "Inhalt löschen oder neu zuordnen?"
+
+#: src/Admin/AdminTabGeneral.php:125
+msgctxt "(Admin)"
+msgid "Reassign content to"
+msgstr "Inhalt zuordnen an"
+
+#: src/Admin/AdminTabGeneral.php:145
+msgctxt "(Admin)"
+msgid "Styling"
+msgstr "Gestaltung"
+
+#: src/Admin/AdminTabGeneral.php:150
+msgctxt "(Admin)"
+msgid "Enable basic styling on Privacy Tools page"
+msgstr "Grundlegende Gestaltung auf der Seite der Datenschutz-Tools aktivieren"
+
+#: src/Admin/AdminTabGeneral.php:162
+msgctxt "(Admin)"
+msgid "Compatibility"
+msgstr "Kompatibilität"
+
+#: src/Admin/AdminTabGeneral.php:167
+msgctxt "(Admin)"
+msgid "Enable automatic theme compatibility"
+msgstr "Aktiviere die automatische Theme-Kompatibilität"
+
+#: src/Admin/AdminTabGeneral.php:184 src/Admin/AdminTabGeneral.php:200
+#: src/Admin/AdminTabGeneral.php:213 src/Admin/AdminTabGeneral.php:252
+#: views/installer/steps/configuration-settings.php:62
+msgctxt "(Admin)"
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Auswählen &mdash;"
+
+#: src/Admin/WordpressAdmin.php:65
+msgctxt "(Admin)"
+msgid "Privacy & GDPR Settings"
+msgstr "Datenschutz & DSGVO Einstellungen"
+
+#: src/Admin/WordpressAdmin.php:66
+msgctxt "(Admin)"
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: src/Components/Consent/AdminTabConsent.php:30
+#: src/Components/Consent/AdminTabConsent.php:49
+msgctxt "(Admin)"
+msgid "Consent"
+msgstr "Zustimmung"
+
+#: src/Components/Consent/AdminTabConsent.php:157
+msgctxt "(Admin)"
+msgid "Consent slug is a required field!"
+msgstr "Der Pfad zur Zustimming ist ein Pflichtfeld!"
+
+#: src/Components/Consent/AdminTabConsent.php:162
+msgctxt "(Admin)"
+msgid ""
+"You may only use alphanumeric characters, dash and underscore in the consent "
+"slug field."
+msgstr ""
+"Du darfst nur alphanumerische Zeichen, Bindestriche und Unterstriche im Feld "
+"für den Zustimmungs-Pfad verwenden."
+
+#: src/Components/Consent/AdminTabConsent.php:167
+msgctxt "(Admin)"
+msgid "Consent title is a required field!"
+msgstr "Titel der Zustimmungsseite wird benötigt!"
+
+#: src/Components/Consent/ConsentManager.php:46
+#: views/modules/contact-form-7/content-privacy.php:2
+#: views/modules/wordpress-comments/terms-checkbox.php:14
+#: views/modules/wordpress-user/registration-terms-checkbox.php:15
+#, php-format
+msgid "I accept the %sPrivacy Policy%s"
+msgstr "Ich stimme der %sDatenschutzerklärung%s zu"
+
+#: src/Components/Consent/ConsentManager.php:50
+#: src/Components/Consent/ConsentManager.php:69
+msgctxt "(Admin)"
+msgid ""
+"This consent is not visible by default. If someone wishes to withdraw it, "
+"they should simply request to delete all their data."
+msgstr ""
+"Diese Zustimmung ist per Voreinstellung nicht sichtbar. Wenn jemand sie "
+"widerrufen möchte, sollte er einfach die Löschung aller seiner Daten "
+"verlangen."
+
+#: src/Components/Consent/ConsentManager.php:65
+#, php-format
+msgid "I accept the %sTerms & Conditions%s"
+msgstr "Ich akzeptiere die %sAllgemeinen Geschäftsbedingungen%s"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:19
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:61
+#: views/admin/privacy-policy/generated.php:1 views/installer/header.php:41
+msgctxt "(Admin)"
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:70
+msgctxt "(Admin)"
+msgid "Company information"
+msgstr "Firmen-Informationen"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:75
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:209
+msgctxt "(Admin)"
+msgid "Company Name"
+msgstr "Name der Firma"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:82
+msgctxt "(Admin)"
+msgid "Company Email"
+msgstr "E-Mail-Adresse der Firma"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:89
+msgctxt "(Admin)"
+msgid "Company Location"
+msgstr "Standort der Firma"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:105
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:245
+msgctxt "(Admin)"
+msgid "Representative Contact Name"
+msgstr "Name des Ansprechpartners"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:112
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:252
+msgctxt "(Admin)"
+msgid "Representative Contact Email"
+msgstr "E-Mail-Adresse des Ansprechpartners"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:119
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:259
+msgctxt "(Admin)"
+msgid "Representative Contact Phone"
+msgstr "Telefonnummer des Ansprechpartners"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:135
+msgctxt "(Admin)"
+msgid "Data Protection Authority"
+msgstr "Datenschutzbehörde"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:141
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:286
+msgctxt "(Admin)"
+msgid "Data Protection Authority Website"
+msgstr "Website der Datenschutzbehörde"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:148
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:293
+msgctxt "(Admin)"
+msgid "Data Protection Authority Email"
+msgstr "E-Mail-Adresse der Datenschutzbehörde"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:155
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:300
+msgctxt "(Admin)"
+msgid "Data Protection Authority Phone"
+msgstr "Telefonnummer der Datenschutzbehörde"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:165
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:175
+msgctxt "(Admin)"
+msgid "Data Protection Officer"
+msgstr "Datenschutzbeauftragter"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:168
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgstr "Wissensdatenbank: Muss ich einen Datenschutzbeauftragten ernennen?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:182
+msgctxt "(Admin)"
+msgid "Data Protection Officer Name"
+msgstr "Name des Datenschutzbeauftragten"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:190
+msgctxt "(Admin)"
+msgid "Data Protection Officer Email"
+msgstr "E-Mail-Adresse des Datenschutzbeauftragten"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:216
+msgctxt "(Admin)"
+msgid "Contact Email"
+msgstr "Kontakt-E-Mail-Adresse"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:235
+msgctxt "(Admin)"
+msgid "Representative Contact"
+msgstr "Vertretungsberechtigter Kontakt"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:238
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgstr ""
+"Wissensdatenbank: Muss ich einen Ansprechpartner bennen, der innerhalb der "
+"EU sitzt?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:317
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:324
+msgctxt "(Admin)"
+msgid "DPO Name"
+msgstr "Behördliche Datenschutzbeauftragte"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:420
+msgctxt "(Admin)"
+msgid "Save & Generate Policy"
+msgstr "Speichern & Richtlinie erstellen"
+
+#: src/Components/PrivacyPolicy/PrivacyPolicy.php:82
+#: src/Installer/Installer.php:271 src/Installer/Steps/PolicySettings.php:199
+#: views/themes/storefront/footer.php:3
+#: views/themes/twentyseventeen/footer.php:3
+#: views/themes/twentysixteen/footer.php:4
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:19
+msgid "This page is currently disabled."
+msgstr "Diese Seite ist derzeit deaktiviert."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:35
+#: src/Installer/Installer.php:279
+#: src/Installer/Steps/ConfigurationPages.php:55
+#: views/themes/storefront/footer.php:7
+#: views/themes/twentyseventeen/footer.php:7
+#: views/themes/twentysixteen/footer.php:9
+msgid "Privacy Tools"
+msgstr "Datenschutz-Tools"
+
+#: src/Components/Support/AdminTabSupport.php:13
+#: src/Components/Support/AdminTabSupport.php:20
+msgctxt "(Admin)"
+msgid "Support"
+msgstr "Support"
+
+#: src/Components/WordpressComments/WordpressComments.php:90
+#, php-format
+msgid "%sERROR:%s You need to accept the privacy policy to post a comment."
+msgstr ""
+"%sFEHLER:%s Sie müssen die Datenschutzbestimmungen akzeptieren, um einen "
+"Kommentar posten zu können."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:54
+#: views/privacy-tools/notices.php:19
+msgid "We have received your request and will reply within 30 days."
+msgstr ""
+"Wir haben Deine Anfrage erhalten und werden Ihnen innerhalb von 30 Tagen "
+"antworten."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:59
+#: views/privacy-tools/notices.php:15
+msgid "Consent withdrawn."
+msgstr "Zustimmung zurückgezogen."
+
+#: src/Components/WordpressUser/RegistrationForm.php:42
+msgid "<strong>ERROR</strong>: You must accept the terms and conditions."
+msgstr ""
+"<strong>FEHLER</strong>: Du musst die Allgemeinen Geschäftsbedingungen "
+"akzeptieren."
+
+#: src/Components/WordpressUser/WordpressUser.php:63
+#: src/Components/WordpressUser/WordpressUser.php:64
+#: views/modules/wordpress-user/dashboard/data-page/header.php:2
+msgctxt "(Admin)"
+msgid "Privacy Tools"
+msgstr "Datenschutz-Tools"
+
+#: src/DataSubject/AdminTabDataSubject.php:27
+#: src/DataSubject/AdminTabDataSubject.php:41
+msgctxt "(Admin)"
+msgid "Data Subjects"
+msgstr "Betroffene Personen"
+
+#: src/DataSubject/DataRepository.php:143
+msgid "Data exported"
+msgstr "Daten exportiert"
+
+#: src/DataSubject/DataRepository.php:158
+msgid "Data export request"
+msgstr "Anfrage eines Daten-Exports"
+
+#: src/DataSubject/DataRepository.php:171
+msgid "Data removed"
+msgstr "Daten gelöscht"
+
+#: src/DataSubject/DataRepository.php:186
+msgid "Data removal request"
+msgstr "Anfrage einer Datenlöschung"
+
+#: src/DataSubject/DataSubjectIdentificator.php:65
+#: src/DataSubject/DataSubjectIdentificator.php:82
+msgid "Your personal data on"
+msgstr "Deine personenbezogenen Daten auf"
+
+#: src/Helpers.php:27
+msgctxt "(Admin)"
+msgid "Austria"
+msgstr "Österreich"
+
+#: src/Helpers.php:28
+msgctxt "(Admin)"
+msgid "Belgium"
+msgstr "Belgien"
+
+#: src/Helpers.php:29
+msgctxt "(Admin)"
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: src/Helpers.php:30
+msgctxt "(Admin)"
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: src/Helpers.php:31
+msgctxt "(Admin)"
+msgid "Cyprus"
+msgstr "Zypern"
+
+#: src/Helpers.php:32
+msgctxt "(Admin)"
+msgid "Czech Republic"
+msgstr "Tschechische Republik"
+
+#: src/Helpers.php:33
+msgctxt "(Admin)"
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: src/Helpers.php:34
+msgctxt "(Admin)"
+msgid "Estonia"
+msgstr "Estland"
+
+#: src/Helpers.php:35
+msgctxt "(Admin)"
+msgid "Finland"
+msgstr "Finnland"
+
+#: src/Helpers.php:36
+msgctxt "(Admin)"
+msgid "France"
+msgstr "Frankreich"
+
+#: src/Helpers.php:37
+msgctxt "(Admin)"
+msgid "Germany"
+msgstr "Deutschland"
+
+#: src/Helpers.php:38
+msgctxt "(Admin)"
+msgid "Greece"
+msgstr "Griechenland"
+
+#: src/Helpers.php:39
+msgctxt "(Admin)"
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: src/Helpers.php:40
+msgctxt "(Admin)"
+msgid "Ireland"
+msgstr "Irland"
+
+#: src/Helpers.php:41
+msgctxt "(Admin)"
+msgid "Italy"
+msgstr "Italien"
+
+#: src/Helpers.php:42
+msgctxt "(Admin)"
+msgid "Latvia"
+msgstr "Lettland"
+
+#: src/Helpers.php:43
+msgctxt "(Admin)"
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: src/Helpers.php:44
+msgctxt "(Admin)"
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: src/Helpers.php:45
+msgctxt "(Admin)"
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Helpers.php:46
+msgctxt "(Admin)"
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: src/Helpers.php:47
+msgctxt "(Admin)"
+msgid "Poland"
+msgstr "Polen"
+
+#: src/Helpers.php:48
+msgctxt "(Admin)"
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/Helpers.php:49
+msgctxt "(Admin)"
+msgid "Romania"
+msgstr "Rumänien"
+
+#: src/Helpers.php:50
+msgctxt "(Admin)"
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#: src/Helpers.php:51
+msgctxt "(Admin)"
+msgid "Slovenia"
+msgstr "Slowenien"
+
+#: src/Helpers.php:52
+msgctxt "(Admin)"
+msgid "Spain"
+msgstr "Spanien"
+
+#: src/Helpers.php:53
+msgctxt "(Admin)"
+msgid "Sweden"
+msgstr "Schweden"
+
+#: src/Helpers.php:54
+msgctxt "(Admin)"
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+#: src/Helpers.php:69
+msgctxt "(Admin)"
+msgid "Iceland"
+msgstr "Island"
+
+#: src/Helpers.php:70
+msgctxt "(Admin)"
+msgid "Norway"
+msgstr "Norwegen"
+
+#: src/Helpers.php:71
+msgctxt "(Admin)"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: src/Helpers.php:72
+msgctxt "(Admin)"
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: src/Helpers.php:73
+msgctxt "(Admin)"
+msgid "United States"
+msgstr "USA"
+
+#: src/Helpers.php:74
+msgctxt "(Admin)"
+msgid "Rest of the world"
+msgstr "Übrige Welt"
+
+#: src/Helpers.php:145
+msgid "An error has occurred. Please contact the site administrator."
+msgstr ""
+"Es ist ein Fehler aufgetreten. Bitte kontaktiere den Webseiten-Administrator."
+
+#: src/Installer/Installer.php:135
+msgctxt "(Admin)"
+msgid "Setup Wizard"
+msgstr "Einrichtungsassistent"
+
+#: src/Installer/Steps/ConfigurationPages.php:23
+#: src/Installer/Steps/PolicySettings.php:23
+#: src/Installer/Steps/PolicySettings.php:48
+msgctxt "(Admin)"
+msgid "&mdash; Create a new page &mdash;"
+msgstr "&mdash; Neue Seite erstellen &mdash;"
+
+#: src/Installer/Steps/PolicySettings.php:38
+msgctxt "(Admin)"
+msgid ""
+"We have automatically selected your WooCommerce Terms & Conditions page."
+msgstr ""
+"Wir haben automatisch Deine Seite mit den Allgemeinen Geschäftsbedingungen "
+"von WooCommerce ausgewählt."
+
+#: src/Modules/ContactForm7/ContactForm7.php:35
+msgctxt "(Admin)"
+msgid "gdpr terms txt"
+msgstr "DSGVO Bestimmungen txt"
+
+#: src/Router.php:80 src/Router.php:92 src/Router.php:125 src/Router.php:141
+#, php-format
+msgid "Nonce error for action \"%s\". Please go back and try again!"
+msgstr ""
+"Ein Fehler für die Aktion %s ist aufgetreten. Bitte gehe zurück und versuche "
+"es erneut!"
+
+#: src/Router.php:149
+msgctxt "(Admin)"
+msgid "You do not have the required permissions to perform this action!"
+msgstr ""
+"Du verfügst nicht über die erforderlichen Berechtigungen zum Ausführen "
+"dieser Aktion!"
+
+#: views/admin/consent.php:3
+msgctxt "(Admin)"
+msgid "Default consent types"
+msgstr "Voreingestellte Arten der Zustimmung"
+
+#: views/admin/consent.php:4
+msgctxt "(Admin)"
+msgid ""
+"These are the consent types that have been automatically registered by the "
+"framework or a plugin."
+msgstr ""
+"Dies sind die Zustimmungsarten, die automatisch durch das GDPR Framework "
+"oder ein anderes Plugin registriert wurden."
+
+#: views/admin/consent.php:7 views/admin/consent.php:52
+msgctxt "(Admin)"
+msgid "Slug"
+msgstr "Pfad"
+
+#: views/admin/consent.php:8 views/admin/consent.php:38
+#: views/admin/consent.php:60
+msgctxt "(Admin)"
+msgid "Title"
+msgstr "Titel"
+
+#: views/admin/consent.php:9 views/admin/consent.php:41
+#: views/admin/consent.php:63
+msgctxt "(Admin)"
+msgid "Description"
+msgstr "Beschreibung"
+
+#: views/admin/consent.php:10
+msgctxt "(Admin)"
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: views/admin/consent.php:18
+msgctxt "(Admin)"
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: views/admin/consent.php:20
+msgctxt "(Admin)"
+msgid "Hidden"
+msgstr "Ausgeblendet"
+
+#: views/admin/consent.php:29
+msgctxt "(Admin)"
+msgid "Custom consent types"
+msgstr "Benutzerdefinierte Arten der Zustimmung"
+
+#: views/admin/consent.php:30
+msgctxt "(Admin)"
+msgid ""
+"Here you can add custom consent types to track. They will not be used "
+"anywhere by default - you will need to build an integration for each of them."
+msgstr ""
+"Hier kannst Du benutzerdefinierte Arten der Zustimmung hinzufügen, um sie zu "
+"verfolgen. Sie werden nigends per Voreinstellung verwendet. Du musst dafür "
+"jeweils eine Integration erstellen."
+
+#: views/admin/consent.php:35
+msgctxt "(Admin)"
+msgid "Machine-readable slug"
+msgstr "Maschinenlesbarer Pfad"
+
+#: views/admin/consent.php:44 views/admin/consent.php:68
+msgctxt "(Admin)"
+msgid "Visible?"
+msgstr "Sichtbar?"
+
+#: views/admin/consent.php:72
+msgctxt "(Admin)"
+msgid "Remove"
+msgstr "Entfernen"
+
+#: views/admin/consent.php:93
+msgctxt "(Admin)"
+msgid "Additional info"
+msgstr "Zusätzliche Informationen"
+
+#: views/admin/consent.php:95
+msgctxt "(Admin)"
+msgid ""
+"This text will be displayed to your data subjects on the Privacy Tools page."
+msgstr ""
+"Dieser Text wird den betroffenen Personen auf der Seite der Datenschutz-"
+"Tools angezeigt."
+
+#: views/admin/data-subjects/search-form.php:2
+msgctxt "(Admin)"
+msgid ""
+"On this page, you can find which data subjects personal data you are storing "
+"and download, export or delete it."
+msgstr ""
+"Auf dieser Seite kannst Du nachlesen, welche personenbezogenen Daten Du von "
+"betroffenen Personen speicherst und diese herunterladen, exportieren oder "
+"löschen."
+
+#: views/admin/data-subjects/search-form.php:10
+msgctxt "(Admin)"
+msgid "Find data subject by email"
+msgstr "Betroffene Personen über die E-Mail-Adresse finden"
+
+#: views/admin/data-subjects/search-form.php:11
+msgctxt "(Admin)"
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: views/admin/data-subjects/search-form.php:16
+msgctxt "(Admin)"
+msgid "Search"
+msgstr "Suchen"
+
+#: views/admin/data-subjects/search-results.php:7
+msgctxt "(Admin)"
+msgid "Username"
+msgstr "Benutzername"
+
+#: views/admin/data-subjects/search-results.php:12
+msgctxt "(Admin)"
+msgid "is not a registered user."
+msgstr "ist nicht registriert."
+
+#: views/admin/data-subjects/search-results.php:16
+msgctxt "(Admin)"
+msgid "Download data (html)"
+msgstr "Download der Daten (html)"
+
+#: views/admin/data-subjects/search-results.php:17
+msgctxt "(Admin)"
+msgid "Export data (json)"
+msgstr "Datenexport (json)"
+
+#: views/admin/data-subjects/search-results.php:21
+msgctxt "(Admin)"
+msgid ""
+"This user has admin capabilities. Deleting data via this interface is "
+"disabled."
+msgstr ""
+"Dieser Benutzer hat die Berechtigungsstufe eines Admins. Das Löschen der "
+"Daten über diese Bedienoberfläche ist daher deaktiviert."
+
+#: views/admin/data-subjects/search-results.php:24
+msgctxt "(Admin)"
+msgid "Anonymize data"
+msgstr "Daten anonymisieren"
+
+#: views/admin/data-subjects/search-results.php:25
+msgctxt "(Admin)"
+msgid "Delete data"
+msgstr "Daten löschen"
+
+#: views/admin/data-subjects/search-results.php:29
+msgctxt "(Admin)"
+msgid "No data found!"
+msgstr "Keine Daten gefunden!"
+
+#: views/admin/general/delete-action-email.php:5
+#: views/admin/general/export-action-email.php:5
+#: views/installer/steps/configuration-settings.php:29
+#: views/installer/steps/configuration-settings.php:79
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: views/admin/general/delete-action-reassign.php:3
+#: views/installer/steps/configuration-settings.php:50
+msgctxt "(Admin)"
+msgid "Delete content"
+msgstr "Inhalt(e) löschen"
+
+#: views/admin/general/delete-action-reassign.php:6
+#: views/installer/steps/configuration-settings.php:53
+msgctxt "(Admin)"
+msgid "Reassign content to a user"
+msgstr "Inhalt(e) einem anderen Benutzer zuweisen"
+
+#: views/admin/general/delete-action-reassign.php:10
+msgctxt "(Admin)"
+msgid ""
+"If the user has submitted any content on your site, should it be deleted or "
+"reassigned to another user?"
+msgstr ""
+"Falls der Benutzer Inhalte an Deine Website übermittelt hat: Sollen diese "
+"gelöscht oder einem anderen Benutzer zugewiesen werden?"
+
+#: views/admin/general/description-data-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"Select the page where users can go to control their data. This page must "
+"contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Wähle die Seite aus, auf der Benutzer ihre Daten überprüfen können. Diese "
+"Seite muss den folgenden Shortcode enthalten: [gdpr_privacy_tools]"
+
+#: views/admin/general/enable.php:9
+msgctxt "(Admin)"
+msgid "Enable the view, export and forget functionality for users and visitors"
+msgstr ""
+"Aktiviere die Ansichts-, Export- und Vergessens-Funktionalität für Benutzer "
+"und Besucher"
+
+#: views/admin/general/enable.php:12
+msgctxt "(Admin)"
+msgid ""
+"Enable the Privacy Tools page on front-end and dashboard. This allows "
+"visitors to request viewing and deleting their personal data and withdraw "
+"consents."
+msgstr ""
+"Aktiviere die Seite der Datenschutz-Tools im Frontend und Dashboard. Dies "
+"ermöglicht es den Besuchern, Einsicht in Deine persönlichen Daten zu "
+"verlangen, sie zu löschen und ihre Zustimmung zur Speicherung zu widerrufen."
+
+#: views/admin/general/theme-compatibility.php:9
+#: views/installer/steps/integrations.php:21
+msgctxt "(Admin)"
+msgid ""
+"Automatically add Privacy Policy and Privacy Tools links to your site footer."
+msgstr ""
+"Automatisch die Links zur Datenschutzerklärung und zu den Datenschutz-Tools "
+"im Footer Deiner Website hinzufügen."
+
+#: views/admin/notices/header.php:4 views/admin/settings-page.php:3
+#: views/installer/header.php:23
+msgctxt "(Admin)"
+msgid "The GDPR Framework"
+msgstr "The GDPR Framework"
+
+#: views/admin/notices/helper-autoinstall.php:2
+msgctxt "(Admin)"
+msgid ""
+"A Privacy Policy page has been created, but it is empty. You can generate a "
+"policy template on this page."
+msgstr ""
+"Eine Seite für die Datenschutzerklärung wurde erstellt, aber sie ist leer. "
+"Du kannst auf dieser Seite eine Vorlage für die Datenschutzerklärung "
+"generieren."
+
+#: views/admin/notices/helper-policy.php:2
+msgctxt "(Admin)"
+msgid ""
+"Heads up - your Privacy Policy still requires some attention. Find the "
+"places marked with [TODO] and replace them with real content!"
+msgstr ""
+"Aufgepasst - Deine Datenschutzerklärung erfordert noch einige "
+"Aufmerksamkeit. Finde die mit [TODO] markierten Orte und ersetzen sie durch "
+"echten Inhalt!"
+
+#: views/admin/notices/helper-tools.php:2
+msgctxt "(Admin)"
+msgid ""
+"The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Der Inhalt dieser Seite sollte den Shortcode [gdpr_privacy_tools] enthalten."
+
+#: views/admin/privacy-policy/description-policy-page.php:2
+msgctxt "(Admin)"
+msgid "Select the page which will contain your Privacy Policy"
+msgstr "Wähle die Seite aus, die Deine Datenschutzerklärung enthalten wird"
+
+#: views/admin/privacy-policy/generated.php:3
+msgctxt "(Admin)"
+msgid "Your Privacy Policy has been generated."
+msgstr "Deine Datenschutzerklärung wurde erstellt."
+
+#: views/admin/privacy-policy/generated.php:20
+msgctxt "(Admin)"
+msgid "&laquo; Back"
+msgstr "&laquo; Zurück"
+
+#: views/admin/privacy-policy/header.php:2
+msgctxt "(Admin)"
+msgid ""
+"This page allows you to generate a Privacy Policy based on the information "
+"you entered below."
+msgstr ""
+"Auf dieser Seite kannst Du eine Datenschutzerklärung erzeugen, die auf den "
+"Informationen basiert, die Du unten eingegeben hast."
+
+#: views/admin/settings-page.php:31
+#, php-format
+msgctxt "(Admin)"
+msgid "The GDPR Framework. Built with &#9829; by %sCodelight%s."
+msgstr "The GDPR Framework. Built with &#9829; by %sCodelight%s."
+
+#: views/admin/support/contents.php:5 views/installer/steps/finish.php:10
+msgctxt "(Admin)"
+msgid "Need more info?"
+msgstr "Benötigst Du weitere Informationen?"
+
+#: views/admin/support/contents.php:11 views/installer/steps/finish.php:16
+msgctxt "(Admin)"
+msgid "Site Owner's guide to GDPR"
+msgstr "DSGVO-Handbuch für Website-Besitzer"
+
+#: views/admin/support/contents.php:14 views/installer/steps/finish.php:19
+msgctxt "(Admin)"
+msgid "Read the full guide on GDPR compliance."
+msgstr "Lies das vollständige Handbuch zur DSGVO-Konformität."
+
+#: views/admin/support/contents.php:20 views/installer/steps/finish.php:25
+msgctxt "(Admin)"
+msgid "Knowledge base"
+msgstr "Wissensdatenbank"
+
+#: views/admin/support/contents.php:23 views/installer/steps/finish.php:28
+msgctxt "(Admin)"
+msgid "Check out the knowledge base for common questions and answers."
+msgstr ""
+"Sieh Dir die Wissensdatenbank an, um häufige Fragen und Antworten zu lesen."
+
+#: views/admin/support/contents.php:29 views/installer/steps/finish.php:34
+msgctxt "(Admin)"
+msgid "Developer's guide to GDPR"
+msgstr "Entwicklerleitfaden zur DSGVO"
+
+#: views/admin/support/contents.php:32 views/installer/steps/finish.php:37
+msgctxt "(Admin)"
+msgid "We have a thorough guide to help making custom sites compliant."
+msgstr ""
+"Wir haben eine umfassende Anleitung, um benutzerdefinierte Websites DSGVO-"
+"konform zu machen."
+
+#: views/admin/support/contents.php:40 views/installer/steps/finish.php:45
+msgctxt "(Admin)"
+msgid "Need help?"
+msgstr "Brauchst Du Hilfe?"
+
+#: views/admin/support/contents.php:46 views/installer/steps/finish.php:51
+msgctxt "(Admin)"
+msgid "Submit a support request"
+msgstr "Supportanfrage stellen"
+
+#: views/admin/support/contents.php:49 views/installer/steps/finish.php:54
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or problem with the plugin? Post in the wordpress.org support "
+"forum."
+msgstr ""
+"Du hast einen Fehler gefunden oder ein Problem mit dem Plugin? Bitte "
+"schreibe uns im Support-Forum von wordpress.org."
+
+#: views/admin/support/contents.php:55 views/installer/steps/finish.php:60
+msgctxt "(Admin)"
+msgid "Request a consultation"
+msgstr "Fordern Sie eine Beratung an"
+
+#: views/admin/support/contents.php:58 views/installer/steps/finish.php:63
+msgctxt "(Admin)"
+msgid ""
+"Need development or legal assistance in making your site compliant? We can "
+"help!"
+msgstr ""
+"Benötigst Du Unterstützung bei der Web-Entwicklung oder Rechtshilfe um Deine "
+"Website DSGVO-konform einzurichten? Wir können helfen!"
+
+#: views/admin/wizard-buttons.php:2
+msgctxt "(Admin)"
+msgid "Restart setup wizard"
+msgstr "Einrichtungsassistenten erneut starten"
+
+#: views/email/action-export.php:8 views/email/action-forget.php:12
+msgctxt "(Admin)"
+msgid ""
+"This email is just for your information. You don't need to take any action"
+msgstr ""
+"Diese E-Mail dient nur zu Ihrer Information. Du musst nichts unternehmen."
+
+#: views/email/action-forget.php:8
+msgctxt "(Admin)"
+msgid "The data subject had a user account on your website."
+msgstr "Die betroffene Person hatte einen Benutzer-Account auf Deiner Website."
+
+#: views/email/identify-data-subject.php:2
+msgid "Someone has requested access to your data on"
+msgstr "Jemand hat Zugriff auf Deine Daten angefordert"
+
+#: views/email/identify-data-subject.php:3
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Falls Du diese E-Mail irrtümlich erhalten hast: Ignoriere sie bitte. Es wird "
+"nichts weiter passieren."
+
+#: views/email/identify-data-subject.php:4
+msgid "To manage your data, visit the following address:"
+msgstr "Um Deine Daten zu verwalten, besuche die folgende Adresse:"
+
+#: views/email/identify-data-subject.php:10
+msgid "This link is valid for 15 minutes."
+msgstr "Dieser Link ist 15 Minuten gültig."
+
+#: views/email/no-data.php:2
+msgid "Someone has requested information about your personal data on"
+msgstr "Jemand hat Auskunft über Deine personenbezogenen Daten erbeten auf"
+
+#: views/email/no-data.php:3
+msgid "None of your personal data is stored on"
+msgstr "Keine Deiner persönlichen Daten wurden gespeichert auf"
+
+#: views/email/no-data.php:5
+msgid ""
+"If this was a mistake or you did not request this email, just ignore it and "
+"nothing will happen."
+msgstr ""
+"Falls Du diese E-Mail irrtümlich erhalten hast: Ignorieren sie bitte. Es "
+"wird nichts weiter passieren."
+
+#: views/email/request-export.php:13 views/email/request-forget.php:13
+msgctxt "(Admin)"
+msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgstr "Zur Erinnerung: Gemäß der DSGVO musst Du 30 Tage einhalten."
+
+#: views/global/delete-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically anonymize data"
+msgstr "Daten automatisch anonymisieren"
+
+#: views/global/delete-action.php:5
+msgctxt "(Admin)"
+msgid "Automatically delete data"
+msgstr "Daten automatisch löschen"
+
+#: views/global/delete-action.php:9
+msgctxt "(Admin)"
+msgid "Automatically anonymize data and notify me via email"
+msgstr "Daten automatisch anonymisieren und mich über E-Mail benachrichtigen"
+
+#: views/global/delete-action.php:13
+msgctxt "(Admin)"
+msgid "Automatically delete data and notify me via email"
+msgstr "Daten automatisch löschen und mich über E-Mail benachrichtigen"
+
+#: views/global/delete-action.php:16 views/global/export-action.php:10
+msgctxt "(Admin)"
+msgid "Only notify me via email"
+msgstr "Mich lediglich über E-Mail benachrichtigen"
+
+#: views/global/export-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically download data"
+msgstr "Daten automatisch herunterladen"
+
+#: views/global/export-action.php:6
+msgctxt "(Admin)"
+msgid "Automatically download data and notify me via email"
+msgstr "Daten automatisch herunterladen und mich über E-Mail benachrichtigen"
+
+#: views/installer/continue-notice.php:2
+msgctxt "(Admin)"
+msgid "The The GDPR Framework setup has not been finalized yet."
+msgstr "Die Einrichtung des GDPR Frameworks ist noch nicht abgeschlossen."
+
+#: views/installer/continue-notice.php:3
+msgctxt "(Admin)"
+msgid "You can continue the setup at any time."
+msgstr "Du kannst die Einrichtung jederzeit fortsetzen."
+
+#: views/installer/continue-notice.php:6
+msgctxt "(Admin)"
+msgid "Continue the setup wizard"
+msgstr "Setze den Einrichtungsassistenten fort"
+
+#: views/installer/continue-notice.php:9
+msgctxt "(Admin)"
+msgid "Hide this message"
+msgstr "Diese Nachricht ausblenden"
+
+#: views/installer/footer.php:7
+msgid "Back"
+msgstr "Zurück"
+
+#: views/installer/header.php:26
+msgctxt "(Admin)"
+msgid "I need help"
+msgstr "Ich benötige Unterstützung"
+
+#: views/installer/header.php:29
+msgctxt "(Admin)"
+msgid "Developer Docs"
+msgstr "Entwickler-Dokumentation"
+
+#: views/installer/header.php:36
+msgctxt "(Admin)"
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: views/installer/header.php:46
+msgctxt "(Admin)"
+msgid "Forms & Consent"
+msgstr "Formulare & Zustimmung"
+
+#: views/installer/header.php:51
+msgctxt "(Admin)"
+msgid "Integrations"
+msgstr "Integrationen"
+
+#: views/installer/steps/configuration-settings.php:23
+#: views/installer/steps/configuration-settings.php:73
+msgctxt "(Admin)"
+msgid "Enter the email address to notify"
+msgstr "Gib die zu benachrichtigende E-Mail-Adresse ein"
+
+#: views/installer/steps/disclaimer.php:21
+msgctxt "(Admin)"
+msgid "I accept"
+msgstr "Ich akzeptiere"
+
+#: views/installer/welcome-notice.php:7
+msgctxt "(Admin)"
+msgid "Run the setup wizard"
+msgstr "Einrichtungsassistent jetzt starten"
+
+#: views/installer/welcome-notice.php:11
+msgctxt "(Admin)"
+msgid "Auto-install pages"
+msgstr "Seiten automatisch einrichten"
+
+#: views/installer/welcome-notice.php:15
+msgctxt "(Admin)"
+msgid "Skip and install manually"
+msgstr "Überspringen und manuell einrichten"
+
+#: views/modules/contact-form-7/generator-privacy.php:6
+msgctxt "(Admin)"
+msgid ""
+"This tag generates the default text for Terms & Conditions and/or Privacy "
+"Policy checkbox."
+msgstr ""
+"Dieser Tag generiert den Standardtext für die Checkbox der "
+"Geschäftsbedingungen und/oder Datenschutzerklärung."
+
+#: views/modules/contact-form-7/generator-privacy.php:15
+msgid "Insert"
+msgstr "Einfügen"
+
+#: views/modules/wordpress-comments/terms-checkbox.php:6
+#: views/modules/wordpress-user/registration-terms-checkbox.php:7
+#, php-format
+msgid "I accept the %sTerms and Conditions%s and the %sPrivacy Policy%s"
+msgstr ""
+"Ich akzeptiere die %sAllgemeinen Geschäftsbedingungen%s und die "
+"%sDatenschutzerklärung%s"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:3
+msgid "Manage consents"
+msgstr "Zustimmungen verwalten"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:6
+#: views/privacy-tools/form-consent.php:6
+msgid "Here you can withdraw any consents you have given."
+msgstr "Hier kannst Du Deine gegebenen Einwilligungen widerrufen."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:8
+#: views/privacy-tools/form-consent.php:9
+msgid "Consent types"
+msgstr "Arten der Zustimmung"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:23
+#: views/privacy-tools/form-consent.php:24
+msgid "Withdraw"
+msgstr "Widerrufen"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:5
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:5
+msgctxt "(Admin)"
+msgid "Delete this user and all data"
+msgstr "Diesen Benutzer und alle Daten löschen"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete my data"
+msgstr "Lösche meine Daten"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:15
+#: views/privacy-tools/form-delete.php:13
+msgid "Delete all data we have gathered about you."
+msgstr "Lösche alle Daten, die auf dieser Seite über Dich gesammelt wurden."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:16
+#: views/privacy-tools/form-delete.php:14
+msgid "If you have a user account on our site, it will also be deleted."
+msgstr ""
+"Falls Du auf unserer Website ein Benutzerkonto hast, wird dieses ebenfalls "
+"gelöscht."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:17
+#: views/privacy-tools/form-delete.php:15
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr ""
+"Sei vorsichtig - diese Aktion ist dauerhaft und kann NICHT rückgängig "
+"gemacht werden."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:22
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:23
+msgctxt "(Admin)"
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/"
+"anonymizing via this page is disabled."
+msgstr ""
+"Du scheinst die Rolle eines Administrators oder eine gleichwertige Rolle zu "
+"haben, so dass löschen/anonymisieren über diese Seite deaktiviert ist."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:7
+#: views/privacy-tools/form-export.php:1
+msgid "Download your data"
+msgstr "Lade Deine Ihre Daten herunter"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:12
+#: views/privacy-tools/form-export.php:13
+msgid "Download as table"
+msgstr "Als Tabelle herunterladen"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:15
+#: views/privacy-tools/form-export.php:22
+msgid "Export as JSON"
+msgstr "Export als JSON"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:19
+#: views/privacy-tools/form-export.php:4
+msgid "You can download all your data formatted as a table for viewing."
+msgstr ""
+"Für eine einfachere Betrachtung kannst Du all Deine Daten in Form einer "
+"Tabelle herunterladen."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:20
+#: views/privacy-tools/form-export.php:5
+msgid "Alternatively, you can export it in machine-readable JSON format."
+msgstr "Alternativ kannst Du sie im maschinenlesbaren JSON-Format exportieren."
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete user and all data"
+msgstr "Diesen Benutzer und alle Daten löschen"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:14
+msgctxt "(Admin)"
+msgid "Anonymize user and all data"
+msgstr "Diesen Benutzer und alle Daten anonymisieren"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:2
+msgctxt "(Admin)"
+msgid "GDPR Data"
+msgstr "DSGVO Daten"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:6
+msgctxt "(Admin)"
+msgid "This user has been anonymized."
+msgstr "Dieser Benutzer wurde anonymisiert."
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:4
+msgctxt "(Admin)"
+msgid "Consents given"
+msgstr "Gegebene Zustimmungen"
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:17
+msgctxt "(Admin)"
+msgid "No consents given"
+msgstr "Keine Zustimmungen gegeben"
+
+#: views/privacy-tools/form-consent.php:2
+msgid "Consent"
+msgstr "Zustimmung"
+
+#: views/privacy-tools/form-delete.php:1
+#: views/privacy-tools/notice-admin-role.php:1
+msgid "Delete my user and data"
+msgstr "Mein Benutzerkonto und meine Daten löschen"
+
+#: views/privacy-tools/form-delete.php:7
+msgid "Delete my data"
+msgstr "Meine Daten löschen"
+
+#: views/privacy-tools/form-identify.php:8
+msgid "Back to Privacy Tools"
+msgstr "Zurück zu den Datenschutz-Tools"
+
+#: views/privacy-tools/form-identify.php:14
+msgid "Identify yourself!"
+msgstr "Bitte identifiziere Dich!"
+
+#: views/privacy-tools/form-identify.php:17
+#: views/privacy-tools/form-identify.php:20
+msgid "Enter your email address"
+msgstr "Gib Deine E-Mail-Adresse ein"
+
+#: views/privacy-tools/form-identify.php:23
+msgid "Send email"
+msgstr "E-Mail senden"
+
+#: views/privacy-tools/notice-admin-role.php:4
+msgctxt "(Admin)"
+msgid "Data deletion is disabled for administrative accounts."
+msgstr ""
+"Die Löschung der Daten ist für administrative Benutzerkonten deaktiviert."
+
+#: views/privacy-tools/notices.php:3
+msgid ""
+"We will send you an email with the link to access your data. Please check "
+"your spam folder as well!"
+msgstr ""
+"Wir senden Dir eine E-Mail mit einem Link, um auf Deine Daten zuzugreifen. "
+"Bitte überprüfe auch Deinen Spam-Ordner!"
+
+#: views/privacy-tools/notices.php:7
+msgid "The email you entered does not appear to be a valid email."
+msgstr "Die eingegebene E-Mail-Adresse scheint ungültig zu sein."
+
+#: views/privacy-tools/notices.php:11
+msgid "Sorry - the link seems to have expired. Please try again!"
+msgstr ""
+"Entschuldigung - der Link scheint abgelaufen zu sein. Bitte versuche es "
+"erneut!"
+
+#: views/privacy-tools/notices.php:23
+msgid "Your personal data has been removed!"
+msgstr "Deine personenbezogenen Daten wurden gelöscht!"
+
+#: views/privacy-tools/privacy-tools.php:5
+msgid "You are identified as"
+msgstr "Du bist indentifiziert als"
+
+#: views\admin\general\enable-tac.php:9
+msgctxt "(Admin)"
+msgid "Enable the term and condition page."
+msgstr "Aktiviere Begriffs- und Bedingungsseite."
+
+#: src\Admin\AdminTabGeneral.php:51
+msgctxt "(Admin)"
+msgid "Enable Term and Conditions"
+msgstr "Aktiviere Bedingungen und Konditionen"
+
+#: gdpr-framework.php:121
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Diese Website verwendet Cookies, um sicherzustellen, dass unsere Webseite "
+"ideal nutzbar ist."
+
+#: gdpr-framework.php:121
+msgid "Decline"
+msgstr "Ablehnen"
+
+#: gdpr-framework.php:121
+msgid "Accept"
+msgstr "Akzeptieren"
+
+#: gdpr-framework.php:133
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#: AdminTabGeneral.php:94
+msgctxt "(Admin)"
+msgid "From Email"
+msgstr "Von E-Mail"
+
+#: AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "From Name"
+msgstr "Von Name"
+
+#: AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "Email Setting"
+msgstr "E-Mail-Einstellung"
+
+#: AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "Acceptance Popup Setting"
+msgstr "Akzeptanz-Popup-Einstellung"
+
+#: AdminTabGeneral.php:109
+msgctxt "(Admin)"
+msgid "Popup Position"
+msgstr "Popup-Position"
+
+#: AdminTabGeneral.php:116
+msgctxt "(Admin)"
+msgid "Popup theme"
+msgstr "Popup-Thema"
+
+#: AdminTabGeneral.php:123
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Background Color"
+msgstr "Cookie-Akzeptanz-Hintergrundfarbe"
+
+#: AdminTabGeneral.php:130
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Text Color"
+msgstr "Cookie Akzeptanz Textfarbe"
+
+#: AdminTabGeneral.php:137
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Backgroung Color"
+msgstr "Cookie Akzeptanz Button Backgroung Farbe"
+
+#: AdminTabGeneral.php:144
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Color"
+msgstr "Cookie-Akzeptanz-Schaltfläche Farbe"
+
+#: AdminTabGeneral.php:151
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Border Color"
+msgstr "Akzeptanzgrenze für Cookies"
+
+#: AdminTabGeneral.php:67
+msgctxt "(Admin)"
+msgid "Enable Cookie Acceptance Popup"
+msgstr "Aktiviere das Cookie-Akzeptanz-Popup"
+
+#: AdminTabGeneral.php:73
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup Content"
+msgstr "Cookie-Akzeptanz-Popup-Inhalt"
+
+#: description-position-action.php
+msgctxt "(Admin)"
+msgid "Select position of the Popup"
+msgstr "Wähle die Position des Popups"
+
+#: description-theme-action.php
+msgctxt "(Admin)"
+msgid "Select theme of the Popup"
+msgstr "Wähle das Thema des Popups"
+
+#: description-theme-action.php:69
+msgctxt "(Admin)"
+msgid "Disable Comment Checkbox"
+msgstr "Kommentar deaktivieren Kontrollkästchen"
+
+#: description-theme-action.php:76
+msgctxt "(Admin)"
+msgid "Disable Register Form Checkbox"
+msgstr "Deaktivieren Sie die Registrierungsformular-Checkbox"
+
+#: description-theme-action.php:312
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Comments"
+msgstr "Deaktiviere Kontrollkästchen für Kommentare"
+
+#: AdminTabGeneral.php:319
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Register Form"
+msgstr "Kontrollkästchen für Registrierungsformular deaktivieren"
+
+#: views/privacy-tools/form-identify.php:15
+msgid "Please identify yourself via e-mail"
+msgstr "Bitte identifiziere Dich per E-Mail"
+
+#: advanced-integration\header.php:2
+msgctxt "(Admin)"
+msgid "This page allows you to advance integration with ClassiDocs™"
+msgstr ""
+"Auf dieser Seite kannst Du die Integration mit ClassiDocs ™ vorantreiben"
+
+#: AdminTabAdvancedIntegration.php:97
+msgctxt "(Admin)"
+msgid "ClassiDocs Password"
+msgstr "ClassiDocs Passwort"
+
+#: AdminTabAdvancedIntegration.php:88
+msgctxt "(Admin)"
+msgid "ClassiDocs Username"
+msgstr "ClassiDocs Benutzername"
+
+#: AdminTabAdvancedIntegration.php:79
+msgctxt "(Admin)"
+msgid "ClassiDocs URL"
+msgstr "ClassiDocs URL"
+
+#: AdminTabAdvancedIntegration.php:69
+msgctxt "(Admin)"
+msgid "Enable Response with related queries?"
+msgstr "Antwort mit verwandten Anfragen aktivieren?"
+
+#: AdminTabAdvancedIntegration.php:60
+msgctxt "(Admin)"
+msgid "Submit SAR request details?"
+msgstr "SAR-Anfragedetails einreichen?"
+
+#: AdminTabAdvancedIntegration.php:51
+msgctxt "(Admin)"
+msgid "Integrate with ClassiDocs?"
+msgstr "Mit ClassiDocs integrieren?"
+
+#: AdminTabAdvancedIntegration.php:43
+msgctxt "(Admin)"
+msgid "Integration Settings"
+msgstr "Integrationseinstellungen"
+
+#: AdminTabAdvancedIntegration.php:35
+msgctxt "(Admin)"
+msgid "Advanced Integration"
+msgstr "Erweiterte Integration"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Sign up for free here"
+msgstr "Melde Dich hier kostenlos an"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Click Here"
+msgstr "Klick hier"
+
+#: ClassiDocs-results.php:12
+msgid "Previous Results"
+msgstr "Vorherige Ergebnisse"
+
+#: ClassiDocs-results.php:13
+msgid "Current Results"
+msgstr "Aktuelle Ergebnisse"
+
+#: ClassiDocs-results.php:19
+msgid "Name"
+msgstr "Name"
+
+#: ClassiDocs-results.php:22
+msgid "Path"
+msgstr "Pfad"
+
+#: ClassiDocs-results.php:34
+msgid "Workstation"
+msgstr "Arbeitsplatz"
+
+#: ClassiDocs-results.php:37
+msgid "Last Scan"
+msgstr "Letzter Scan"
+
+#: ClassiDocs-results.php:62
+msgid "No ClassiDocs data found!"
+msgstr "Keine ClassiDocs Daten gefunden!"
+
+#: enable_popup_header.php:5
+msgid "Cookies used on the website!"
+msgstr "Auf der Website verwendete Cookies!"
+
+#: enable_popup_header.php:9
+msgid "Leave blank if don't want header to get display."
+msgstr "Lassen Sie das Feld leer, wenn der Header nicht angezeigt werden soll."
+
+#: AdminTabCookiePopup.php:39
+msgctxt "(Admin)"
+msgid "Cookie Popup Settings"
+msgstr "Cookie-Popup-Einstellungen"
+
+#: AdminTabCookiePopup.php:17
+msgctxt "(Admin)"
+msgid "Cookie Popup"
+msgstr "Cookie-Popup"
+
+#: AdminTabCookiePopup.php:49
+msgctxt "(Admin)"
+msgid "Enable One Time Cookie Acceptance Popup"
+msgstr "Einmalige Cookie-Akzeptanz-Popup-Funktion aktivieren"
+
+#: consent.php:79
+msgctxt "(Admin)"
+msgid "Show Consent types"
+msgstr "Zustimmungstypen anzeigen"
+
+msgctxt "(Admin)"
+msgid "Hide consent types"
+msgstr "Zustimmungstypen ausblenden"
+
+msgctxt "(Admin)"
+msgid "Do you want form to be GDPR compliance."
+msgstr "Möchten Sie, dass das Formular der DSGVO entspricht?"
+
+msgctxt "(Admin)"
+msgid ""
+"You have installed flamingo, To make this GDPR compliance in individual "
+"contact form's privacy tab check the checkbox for include data to be search "
+"on Privacy tool."
+msgstr ""
+"Sie haben flamingo installiert. Aktivieren Sie das Kontrollkästchen \"Daten "
+"einschließen\", um die Datenschutzbestimmungen für die DSDPR auf der "
+"Registerkarte \"Datenschutz\" des einzelnen Kontaktformulars zu aktivieren."
+
+msgctxt "(Admin)"
+msgid "Enable Policy Link On Popup"
+msgstr "Aktivieren Sie die Richtlinienverknüpfung im Popup"
+
+msgctxt "(Admin)"
+msgid "Enable Privacy policy on Popup"
+msgstr "Aktivieren Sie die Datenschutzbestimmungen für Popup"
+
+#: AdminTabCookiePopup.php
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup header"
+msgstr "Cookie-Akzeptanz-Popup-Header"
+
+#: views\admin\privacy-manager\header.php:2
+msgctxt "(Admin)"
+msgid "Data443™ Privacy Manager"
+msgstr "Data443™ Privacy Manager"
+
+#: views\admin\privacy-manager\header.php:3
+msgctxt "(Admin)"
+msgid ""
+"ensures privacy regulation compliance, such as GDPR, CCPA, LGPD, etc, at the "
+"next level."
+msgstr ""
+"sorgt für die Einhaltung der Datenschutzbestimmungen wie GDPR, CCPA, LGPD "
+"usw. auf der nächsten Ebene."
+
+#: views\admin\privacy-manager\header.php:4
+msgctxt "(Admin)"
+msgid ""
+"In addition to DSAR tracking and management, Privacy Manager adds the "
+"following features to your data protection compliance resources:"
+msgstr ""
+"Zusätzlich zu DSAR-Nachverfolgung und -Verwaltung fügt Privacy Manager Ihren "
+"Ressourcen zur Einhaltung des Datenschutzes die folgenden Funktionen hinzu:"
+
+#: views\admin\privacy-manager\header.php:6
+msgctxt "(Admin)"
+msgid "Log and store ICO breach notifications"
+msgstr "ICO-Verstoßbenachrichtigungen protokollieren und speichern"
+
+#: views\admin\privacy-manager\header.php:7
+msgctxt "(Admin)"
+msgid "Keeps full record of all requests, ticketed and timeline"
+msgstr "Zeichnet alle Anfragen auf, Ticket und Timeline"
+
+#: views\admin\privacy-manager\header.php:8
+msgctxt "(Admin)"
+msgid "Gap analysis and breach notifications"
+msgstr "Lückenanalyse und Verstoßbenachrichtigungen"
+
+#: views\admin\privacy-manager\header.php:9
+msgctxt "(Admin)"
+msgid "In depth activity log with all GDPR, CCPA, etc actions evidenced"
+msgstr "In depth activity log with all GDPR, CCPA, etc actions evidenced"
+
+#: views\admin\privacy-manager\header.php:10
+msgctxt "(Admin)"
+msgid "Highlights areas of concern and where you need to focus"
+msgstr "Hebt die Problembereiche hervor, auf die Sie sich konzentrieren müssen"
+
+#: views\admin\privacy-manager\header.php:11
+msgctxt "(Admin)"
+msgid ""
+"eLearning platform with access for all staff to ensure privacy regulation "
+"compliance and obligations"
+msgstr ""
+"E-Learning-Plattform mit Zugang für alle Mitarbeiter, um die Einhaltung der "
+"Datenschutzbestimmungen und -pflichten sicherzustellen"
+
+#: views\admin\privacy-manager\header.php:12
+msgctxt "(Admin)"
+msgid "Tracks who accesses the system, when and why"
+msgstr "Erfasst, wer wann und warum auf das System zugreift"
+
+#: views\admin\privacy-manager\header.php:15
+msgctxt "(Admin)"
+msgid ""
+"Our system enables your business to demonstrate its obligations in "
+"protecting your customer data, show understanding of your business "
+"activities and deliver eLearning and online tests to employees, ensuring "
+"everyone in your company understands your privacy compliance rules and best "
+"practices to operate."
+msgstr ""
+"Unser System ermöglicht es Ihrem Unternehmen, seine Verpflichtungen "
+"hinsichtlich des Schutzes Ihrer Kundendaten zu demonstrieren, Verständnis "
+"für Ihre Geschäftsaktivitäten zu vermitteln und Mitarbeitern e-Learning und "
+"Online-Tests zur Verfügung zu stellen. So stellen Sie sicher, dass jeder in "
+"Ihrem Unternehmen die Regeln zum Schutz Ihrer Privatsphäre und die bewährten "
+"Vorgehensweisen kennt."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid ""
+"No matter where you are on your data privacy journey, the ultimate goal is "
+"compliance."
+msgstr ""
+"Unabhängig davon, wo Sie sich auf Ihrer Datenschutzreise befinden, ist das "
+"ultimative Ziel Compliance."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid "enables your organization to comply with all privacy regulations."
+msgstr ""
+"ermöglicht Ihrem Unternehmen die Einhaltung aller Datenschutzbestimmungen."
+
+#: views\admin\support\contents.php:49
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or have a question about the plugin? Submit a support request "
+"and we’ll get right on it!"
+msgstr ""
+"Fehler gefunden oder Fragen zum Plugin? Senden Sie eine Support-Anfrage und "
+"wir werden sofort darauf reagieren!"
+
+#: views\admin\support\contents.php:58
+msgctxt "(Admin)"
+msgid "Need assistance in making your site compliant? We can help!"
+msgstr ""
+"Benötigen Sie Hilfe, um Ihre Website kompatibel zu machen? Wir können helfen!"
+
+#: views\admin\general\woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool"
+msgstr "Aktivieren Sie WooCommerce-Daten für das DSDPR-Tool"
+
+#: src\Admin\AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Enable WooCommerce Compatibility"
+msgstr "Aktivieren Sie die WooCommerce-Kompatibilität"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:19
+msgid "Note Regarding Order:"
+msgstr "Hinweis zur Bestellung:"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:20
+msgid ""
+"Your order with status Processing will not get deleted until status change."
+msgstr ""
+"Ihre Bestellung mit Statusverarbeitung wird erst gelöscht, wenn sich der "
+"Status ändert."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:21
+msgid "Your order with status Completed will get anonymize."
+msgstr "Ihre Bestellung mit dem Status Abgeschlossen wird anonymisiert."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:22
+msgid "If you delete Completed order you can't apply for refund."
+msgstr ""
+"Wenn Sie die abgeschlossene Bestellung löschen, können Sie keine Erstattung "
+"beantragen."
+
+#: views\admin\general\woo-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for WooCommerce Version 3.4.0 or later."
+msgstr "Funktioniert für WooCommerce Version 3.4.0 oder höher."
+
+#: views\admin\general\edd-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable EDD data on GDPR tool."
+msgstr "Aktivieren Sie EDD-Daten für das DSGVO-Tool."
+
+#: views\admin\general\edd-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for EDD Version 2.0.0 or later."
+msgstr "Funktioniert für EDD Version 2.0.0 oder höher."
+
+#: src\Admin\AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Enable EDD Compatibility"
+msgstr "Aktivieren Sie die EDD-Kompatibilität"
+
+#: gdpr-framework.php:298
+msgid "Cookie Policy"
+msgstr "Cookie-Richtlinie"
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid ""
+"This consent is visible by default on woocommerce checkout page. If someone "
+"wishes to withdraw it, they should simply request to delete all their data."
+msgstr ""
+"Diese Einwilligung wird standardmäßig auf der Checkout-Seite von woocommerce "
+"angezeigt. Wenn jemand es widerrufen möchte, sollte er einfach die Löschung "
+"aller seiner Daten anfordern."
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid "Woocommerce Policy Consent"
+msgstr "Zustimmung zur Woocommerce-Richtlinie"
+
+#: WoocommerceGdpr.php:150
+msgid "Please acknowledge the Privacy Policy"
+msgstr "Bitte bestätigen Sie die Datenschutzerklärung"
+
+#: woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool."
+msgstr "Aktivieren Sie WooCommerce-Daten im GDPR-Tool."
+
+#: views\admin\general\enable-popup.php:12
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+"accepted on popup accept button."
+msgstr ""
+"<b> Hinweis: </ b> Sie müssen benutzerdefinierten Inhalt hinzufügen. <b> "
+"gdpr_cookie_consent </ b> Wird über die Schaltfläche zum Akzeptieren des "
+"Popups akzeptiert."
+
+#: AdminTabCookiePopup.php:105
+msgctxt "(Admin)"
+msgid "Popup Dismiss Text"
+msgstr "Popup Text schließen"
+
+#: AdminTabCookiePopup.php:98
+msgctxt "(Admin)"
+msgid "Popup Allow Text"
+msgstr "Popup Text zulassen"
+
+#: AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Woocommerce Integration"
+msgstr "Woocommerce-Integration"
+
+#: AdminTabGeneral.php:259
+msgctxt "(Admin)"
+msgid "Easy Digital Download Integration"
+msgstr "Einfache Integration digitaler Downloads"
+
+#: has-dpo.php:11
+msgctxt "(Admin)"
+msgid "I have appointed a Data Protection Officer (DPO)"
+msgstr "Ich habe einen Datenschutzbeauftragten ernannt"
+
+#: views/admin/general/stylesheet.php:9
+msgctxt "(Admin)"
+msgid "Enable basic styling for Privacy Tools page."
+msgstr ""
+"Aktivieren Sie das grundlegende Styling für die Seite \"Datenschutz-Tools\"."
+
+#: AdminTabPrivacyPolicy.php:204
+msgctxt "(Admin)"
+msgid "Delete Text"
+msgstr "Text löschen"
+
+#: consent.php:80
+msgctxt "(Admin)"
+msgid "Add consent type"
+msgstr "Zustimmungstyp hinzufügen"
+
+#: AdminTabGeneral.php:127
+msgctxt "(Admin)"
+msgid "Privacy Policy Custom URL"
+msgstr "Datenschutzrichtlinie Benutzerdefinierte URL"
+
+#: custom-policy-url.php:6
+msgctxt "(Admin)"
+msgid "Leave blank if privacy policy page already selected"
+msgstr ""
+"Lassen Sie dieses Feld leer, wenn die Datenschutzrichtlinie bereits "
+"ausgewählt ist"
+
+#: views/admin/general/description-delete-action.php:2
+msgctxt "(Admin)"
+msgid "What should happen if a data subject requests deleting their data."
+msgstr ""
+"Was soll passieren, wenn eine betroffene Person das Löschen ihrer Daten "
+"anfordert?"
+
+#: views/admin/general/description-export-action.php:2
+msgctxt "(Admin)"
+msgid "Optional. Select the page which contains your Terms & Conditions"
+msgstr ""
+"Wahlweise. Wählen Sie die Seite aus, die Ihre Allgemeinen "
+"Geschäftsbedingungen enthält"
+
+#: views/admin/general/description-terms-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"What should happen if a data subject requests viewing or exporting their "
+"data."
+msgstr ""
+"Was soll passieren, wenn eine betroffene Person das Anzeigen oder "
+"Exportieren ihrer Daten anfordert?"
+
+#: woo-disable_checkbox.php:9
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Privacy Checkbox"
+msgstr "Deaktivieren Sie das Kontrollkästchen für den WooCommerce-Datenschutz"
+
+#: AdminTabCookiePopup.php:133
+msgctxt "(Admin)"
+msgid "Popup Learn More Text"
+msgstr "Popup Weitere Informationen Text"
+
+#: AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Register Privacy Checkbox"
+msgstr "Deaktivieren Sie das Kontrollkästchen WooCommerce Register Privacy"
+
+#: AdminTabCookiePopup.php:121
+msgctxt "(Admin)"
+msgid "Cookie Acceptance link target"
+msgstr "Cookie Akzeptanz Link Ziel"
+
+#: popup_link_target.php:3
+msgctxt "(Admin)"
+msgid "Next Tab"
+msgstr "Nächstes Tab"
+
+#: popup_link_target.php:5
+msgctxt "(Admin)"
+msgid "Self"
+msgstr "selbst"

@@ -1,0 +1,39 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">cpt_layouts</custom-type>
+    <custom-type translate="1">cpt_services</custom-type>
+    <custom-type translate="1">cpt_team</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">cpt_layouts_group</taxonomy>
+    <taxonomy translate="1">cpt_services_group</taxonomy>
+    <taxonomy translate="1">cpt_team_group</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="ignore">trx_addons_layout_type</custom-field>
+    <custom-field action="ignore">trx_addons_options</custom-field>
+    <custom-field action="ignore">hoverex_options</custom-field>
+    <custom-field action="ignore">trx_addons_post_views_count</custom-field>
+    <custom-field action="ignore">trx_addons_post_likes_count</custom-field>
+    <custom-field action="ignore">hoverex_options_post_type</custom-field>
+    <custom-field action="ignore">hoverex_options_parent_cat</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="trx_addons_just_activated"/>
+    <key name="widget_trx_addons_widget_calendar">
+      <key name="2">
+        <key name="title"/>
+        <key name="weekdays"/>
+      </key>
+    </key>
+    <key name="widget_trx_addons_widget_recent_posts">
+      <key name="2">
+        <key name="title"/>
+      </key>
+    </key>
+    <key name="trx_addons_options">
+      <key name="page_preloader"/>
+      <key name="input_hover"/>
+    </key>
+  </admin-texts>
+</wpml-config>

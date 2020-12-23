@@ -1,0 +1,6 @@
+@mixin js_composer--md() {
+    /* WPBakery Page Builder */
+	.wpb_text_column[class*="scheme_"]:not([class*="sc_extra_bg_"]) {
+		padding: 1.5em;
+	}
+}

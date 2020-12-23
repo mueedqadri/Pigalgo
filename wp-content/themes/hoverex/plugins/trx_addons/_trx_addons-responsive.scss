@@ -1,0 +1,93 @@
+@mixin trx_addons--xl() {
+	/* ThemeREX Addons */
+
+    /* Content Area on boxed pages */
+	.body_style_boxed .sc_content_width_1_1 {	width: $xl_page_boxed; }
+	.body_style_boxed .sc_content_width_1_2 {	width: $xl_page_boxed / 2; }
+	.body_style_boxed .sc_content_width_1_3 {	width: $xl_page_boxed / 3; }
+	.body_style_boxed .sc_content_width_2_3 {	width: $xl_page_boxed / 3 * 2; }
+	.body_style_boxed .sc_content_width_1_4 {	width: $xl_page_boxed / 4; }
+	.body_style_boxed .sc_content_width_3_4 {	width: $xl_page_boxed / 4 * 3; }
+}
+
+@mixin trx_addons--lg() {
+	/* ThemeREX Addons */
+
+	/* Recent News on expanded pages */
+	body.expand_content .sc_recent_news_style_news-announce .post_size_full {	height: 540px; }
+	body.expand_content .sc_recent_news_style_news-announce .post_size_big {	height: 270px;  }
+	body.expand_content .sc_recent_news_style_news-announce .post_size_medium,
+	body.expand_content .sc_recent_news_style_news-announce .post_size_small {	height: 135px;  }
+
+    /* Content Area on boxed pages */
+	.body_style_boxed .sc_content_width_1_1 {	width: $lg_page; }
+	.body_style_boxed .sc_content_width_1_2 {	width: $lg_page / 2; }
+	.body_style_boxed .sc_content_width_1_3 {	width: $lg_page / 3; }
+	.body_style_boxed .sc_content_width_2_3 {	width: $lg_page / 3 * 2; }
+	.body_style_boxed .sc_content_width_1_4 {	width: $lg_page / 4; }
+	.body_style_boxed .sc_content_width_3_4 {	width: $lg_page / 4 * 3; }
+
+    /* Content Area with Side Menu */
+	.menu_style_side .sc_content_width_1_1 {	width: $lg_page_menu_side; }
+	.menu_style_side .sc_content_width_1_2 {	width: $lg_page_menu_side / 2; }
+	.menu_style_side .sc_content_width_1_3 {	width: $lg_page_menu_side / 3; }
+	.menu_style_side .sc_content_width_2_3 {	width: $lg_page_menu_side / 3 * 2; }
+	.menu_style_side .sc_content_width_1_4 {	width: $lg_page_menu_side / 4; }
+	.menu_style_side .sc_content_width_3_4 {	width: $lg_page_menu_side / 4 * 3; }
+}
+
+@mixin trx_addons--md() {
+	/* ThemeREX Addons */
+
+	/* Recent News on expanded pages */
+	body.expand_content .sc_recent_news_style_news-announce .post_size_full {	width: 100%; height: 198px; }
+	body.expand_content .sc_recent_news_style_news-announce .post_size_big {	width: 100%; height: 198px;  }
+	body.expand_content .sc_recent_news_style_news-announce .post_size_medium,
+	body.expand_content .sc_recent_news_style_news-announce .post_size_small {	width: 100%; height: 198px;  }
+
+    /* Content Area on boxed pages */
+	.body_style_boxed .sc_content_width_1_1 {	width: $md_page; }
+	.body_style_boxed .sc_content_width_1_2 {	width: $md_page / 2; }
+	.body_style_boxed .sc_content_width_1_3 {	width: $md_page / 3; }
+	.body_style_boxed .sc_content_width_2_3 {	width: $md_page / 3 * 2; }
+	.body_style_boxed .sc_content_width_1_4 {	width: $md_page / 4; }
+	.body_style_boxed .sc_content_width_3_4 {	width: $md_page / 4 * 3; }
+
+    /* Content Area with Side Menu */
+	.menu_style_side .sc_content_width_1_1 {	width: $md_page_menu_side; }
+	.menu_style_side .sc_content_width_1_2 {	width: $md_page_menu_side / 2; }
+	.menu_style_side .sc_content_width_1_3 {	width: $md_page_menu_side / 3; }
+	.menu_style_side .sc_content_width_2_3 {	width: $md_page_menu_side / 3 * 2; }
+	.menu_style_side .sc_content_width_1_4 {	width: $md_page_menu_side / 4; }
+	.menu_style_side .sc_content_width_3_4 {	width: $md_page_menu_side / 4 * 3; }
+}
+
+@mixin trx_addons--sm() {
+	/* ThemeREX Addons */
+
+	/* Recent News on expanded pages */
+	body.expand_content .sc_recent_news_style_news-announce .post_size_full {	width: 100%; height: 124px; }
+	body.expand_content .sc_recent_news_style_news-announce .post_size_big {	width: 100%; height: 124px;  }
+	body.expand_content .sc_recent_news_style_news-announce .post_size_medium,
+	body.expand_content .sc_recent_news_style_news-announce .post_size_small {	width: 100%; height: 124px;  }
+
+    /* Content Area */
+	.sc_content_width_1_1 {	width: $sm_page !important; }
+	.sc_content_width_1_2 {	width: $sm_page / 2 !important; }
+	.sc_content_width_1_3 {	width: $sm_page / 3 !important; }
+	.sc_content_width_2_3 {	width: $sm_page / 3 * 2 !important; }
+	.sc_content_width_1_4 {	width: $sm_page / 4 !important; }
+	.sc_content_width_3_4 {	width: $sm_page / 4 * 3 !important; }
+}
+
+@mixin trx_addons--xs() {
+	/* ThemeREX Addons */
+
+    /* Content Area */
+	.sc_content_width_1_1 {	width: $xs_page !important; }
+	.sc_content_width_1_2 {	width: $xs_page / 2 !important; }
+	.sc_content_width_1_3 {	width: $xs_page / 3 !important; }
+	.sc_content_width_2_3 {	width: $xs_page / 3 * 2 !important; }
+	.sc_content_width_1_4 {	width: $xs_page / 4 !important; }
+	.sc_content_width_3_4 {	width: $xs_page / 4 * 3 !important; }
+}

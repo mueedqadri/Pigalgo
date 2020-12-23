@@ -1,0 +1,1 @@
+jQuery(function(n){var c=!1;n(".gdpr-consent-until-cal").click(function(){0==c?(n(".gdpr-consent-until").css("opacity",1),c=!0):(n(".gdpr-consent-until").css("opacity",0),c=!1)}),n(".gdpr-consent-until").change(function(){n(".gdpr-consent-until").css("opacity",0)})});

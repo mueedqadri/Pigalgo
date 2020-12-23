@@ -1,0 +1,297 @@
+/* About Theme
+----------------------------------------------------------------*/
+.hoverex_about {
+	margin: 2em 2em 0 0;
+	padding: 3em;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	    -ms-border-radius: 2px;
+			border-radius: 2px;
+}
+@media (max-width: 959px) {
+	.hoverex_about {
+		margin: 1em 1em 0 0;
+		padding: 2em;
+	}
+}
+
+/* Header */
+.hoverex_about_header {
+	overflow:hidden;
+}
+	.hoverex_about_logo {
+		float: left;
+		display:inline-block;
+		max-width: 30%;
+		margin: 0 2em 1em 0;
+	}
+	@media (max-width: 783px) {
+		.hoverex_about_logo {
+			max-width: 50%;
+			margin: 0 0 1em 0;
+			float: none;
+		}
+	}
+	@media (max-width: 479px) {
+		.hoverex_about_logo {
+			max-width: 100%;
+		}
+	}
+	.hoverex_about_logo img {
+		max-width: 100%;
+		height: auto;
+}
+
+.hoverex_about_header .hoverex_about_pro_link,
+.hoverex_about_table .hoverex_about_pro_link {
+	font-size: 1.1538em;
+	line-height:1.7em;
+	padding:0.6em 1.2em;
+	height: auto;
+	display: inline-block;
+	float:right;
+	margin: 0 0 1em 1em;
+	background-color:#008800;
+	border-color: #00aa00 #006600 #006600;
+	-webkit-box-shadow: 0 1px 0 #006600;
+	-ms-box-shadow: 0 1px 0 #006600;
+	box-shadow: 0 1px 0 #006600;
+	text-shadow: 0 -1px 1px #006600,1px 0 1px #006600,0 1px 1px #006600,-1px 0 1px #006600;
+}
+.hoverex_about_header .hoverex_about_pro_link:hover,
+.hoverex_about_table .hoverex_about_pro_link:hover {
+	background-color:#66aa00;
+	border-color: #88cc00 #228800 #228800;
+	-webkit-box-shadow: 0 1px 0 #228800;
+	-ms-box-shadow: 0 1px 0 #228800;
+	box-shadow: 0 1px 0 #228800;
+	text-shadow: 0 -1px 1px #228800,1px 0 1px #228800,0 1px 1px #228800,-1px 0 1px #228800;
+}
+
+	.hoverex_about_title {
+		text-align: left;
+		margin-top:0;
+		line-height:1.5em;
+	}
+	.hoverex_about_description {
+		color: #888;
+		margin-bottom: 3em;
+		line-height:1.5em;
+	}
+	.hoverex_about_description p {
+		font-size: 1.1538em;
+		line-height: 1.5em;
+		margin: 0.5em 0 0;
+	}
+	@media (max-width: 1279px) {
+		.hoverex_about_description p {
+			font-size: 1em;
+			line-height: 1.7em;
+		}
+	}
+	.hoverex_about_description b,
+	.hoverex_about_description strong {
+		color: #333;
+	}
+
+
+/* Tabs */
+#hoverex_about_tabs > ul > li > a {
+	background-color: #eee;
+	font-size: 1.1538em;
+}
+#hoverex_about_tabs > ul > li.ui-state-active > a {
+	background-color: #f7f7f7;
+}
+
+/* Sections */
+#hoverex_about_tabs .hoverex_about_section {
+	display:flex;
+	flex-wrap:wrap;
+	background-color: #f7f7f7;
+	padding: 2em;
+}
+
+/* Blocks */
+.hoverex_about_block {
+	display: inline-block;
+	vertical-align:top;
+	font-size: 1.1538em;
+	width: 25%;
+	padding: 0 2em 2em 0;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.hoverex_about_block.hoverex_skin_block{
+	width: 100%;
+}
+.skin-list>li{
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 5px;
+}
+.skin-list>li label{
+	display: block;
+}
+.skin-list>li label>img{
+	width: 100%;
+	display: block;
+}
+.skin-list>li input[type="radio"]{
+	display: none;
+}
+.skin-list>li input:disabled + label > img{
+	opacity: 0.4;
+	cursor: default;
+}
+.skin-list>li input:checked + label > img{
+	outline: 5px solid #0285bb;
+}
+.skin-list>li input:checked + label{
+	font-weight: 700;
+}
+.hoverex_about_block.hoverex_skin_block .skin-installer{
+	float: right;
+	font-size: 1em;
+	line-height: 1.7em;
+	padding: 0.5em 1em;
+	height: auto;
+	display: inline-block;
+	margin: 0.5em 0;
+	vertical-align: middle;
+
+	background: #aedf48;
+	border-color: #a3d241 #8fb73c #8fb73c;
+	box-shadow: 0 1px 0 #8fb73c;
+	text-shadow: 0 -1px 1px #8fb73c, 1px 0 1px #8fb73c, 0 1px 1px #8fb73c, -1px 0 1px #8fb73c;
+}
+
+@media (max-width: 1679px) {
+	.hoverex_about_block {
+		width: 33.3333%;
+	}
+}
+@media (max-width: 1439px) {
+	.hoverex_about_block {
+		width: 50%;
+	}
+}
+@media (max-width: 1279px) {
+	#hoverex_about_tabs > ul > li > a {
+		font-size: 1em;
+	}
+	.hoverex_about_block {
+		font-size: 1em;
+	}
+}
+@media (max-width: 767px) {
+	.hoverex_about_block {
+		width: 100%;
+		padding-right:0;
+	}
+}
+.hoverex_about_block_inner {
+	display: inline-block;
+	vertical-align:top;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	    -ms-border-radius: 2px;
+			border-radius: 2px;
+	-webkit-transition: -webkit-box-shadow .5s ease;
+	    -ms-transition: -ms-box-shadow .5s ease;
+	        transition: box-shadow .5s ease;
+}
+.hoverex_about_block_inner:hover {
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	    -ms-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.hoverex_about_block_title {
+	margin: 0;
+}
+.hoverex_about_block_description {
+	margin: 1em 0;
+	line-height:1.7em;
+}
+.hoverex_about_block a.hoverex_about_block_link {
+	font-size: 1em;
+	line-height:1.7em;
+	padding:0.5em 1em;
+	height: auto;
+	display: inline-block;
+	margin: 0.5em 0;
+	vertical-align:middle;
+}
+
+/* Section 'Required actions' */
+#hoverex_about_section_actions .hoverex_about_block {
+	width: 100%;
+	padding-right:0;
+}
+#hoverex_about_section_actions .hoverex_about_block_inner {
+	border-width: 0 0 0 3px;
+	border-color: red;
+	-webkit-border-radius: 0;
+	    -ms-border-radius: 0;
+			border-radius: 0;
+}
+
+/* Section Free vs Pro */
+table.hoverex_about_table {
+	border-collapse: collapse;
+	width:100%;
+}
+.hoverex_about_table tr {
+	border-bottom: 1px solid #ddd;
+}
+.hoverex_about_table td {
+	padding: 2em 0;
+}
+.hoverex_about_table td + td {
+	padding: 2em 1em;
+	text-align: center;
+}
+.hoverex_about_table_info {
+	width: 70%;
+}
+.hoverex_about_table_check {
+	width: 15%;
+}
+.hoverex_about_table_info_title {
+	margin-top: 0;
+	margin-bottom: 0.3em;
+}
+.hoverex_about_table thead td.hoverex_about_table_check {
+	font-size:1.1538em;
+	font-weight:bold;
+}
+.hoverex_about_table td.hoverex_about_table_check .dashicons {
+	font-size: 2em;
+	line-height:1em;
+	width: 1em;
+	height:1em;
+}
+.hoverex_about_table td.hoverex_about_table_check .dashicons:before {
+	font-size: 1em;
+}
+.hoverex_about_table td.hoverex_about_table_check .dashicons-yes:before {
+	color:#00aa00;
+}
+.hoverex_about_table td.hoverex_about_table_check .dashicons-no:before {
+	color:#aa0000;
+}
+table.hoverex_about_table .hoverex_about_block_link {
+	float:none;
+}

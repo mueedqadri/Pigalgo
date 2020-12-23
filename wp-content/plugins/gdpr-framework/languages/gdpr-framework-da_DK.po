@@ -1,0 +1,1910 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codelight
+# This file is distributed under the same license as the The GDPR Framework package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: The GDPR Framework 1.0\n"
+"Report-Msgid-Bugs-To: gdpr@codelight.eu\n"
+"POT-Creation-Date: 2018-04-16 10:50+0000\n"
+"PO-Revision-Date: 2019-09-19 12:37+0530\n"
+"Last-Translator: Stefan Butz <webmaster@die-blaue-eisdiele.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de-DE\n"
+"Language-Team: Deutsch\n"
+
+#: gdpr-framework.php:26
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Error"
+msgstr "WordPress GDPR & rsaquo; Fejl"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "Invalid PHP version"
+msgstr "Ugyldig PHP-version"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "You must be using PHP 5.6.33 or greater."
+msgstr "Du skal bruge PHP 5.6.33 eller højere."
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "Invalid WordPress version"
+msgstr "Ugyldig WordPress-version"
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "You must be using WordPress 4.3.0 or greater."
+msgstr "Du skal bruge WordPress 4.3.0 eller nyere."
+
+#: gdpr-framework.php:52
+msgctxt "(Admin)"
+msgid ""
+"You appear to be running a development version of GDPR. You must run "
+"<code>composer install</code> from the plugin directory."
+msgstr ""
+"Du ser ud til at køre en udviklingsversion af GDPR. Du skal køre <code> "
+"komponentinstallation </ code> fra plugin biblioteket."
+
+#: gdpr-framework.php:53
+msgctxt "(Admin)"
+msgid "Autoloader not found."
+msgstr "Autoloader ikke fundet."
+
+#: gdpr-framework.php:115
+msgctxt "(Admin)"
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: src/Admin/AdminTab.php:115
+msgctxt "(Admin)"
+msgid "Save"
+msgstr "Gemme"
+
+#: src/Admin/AdminTab.php:151
+msgctxt "(Admin)"
+msgid "Policy generated!"
+msgstr "Politik genereret!"
+
+#: src/Admin/AdminTabGeneral.php:11
+msgctxt "(Admin)"
+msgid "General"
+msgstr "Generel"
+
+#: src/Admin/AdminTabGeneral.php:38
+msgctxt "(Admin)"
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: src/Admin/AdminTabGeneral.php:43
+msgctxt "(Admin)"
+msgid "Enable Privacy Tools"
+msgstr "Aktivér privatlivsværktøjer"
+
+#: src/Admin/AdminTabGeneral.php:53
+msgctxt "(Admin)"
+msgid "Pages"
+msgstr "sider"
+
+#: src/Admin/AdminTabGeneral.php:58 src/Admin/WordpressAdmin.php:151
+msgctxt "(Admin)"
+msgid "Privacy Tools Page"
+msgstr "Privacy Tools Page"
+
+#: src/Admin/AdminTabGeneral.php:65 src/Admin/WordpressAdmin.php:147
+msgctxt "(Admin)"
+msgid "Privacy Policy Page"
+msgstr "Privacy Policy Side"
+
+#: src/Admin/AdminTabGeneral.php:72
+msgctxt "(Admin)"
+msgid "Terms & Conditions Page"
+msgstr "Vilkår og betingelser Side"
+
+#: src/Admin/AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "View & Export Data"
+msgstr "Vis og eksporter data"
+
+#: src/Admin/AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "Export action"
+msgstr "Eksporter handling"
+
+#: src/Admin/AdminTabGeneral.php:94 src/Admin/AdminTabGeneral.php:133
+msgctxt "(Admin)"
+msgid "Email to notify"
+msgstr "Email til at underrette"
+
+#: src/Admin/AdminTabGeneral.php:105
+msgctxt "(Admin)"
+msgid "Delete & Anonymize Data"
+msgstr "Slet & anonymiser data"
+
+#: src/Admin/AdminTabGeneral.php:110
+msgctxt "(Admin)"
+msgid "Delete action"
+msgstr "Delete action"
+
+#: src/Admin/AdminTabGeneral.php:117
+msgctxt "(Admin)"
+msgid "Delete or reassign content?"
+msgstr "Slet eller omfordele indhold?"
+
+#: src/Admin/AdminTabGeneral.php:125
+msgctxt "(Admin)"
+msgid "Reassign content to"
+msgstr "Omfordele indhold til"
+
+#: src/Admin/AdminTabGeneral.php:145
+msgctxt "(Admin)"
+msgid "Styling"
+msgstr "Styling"
+
+#: src/Admin/AdminTabGeneral.php:150
+msgctxt "(Admin)"
+msgid "Enable basic styling on Privacy Tools page"
+msgstr ""
+"Aktivér grundlæggende styling på siden Beskyttelse af personlige oplysninger"
+
+#: src/Admin/AdminTabGeneral.php:162
+msgctxt "(Admin)"
+msgid "Compatibility"
+msgstr "Kompatibilitet"
+
+#: src/Admin/AdminTabGeneral.php:167
+msgctxt "(Admin)"
+msgid "Enable automatic theme compatibility"
+msgstr "Aktivér automatisk tema kompatibilitet"
+
+#: src/Admin/AdminTabGeneral.php:184 src/Admin/AdminTabGeneral.php:200
+#: src/Admin/AdminTabGeneral.php:213 src/Admin/AdminTabGeneral.php:252
+#: views/installer/steps/configuration-settings.php:62
+msgctxt "(Admin)"
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Vælg &mdash;"
+
+#: src/Admin/WordpressAdmin.php:65
+msgctxt "(Admin)"
+msgid "Privacy & GDPR Settings"
+msgstr "Privacy & GDPR Settings"
+
+#: src/Admin/WordpressAdmin.php:66
+msgctxt "(Admin)"
+msgid "Privacy"
+msgstr "Privatliv"
+
+#: src/Components/Consent/AdminTabConsent.php:30
+#: src/Components/Consent/AdminTabConsent.php:49
+msgctxt "(Admin)"
+msgid "Consent"
+msgstr "Samtykke"
+
+#: src/Components/Consent/AdminTabConsent.php:157
+msgctxt "(Admin)"
+msgid "Consent slug is a required field!"
+msgstr "Samtykke slug er et obligatorisk felt!"
+
+#: src/Components/Consent/AdminTabConsent.php:162
+msgctxt "(Admin)"
+msgid ""
+"You may only use alphanumeric characters, dash and underscore in the consent "
+"slug field."
+msgstr ""
+"Du må kun bruge alfanumeriske tegn, bindestreg og understregning i "
+"samtykkefliken."
+
+#: src/Components/Consent/AdminTabConsent.php:167
+msgctxt "(Admin)"
+msgid "Consent title is a required field!"
+msgstr "Samtykke titel er et påkrævet felt!"
+
+#: src/Components/Consent/ConsentManager.php:46
+#: views/modules/contact-form-7/content-privacy.php:2
+#: views/modules/wordpress-comments/terms-checkbox.php:14
+#: views/modules/wordpress-user/registration-terms-checkbox.php:15
+#, php-format
+msgid "I accept the %sPrivacy Policy%s"
+msgstr "Jeg accepterer %sPrivacy Policy%s"
+
+#: src/Components/Consent/ConsentManager.php:50
+#: src/Components/Consent/ConsentManager.php:69
+msgctxt "(Admin)"
+msgid ""
+"This consent is not visible by default. If someone wishes to withdraw it, "
+"they should simply request to delete all their data."
+msgstr ""
+"Dette samtykke er som standard ikke synligt. Hvis nogen ønsker at trække den "
+"tilbage, skal de blot anmode om at slette alle deres data."
+
+#: src/Components/Consent/ConsentManager.php:65
+#, php-format
+msgid "I accept the %sTerms & Conditions%s"
+msgstr "Jeg accepterer %sVilkår og Betingelser%s"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:19
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:61
+#: views/admin/privacy-policy/generated.php:1 views/installer/header.php:41
+msgctxt "(Admin)"
+msgid "Privacy Policy"
+msgstr "Fortrolighedspolitik"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:70
+msgctxt "(Admin)"
+msgid "Company information"
+msgstr "Virksomhedsoplysninger"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:75
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:209
+msgctxt "(Admin)"
+msgid "Company Name"
+msgstr "firmanavn"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:82
+msgctxt "(Admin)"
+msgid "Company Email"
+msgstr "Firma Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:89
+msgctxt "(Admin)"
+msgid "Company Location"
+msgstr "Virksomhedens placering"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:105
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:245
+msgctxt "(Admin)"
+msgid "Representative Contact Name"
+msgstr "Repræsentant Kontaktnavn"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:112
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:252
+msgctxt "(Admin)"
+msgid "Representative Contact Email"
+msgstr "Repræsentativ Kontakt Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:119
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:259
+msgctxt "(Admin)"
+msgid "Representative Contact Phone"
+msgstr "Repræsentativ Kontakt Telefon"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:135
+msgctxt "(Admin)"
+msgid "Data Protection Authority"
+msgstr "Databeskyttelsesmyndighed"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:141
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:286
+msgctxt "(Admin)"
+msgid "Data Protection Authority Website"
+msgstr "Databeskyttelsesmyndighedens hjemmeside"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:148
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:293
+msgctxt "(Admin)"
+msgid "Data Protection Authority Email"
+msgstr "Data Protection Authority Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:155
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:300
+msgctxt "(Admin)"
+msgid "Data Protection Authority Phone"
+msgstr "Datatilsynets telefon"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:165
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:175
+msgctxt "(Admin)"
+msgid "Data Protection Officer"
+msgstr "Databeskyttelsesofficer"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:168
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgstr "Videnbase: Skal jeg udpege en databeskyttelsesofficer?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:182
+msgctxt "(Admin)"
+msgid "Data Protection Officer Name"
+msgstr "Navn på databeskyttelsesansvarlig"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:190
+msgctxt "(Admin)"
+msgid "Data Protection Officer Email"
+msgstr "Databeskyttelsesofficer Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:216
+msgctxt "(Admin)"
+msgid "Contact Email"
+msgstr "Kontakt Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:235
+msgctxt "(Admin)"
+msgid "Representative Contact"
+msgstr "Repræsentativ Kontakt"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:238
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgstr "Videnbase: Skal jeg udpege en EU-baseret repræsentant?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:317
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:324
+msgctxt "(Admin)"
+msgid "DPO Name"
+msgstr "DPO Navn"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:420
+msgctxt "(Admin)"
+msgid "Save & Generate Policy"
+msgstr "Gem og generer politik"
+
+#: src/Components/PrivacyPolicy/PrivacyPolicy.php:82
+#: src/Installer/Installer.php:271 src/Installer/Steps/PolicySettings.php:199
+#: views/themes/storefront/footer.php:3
+#: views/themes/twentyseventeen/footer.php:3
+#: views/themes/twentysixteen/footer.php:4
+msgid "Privacy Policy"
+msgstr "Fortrolighedspolitik"
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:19
+msgid "This page is currently disabled."
+msgstr "This page is currently disabled."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:35
+#: src/Installer/Installer.php:279
+#: src/Installer/Steps/ConfigurationPages.php:55
+#: views/themes/storefront/footer.php:7
+#: views/themes/twentyseventeen/footer.php:7
+#: views/themes/twentysixteen/footer.php:9
+msgid "Privacy Tools"
+msgstr "Beskyttelse af personlige oplysninger"
+
+#: src/Components/Support/AdminTabSupport.php:13
+#: src/Components/Support/AdminTabSupport.php:20
+msgctxt "(Admin)"
+msgid "Support"
+msgstr "Support"
+
+#: src/Components/WordpressComments/WordpressComments.php:90
+#, php-format
+msgid "%sERROR:%s You need to accept the privacy policy to post a comment."
+msgstr ""
+"%sfejl:%s Du skal acceptere privatlivspolitikken for at skrive en kommentar."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:54
+#: views/privacy-tools/notices.php:19
+msgid "We have received your request and will reply within 30 days."
+msgstr "Vi har modtaget din anmodning og vil svare inden for 30 dage."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:59
+#: views/privacy-tools/notices.php:15
+msgid "Consent withdrawn."
+msgstr "Samtykke tilbagekaldt."
+
+#: src/Components/WordpressUser/RegistrationForm.php:42
+msgid "<strong>ERROR</strong>: You must accept the terms and conditions."
+msgstr ""
+"<strong> FEJL </ strong>: Du skal acceptere vilkårene og betingelserne."
+
+#: src/Components/WordpressUser/WordpressUser.php:63
+#: src/Components/WordpressUser/WordpressUser.php:64
+#: views/modules/wordpress-user/dashboard/data-page/header.php:2
+msgctxt "(Admin)"
+msgid "Privacy Tools"
+msgstr "Beskyttelse af personlige oplysninger"
+
+#: src/DataSubject/AdminTabDataSubject.php:27
+#: src/DataSubject/AdminTabDataSubject.php:41
+msgctxt "(Admin)"
+msgid "Data Subjects"
+msgstr "Data emner"
+
+#: src/DataSubject/DataRepository.php:143
+msgid "Data exported"
+msgstr "Data eksporteret"
+
+#: src/DataSubject/DataRepository.php:158
+msgid "Data export request"
+msgstr "Data eksport anmodning"
+
+#: src/DataSubject/DataRepository.php:171
+msgid "Data removed"
+msgstr "Data fjernet"
+
+#: src/DataSubject/DataRepository.php:186
+msgid "Data removal request"
+msgstr "Data fjernelse anmodning"
+
+#: src/DataSubject/DataSubjectIdentificator.php:65
+#: src/DataSubject/DataSubjectIdentificator.php:82
+msgid "Your personal data on"
+msgstr "Dine personlige data på"
+
+#: src/Helpers.php:27
+msgctxt "(Admin)"
+msgid "Austria"
+msgstr "Austria"
+
+#: src/Helpers.php:28
+msgctxt "(Admin)"
+msgid "Belgium"
+msgstr "Belgien"
+
+#: src/Helpers.php:29
+msgctxt "(Admin)"
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: src/Helpers.php:30
+msgctxt "(Admin)"
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: src/Helpers.php:31
+msgctxt "(Admin)"
+msgid "Cyprus"
+msgstr "Zypern"
+
+#: src/Helpers.php:32
+msgctxt "(Admin)"
+msgid "Czech Republic"
+msgstr "Tschechische Republik"
+
+#: src/Helpers.php:33
+msgctxt "(Admin)"
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: src/Helpers.php:34
+msgctxt "(Admin)"
+msgid "Estonia"
+msgstr "Estland"
+
+#: src/Helpers.php:35
+msgctxt "(Admin)"
+msgid "Finland"
+msgstr "Finnland"
+
+#: src/Helpers.php:36
+msgctxt "(Admin)"
+msgid "France"
+msgstr "Frankreich"
+
+#: src/Helpers.php:37
+msgctxt "(Admin)"
+msgid "Germany"
+msgstr "Deutschland"
+
+#: src/Helpers.php:38
+msgctxt "(Admin)"
+msgid "Greece"
+msgstr "Griechenland"
+
+#: src/Helpers.php:39
+msgctxt "(Admin)"
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: src/Helpers.php:40
+msgctxt "(Admin)"
+msgid "Ireland"
+msgstr "Irland"
+
+#: src/Helpers.php:41
+msgctxt "(Admin)"
+msgid "Italy"
+msgstr "Italien"
+
+#: src/Helpers.php:42
+msgctxt "(Admin)"
+msgid "Latvia"
+msgstr "Lettland"
+
+#: src/Helpers.php:43
+msgctxt "(Admin)"
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: src/Helpers.php:44
+msgctxt "(Admin)"
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: src/Helpers.php:45
+msgctxt "(Admin)"
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Helpers.php:46
+msgctxt "(Admin)"
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: src/Helpers.php:47
+msgctxt "(Admin)"
+msgid "Poland"
+msgstr "Polen"
+
+#: src/Helpers.php:48
+msgctxt "(Admin)"
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/Helpers.php:49
+msgctxt "(Admin)"
+msgid "Romania"
+msgstr "Rumänien"
+
+#: src/Helpers.php:50
+msgctxt "(Admin)"
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#: src/Helpers.php:51
+msgctxt "(Admin)"
+msgid "Slovenia"
+msgstr "Slowenien"
+
+#: src/Helpers.php:52
+msgctxt "(Admin)"
+msgid "Spain"
+msgstr "Spanien"
+
+#: src/Helpers.php:53
+msgctxt "(Admin)"
+msgid "Sweden"
+msgstr "Schweden"
+
+#: src/Helpers.php:54
+msgctxt "(Admin)"
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+#: src/Helpers.php:69
+msgctxt "(Admin)"
+msgid "Iceland"
+msgstr "Island"
+
+#: src/Helpers.php:70
+msgctxt "(Admin)"
+msgid "Norway"
+msgstr "Norwegen"
+
+#: src/Helpers.php:71
+msgctxt "(Admin)"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: src/Helpers.php:72
+msgctxt "(Admin)"
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: src/Helpers.php:73
+msgctxt "(Admin)"
+msgid "United States"
+msgstr "USA"
+
+#: src/Helpers.php:74
+msgctxt "(Admin)"
+msgid "Rest of the world"
+msgstr "Resten af ​​verdenen"
+
+#: src/Helpers.php:145
+msgid "An error has occurred. Please contact the site administrator."
+msgstr "Der opstod en fejl. Kontakt venligst webstedsadministratoren."
+
+#: src/Installer/Installer.php:135
+msgctxt "(Admin)"
+msgid "Setup Wizard"
+msgstr "Opsætningsguide"
+
+#: src/Installer/Steps/ConfigurationPages.php:23
+#: src/Installer/Steps/PolicySettings.php:23
+#: src/Installer/Steps/PolicySettings.php:48
+msgctxt "(Admin)"
+msgid "&mdash; Create a new page &mdash;"
+msgstr "&mdash; Opret en ny side &mdash;"
+
+#: src/Installer/Steps/PolicySettings.php:38
+msgctxt "(Admin)"
+msgid ""
+"We have automatically selected your WooCommerce Terms & Conditions page."
+msgstr "Vi har automatisk valgt din WooCommerce Betingelser side."
+
+#: src/Modules/ContactForm7/ContactForm7.php:35
+msgctxt "(Admin)"
+msgid "gdpr terms txt"
+msgstr "gdpr termer txt"
+
+#: src/Router.php:80 src/Router.php:92 src/Router.php:125 src/Router.php:141
+#, php-format
+msgid "Nonce error for action \"%s\". Please go back and try again!"
+msgstr "Nonce fejl til handling \"%s \". Venligst gå tilbage og prøv igen!"
+
+#: src/Router.php:149
+msgctxt "(Admin)"
+msgid "You do not have the required permissions to perform this action!"
+msgstr "Du har ikke de nødvendige tilladelser til at udføre denne handling!"
+
+#: views/admin/consent.php:3
+msgctxt "(Admin)"
+msgid "Default consent types"
+msgstr "Standard samtykke typer"
+
+#: views/admin/consent.php:4
+msgctxt "(Admin)"
+msgid ""
+"These are the consent types that have been automatically registered by the "
+"framework or a plugin."
+msgstr ""
+"Dette er de samtykke typer, der er registreret automatisk af rammen eller et "
+"plugin."
+
+#: views/admin/consent.php:7 views/admin/consent.php:52
+msgctxt "(Admin)"
+msgid "Slug"
+msgstr "Slug"
+
+#: views/admin/consent.php:8 views/admin/consent.php:38
+#: views/admin/consent.php:60
+msgctxt "(Admin)"
+msgid "Title"
+msgstr "Titel"
+
+#: views/admin/consent.php:9 views/admin/consent.php:41
+#: views/admin/consent.php:63
+msgctxt "(Admin)"
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: views/admin/consent.php:10
+msgctxt "(Admin)"
+msgid "Visibility"
+msgstr "Sigtbarhed"
+
+#: views/admin/consent.php:18
+msgctxt "(Admin)"
+msgid "Visible"
+msgstr "Synlig"
+
+#: views/admin/consent.php:20
+msgctxt "(Admin)"
+msgid "Hidden"
+msgstr "Skjult"
+
+#: views/admin/consent.php:29
+msgctxt "(Admin)"
+msgid "Custom consent types"
+msgstr "Brugerdefinerede samtykke typer"
+
+#: views/admin/consent.php:30
+msgctxt "(Admin)"
+msgid ""
+"Here you can add custom consent types to track. They will not be used "
+"anywhere by default - you will need to build an integration for each of them."
+msgstr ""
+"Her kan du tilføje tilpassede samtykke typer til at spore. De vil ikke blive "
+"brugt som standard som standard - du skal bygge en integration for hver af "
+"dem."
+
+#: views/admin/consent.php:35
+msgctxt "(Admin)"
+msgid "Machine-readable slug"
+msgstr "Maskinlæsbar slug"
+
+#: views/admin/consent.php:44 views/admin/consent.php:68
+msgctxt "(Admin)"
+msgid "Visible?"
+msgstr "Synlig?"
+
+#: views/admin/consent.php:72
+msgctxt "(Admin)"
+msgid "Remove"
+msgstr "Fjerne"
+
+#: views/admin/consent.php:93
+msgctxt "(Admin)"
+msgid "Additional info"
+msgstr "Yderligere information"
+
+#: views/admin/consent.php:95
+msgctxt "(Admin)"
+msgid ""
+"This text will be displayed to your data subjects on the Privacy Tools page."
+msgstr ""
+"Denne tekst bliver vist til dine registrerede på siden Beskyttelse af "
+"personlige oplysninger."
+
+#: views/admin/data-subjects/search-form.php:2
+msgctxt "(Admin)"
+msgid ""
+"On this page, you can find which data subjects personal data you are storing "
+"and download, export or delete it."
+msgstr ""
+"På denne side kan du finde ud af hvilke personoplysninger du gemmer og "
+"downloader, eksporterer eller sletter."
+
+#: views/admin/data-subjects/search-form.php:10
+msgctxt "(Admin)"
+msgid "Find data subject by email"
+msgstr "Find registrerede via e-mail"
+
+#: views/admin/data-subjects/search-form.php:11
+msgctxt "(Admin)"
+msgid "Email address"
+msgstr "Email address"
+
+#: views/admin/data-subjects/search-form.php:16
+msgctxt "(Admin)"
+msgid "Search"
+msgstr "Søg"
+
+#: views/admin/data-subjects/search-results.php:7
+msgctxt "(Admin)"
+msgid "Username"
+msgstr "Brugernavn"
+
+#: views/admin/data-subjects/search-results.php:12
+msgctxt "(Admin)"
+msgid "is not a registered user."
+msgstr "er ikke en registreret bruger."
+
+#: views/admin/data-subjects/search-results.php:16
+msgctxt "(Admin)"
+msgid "Download data (html)"
+msgstr "Download data (html)"
+
+#: views/admin/data-subjects/search-results.php:17
+msgctxt "(Admin)"
+msgid "Export data (json)"
+msgstr "Eksporter data (json)"
+
+#: views/admin/data-subjects/search-results.php:21
+msgctxt "(Admin)"
+msgid ""
+"This user has admin capabilities. Deleting data via this interface is "
+"disabled."
+msgstr ""
+"Denne bruger har administratorfunktioner. Sletning af data via denne "
+"grænseflade er deaktiveret."
+
+#: views/admin/data-subjects/search-results.php:24
+msgctxt "(Admin)"
+msgid "Anonymize data"
+msgstr "Anonymiser data"
+
+#: views/admin/data-subjects/search-results.php:25
+msgctxt "(Admin)"
+msgid "Delete data"
+msgstr "Slet data"
+
+#: views/admin/data-subjects/search-results.php:29
+msgctxt "(Admin)"
+msgid "No data found!"
+msgstr "Ingen data fundet!"
+
+#: views/admin/general/delete-action-email.php:5
+#: views/admin/general/export-action-email.php:5
+#: views/installer/steps/configuration-settings.php:29
+#: views/installer/steps/configuration-settings.php:79
+msgid "Email address"
+msgstr "Email adresse"
+
+#: views/admin/general/delete-action-reassign.php:3
+#: views/installer/steps/configuration-settings.php:50
+msgctxt "(Admin)"
+msgid "Delete content"
+msgstr "Slet indhold"
+
+#: views/admin/general/delete-action-reassign.php:6
+#: views/installer/steps/configuration-settings.php:53
+msgctxt "(Admin)"
+msgid "Reassign content to a user"
+msgstr "Omfordele indhold til en bruger"
+
+#: views/admin/general/delete-action-reassign.php:10
+msgctxt "(Admin)"
+msgid ""
+"If the user has submitted any content on your site, should it be deleted or "
+"reassigned to another user?"
+msgstr ""
+"Hvis brugeren har indsendt indhold på dit websted, skal den slettes eller "
+"tildeles til en anden bruger?"
+
+#: views/admin/general/description-data-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"Select the page where users can go to control their data. This page must "
+"contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Vælg den side, hvor brugerne kan gå for at kontrollere deres data. Denne "
+"side skal indeholde [gdpr_privacy_tools] shortcode."
+
+#: views/admin/general/enable.php:9
+msgctxt "(Admin)"
+msgid "Enable the view, export and forget functionality for users and visitors"
+msgstr ""
+"Aktivér visningen, eksporter og glem funktionaliteten for brugere og "
+"besøgende"
+
+#: views/admin/general/enable.php:12
+msgctxt "(Admin)"
+msgid ""
+"Enable the Privacy Tools page on front-end and dashboard. This allows "
+"visitors to request viewing and deleting their personal data and withdraw "
+"consents."
+msgstr ""
+"Aktivér siden for beskyttelse af personlige oplysninger på front-end og "
+"dashboard. Dette gør det muligt for besøgende at anmode om at se og slette "
+"deres personlige data og trække samtykker tilbage."
+
+#: views/admin/general/theme-compatibility.php:9
+#: views/installer/steps/integrations.php:21
+msgctxt "(Admin)"
+msgid ""
+"Automatically add Privacy Policy and Privacy Tools links to your site footer."
+msgstr ""
+"Tilføj automatisk Privacy Policy og Privacy Tools links til dit websted "
+"footer."
+
+#: views/admin/notices/header.php:4 views/admin/settings-page.php:3
+#: views/installer/header.php:23
+msgctxt "(Admin)"
+msgid "The GDPR Framework"
+msgstr "GDPR-rammen"
+
+#: views/admin/notices/helper-autoinstall.php:2
+msgctxt "(Admin)"
+msgid ""
+"A Privacy Policy page has been created, but it is empty. You can generate a "
+"policy template on this page."
+msgstr ""
+"En side om beskyttelse af personlige oplysninger er blevet oprettet, men den "
+"er tom. Du kan oprette en policy skabelon på denne side."
+
+#: views/admin/notices/helper-policy.php:2
+msgctxt "(Admin)"
+msgid ""
+"Heads up - your Privacy Policy still requires some attention. Find the "
+"places marked with [TODO] and replace them with real content!"
+msgstr ""
+"Heads up - din privatlivspolitik kræver stadig en vis opmærksomhed. Find de "
+"steder, der er markeret med [TODO], og erstat dem med ægte indhold!"
+
+#: views/admin/notices/helper-tools.php:2
+msgctxt "(Admin)"
+msgid ""
+"The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgstr "Indholdet på denne side skal indeholde [gdpr_privacy_tools] shortcode."
+
+#: views/admin/privacy-policy/description-policy-page.php:2
+msgctxt "(Admin)"
+msgid "Select the page which will contain your Privacy Policy"
+msgstr "Vælg den side, der indeholder din privatlivspolitik"
+
+#: views/admin/privacy-policy/generated.php:3
+msgctxt "(Admin)"
+msgid "Your Privacy Policy has been generated."
+msgstr "Din privatlivspolitik er blevet genereret."
+
+#: views/admin/privacy-policy/generated.php:20
+msgctxt "(Admin)"
+msgid "&laquo; Back"
+msgstr "&laquo; Tilbage"
+
+#: views/admin/privacy-policy/header.php:2
+msgctxt "(Admin)"
+msgid ""
+"This page allows you to generate a Privacy Policy based on the information "
+"you entered below."
+msgstr ""
+"Denne side giver dig mulighed for at generere en privatlivspolitik baseret "
+"på de oplysninger, du indtastede herunder."
+
+#: views/admin/settings-page.php:31
+#, php-format
+msgctxt "(Admin)"
+msgid "The GDPR Framework. Built with &#9829; by %sCodelight%s."
+msgstr "GDPR-rammen. Bygget med &#9829; ved %sCodelight%s."
+
+#: views/admin/support/contents.php:5 views/installer/steps/finish.php:10
+msgctxt "(Admin)"
+msgid "Need more info?"
+msgstr "Har du brug for mere info?"
+
+#: views/admin/support/contents.php:11 views/installer/steps/finish.php:16
+msgctxt "(Admin)"
+msgid "Site Owner's guide to GDPR"
+msgstr "Site Owner's Guide til GDPR"
+
+#: views/admin/support/contents.php:14 views/installer/steps/finish.php:19
+msgctxt "(Admin)"
+msgid "Read the full guide on GDPR compliance."
+msgstr "Læs den komplette vejledning om overholdelse af GDPR."
+
+#: views/admin/support/contents.php:20 views/installer/steps/finish.php:25
+msgctxt "(Admin)"
+msgid "Knowledge base"
+msgstr "Videnbase"
+
+#: views/admin/support/contents.php:23 views/installer/steps/finish.php:28
+msgctxt "(Admin)"
+msgid "Check out the knowledge base for common questions and answers."
+msgstr "Tjek kendskabet til almindelige spørgsmål og svar."
+
+#: views/admin/support/contents.php:29 views/installer/steps/finish.php:34
+msgctxt "(Admin)"
+msgid "Developer's guide to GDPR"
+msgstr "Udviklerens vejledning til GDPR"
+
+#: views/admin/support/contents.php:32 views/installer/steps/finish.php:37
+msgctxt "(Admin)"
+msgid "We have a thorough guide to help making custom sites compliant."
+msgstr ""
+"Vi har en grundig vejledning, der hjælper med at gøre brugerdefinerede "
+"websteder kompatible."
+
+#: views/admin/support/contents.php:40 views/installer/steps/finish.php:45
+msgctxt "(Admin)"
+msgid "Need help?"
+msgstr "Brug for hjælp?"
+
+#: views/admin/support/contents.php:46 views/installer/steps/finish.php:51
+msgctxt "(Admin)"
+msgid "Submit a support request"
+msgstr "Indsend en supportanmodning"
+
+#: views/admin/support/contents.php:49 views/installer/steps/finish.php:54
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or problem with the plugin? Post in the wordpress.org support "
+"forum."
+msgstr ""
+"Har du fundet en fejl eller et problem med plugin? Indsend i wordpress.org "
+"support forum."
+
+#: views/admin/support/contents.php:55 views/installer/steps/finish.php:60
+msgctxt "(Admin)"
+msgid "Request a consultation"
+msgstr "Anmod om høring"
+
+#: views/admin/support/contents.php:58 views/installer/steps/finish.php:63
+msgctxt "(Admin)"
+msgid ""
+"Need development or legal assistance in making your site compliant? We can "
+"help!"
+msgstr ""
+"Har du brug for udvikling eller juridisk bistand til at gøre dit websted "
+"kompatibelt? Vi kan hjælpe!"
+
+#: views/admin/wizard-buttons.php:2
+msgctxt "(Admin)"
+msgid "Restart setup wizard"
+msgstr "Genstart installationsguiden"
+
+#: views/email/action-export.php:8 views/email/action-forget.php:12
+msgctxt "(Admin)"
+msgid ""
+"This email is just for your information. You don't need to take any action"
+msgstr "Denne email er kun til din information. Du behøver ikke at gøre noget"
+
+#: views/email/action-forget.php:8
+msgctxt "(Admin)"
+msgid "The data subject had a user account on your website."
+msgstr "Den registrerede havde en brugerkonto på din hjemmeside."
+
+#: views/email/identify-data-subject.php:2
+msgid "Someone has requested access to your data on"
+msgstr "Nogen har bedt om adgang til dine data på"
+
+#: views/email/identify-data-subject.php:3
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Hvis dette var en fejl, ignorerer du bare denne email, og der sker ikke "
+"noget."
+
+#: views/email/identify-data-subject.php:4
+msgid "To manage your data, visit the following address:"
+msgstr "For at administrere dine data skal du besøge følgende adresse:"
+
+#: views/email/identify-data-subject.php:10
+msgid "This link is valid for 15 minutes."
+msgstr "Dette link er gyldigt i 15 minutter."
+
+#: views/email/no-data.php:2
+msgid "Someone has requested information about your personal data on"
+msgstr "Nogen har bedt om oplysninger om dine personlige data på"
+
+#: views/email/no-data.php:3
+msgid "None of your personal data is stored on"
+msgstr "Ingen af ​​dine personlige data gemmes på"
+
+#: views/email/no-data.php:5
+msgid ""
+"If this was a mistake or you did not request this email, just ignore it and "
+"nothing will happen."
+msgstr ""
+"Hvis dette var en fejl eller du ikke anmodede om denne email, ignorerer du "
+"bare det, og intet vil ske."
+
+#: views/email/request-export.php:13 views/email/request-forget.php:13
+msgctxt "(Admin)"
+msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgstr "Som en påmindelse: Ifølge GDPR har du 30 dage til at overholde."
+
+#: views/global/delete-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically anonymize data"
+msgstr "Automatisk anonymisering af data"
+
+#: views/global/delete-action.php:5
+msgctxt "(Admin)"
+msgid "Automatically delete data"
+msgstr "Slet automatisk data"
+
+#: views/global/delete-action.php:9
+msgctxt "(Admin)"
+msgid "Automatically anonymize data and notify me via email"
+msgstr "Automatisk anonymisering af data og meddelelse mig via e-mail"
+
+#: views/global/delete-action.php:13
+msgctxt "(Admin)"
+msgid "Automatically delete data and notify me via email"
+msgstr "Slet automatisk data og meddel mig via e-mail"
+
+#: views/global/delete-action.php:16 views/global/export-action.php:10
+msgctxt "(Admin)"
+msgid "Only notify me via email"
+msgstr "Kun underret mig via e-mail"
+
+#: views/global/export-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically download data"
+msgstr "Download data automatisk"
+
+#: views/global/export-action.php:6
+msgctxt "(Admin)"
+msgid "Automatically download data and notify me via email"
+msgstr "Download automatisk data og underret mig via e-mail"
+
+#: views/installer/continue-notice.php:2
+msgctxt "(Admin)"
+msgid "The The GDPR Framework setup has not been finalized yet."
+msgstr "GDPR Framework-opsætningen er endnu ikke færdiggjort."
+
+#: views/installer/continue-notice.php:3
+msgctxt "(Admin)"
+msgid "You can continue the setup at any time."
+msgstr "Du kan til enhver tid fortsætte opsætningen."
+
+#: views/installer/continue-notice.php:6
+msgctxt "(Admin)"
+msgid "Continue the setup wizard"
+msgstr "Fortsæt installationsguiden"
+
+#: views/installer/continue-notice.php:9
+msgctxt "(Admin)"
+msgid "Hide this message"
+msgstr "Skjul denne besked"
+
+#: views/installer/footer.php:7
+msgid "Back"
+msgstr "Tilbage"
+
+#: views/installer/header.php:26
+msgctxt "(Admin)"
+msgid "I need help"
+msgstr "jeg har brug for hjælp"
+
+#: views/installer/header.php:29
+msgctxt "(Admin)"
+msgid "Developer Docs"
+msgstr "Developer Docs"
+
+#: views/installer/header.php:36
+msgctxt "(Admin)"
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: views/installer/header.php:46
+msgctxt "(Admin)"
+msgid "Forms & Consent"
+msgstr "Formularer og samtykke"
+
+#: views/installer/header.php:51
+msgctxt "(Admin)"
+msgid "Integrations"
+msgstr "integrationer"
+
+#: views/installer/steps/configuration-settings.php:23
+#: views/installer/steps/configuration-settings.php:73
+msgctxt "(Admin)"
+msgid "Enter the email address to notify"
+msgstr "Indtast e-mail-adressen for at underrette"
+
+#: views/installer/steps/disclaimer.php:21
+msgctxt "(Admin)"
+msgid "I accept"
+msgstr "jeg accepterer"
+
+#: views/installer/welcome-notice.php:7
+msgctxt "(Admin)"
+msgid "Run the setup wizard"
+msgstr "Kør installationsguiden"
+
+#: views/installer/welcome-notice.php:11
+msgctxt "(Admin)"
+msgid "Auto-install pages"
+msgstr "Auto-installere sider"
+
+#: views/installer/welcome-notice.php:15
+msgctxt "(Admin)"
+msgid "Skip and install manually"
+msgstr "Spring og installer manuelt"
+
+#: views/modules/contact-form-7/generator-privacy.php:6
+msgctxt "(Admin)"
+msgid ""
+"This tag generates the default text for Terms & Conditions and/or Privacy "
+"Policy checkbox."
+msgstr ""
+"Dette tag genererer standardteksten til vilkår og betingelser og / eller "
+"privatlivspolitik."
+
+#: views/modules/contact-form-7/generator-privacy.php:15
+msgid "Insert"
+msgstr "Indsæt"
+
+#: views/modules/wordpress-comments/terms-checkbox.php:6
+#: views/modules/wordpress-user/registration-terms-checkbox.php:7
+#, php-format
+msgid "I accept the %sTerms and Conditions%s and the %sPrivacy Policy%s"
+msgstr "Jeg accepterer %sVilkår og betingelser%s og %sFortrolighedspolitik%s"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:3
+msgid "Manage consents"
+msgstr "Administrer samtykker"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:6
+#: views/privacy-tools/form-consent.php:6
+msgid "Here you can withdraw any consents you have given."
+msgstr "Her kan du trække eventuelle samtykker tilbage."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:8
+#: views/privacy-tools/form-consent.php:9
+msgid "Consent types"
+msgstr "Samtykke typer"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:23
+#: views/privacy-tools/form-consent.php:24
+msgid "Withdraw"
+msgstr "Træk"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:5
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:5
+msgctxt "(Admin)"
+msgid "Delete this user and all data"
+msgstr "Slet denne bruger og alle data"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete my data"
+msgstr "Slet mine data"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:15
+#: views/privacy-tools/form-delete.php:13
+msgid "Delete all data we have gathered about you."
+msgstr "Slet alle data vi har samlet om dig."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:16
+#: views/privacy-tools/form-delete.php:14
+msgid "If you have a user account on our site, it will also be deleted."
+msgstr ""
+"Hvis du har en brugerkonto på vores hjemmeside, bliver den også slettet."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:17
+#: views/privacy-tools/form-delete.php:15
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr "Pas på - denne handling er permanent og kan ikke fortrydes."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:22
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:23
+msgctxt "(Admin)"
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/"
+"anonymizing via this page is disabled."
+msgstr ""
+"Du synes at have en administrator eller tilsvarende rolle, så sletning / "
+"anonymisering via denne side er deaktiveret."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:7
+#: views/privacy-tools/form-export.php:1
+msgid "Download your data"
+msgstr "Download dine data"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:12
+#: views/privacy-tools/form-export.php:13
+msgid "Download as table"
+msgstr "Download som tabel"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:15
+#: views/privacy-tools/form-export.php:22
+msgid "Export as JSON"
+msgstr "Eksporter som JSON"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:19
+#: views/privacy-tools/form-export.php:4
+msgid "You can download all your data formatted as a table for viewing."
+msgstr "Du kan downloade alle dine data formateret som et bord til visning."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:20
+#: views/privacy-tools/form-export.php:5
+msgid "Alternatively, you can export it in machine-readable JSON format."
+msgstr "Alternativt kan du eksportere det i maskinlæsbart JSON-format."
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete user and all data"
+msgstr "Slet bruger og alle data"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:14
+msgctxt "(Admin)"
+msgid "Anonymize user and all data"
+msgstr "Anonym bruger og alle data"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:2
+msgctxt "(Admin)"
+msgid "GDPR Data"
+msgstr "GDPR-data"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:6
+msgctxt "(Admin)"
+msgid "This user has been anonymized."
+msgstr "Denne bruger er blevet anonymiseret."
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:4
+msgctxt "(Admin)"
+msgid "Consents given"
+msgstr "Tilladelser givet"
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:17
+msgctxt "(Admin)"
+msgid "No consents given"
+msgstr "Ingen tilladelser givet"
+
+#: views/privacy-tools/form-consent.php:2
+msgid "Consent"
+msgstr "Samtykke"
+
+#: views/privacy-tools/form-delete.php:1
+#: views/privacy-tools/notice-admin-role.php:1
+msgid "Delete my user and data"
+msgstr "Slet min bruger og data"
+
+#: views/privacy-tools/form-delete.php:7
+msgid "Delete my data"
+msgstr "Slet mine data"
+
+#: views/privacy-tools/form-identify.php:8
+msgid "Back to Privacy Tools"
+msgstr "Tilbage til Privacy Tools"
+
+#: views/privacy-tools/form-identify.php:14
+msgid "Identify yourself!"
+msgstr "Identificer dig selv!"
+
+#: views/privacy-tools/form-identify.php:17
+#: views/privacy-tools/form-identify.php:20
+msgid "Enter your email address"
+msgstr "Indtast din e-mailadresse"
+
+#: views/privacy-tools/form-identify.php:23
+msgid "Send email"
+msgstr "Send e-mail"
+
+#: views/privacy-tools/notice-admin-role.php:4
+msgctxt "(Admin)"
+msgid "Data deletion is disabled for administrative accounts."
+msgstr "Data sletning er deaktiveret for administrative konti."
+
+#: views/privacy-tools/notices.php:3
+msgid ""
+"We will send you an email with the link to access your data. Please check "
+"your spam folder as well!"
+msgstr ""
+"Vi sender dig en email med linket for at få adgang til dine data. Kontroller "
+"også din spam mappe!"
+
+#: views/privacy-tools/notices.php:7
+msgid "The email you entered does not appear to be a valid email."
+msgstr "Den email du indtastede ser ikke ud til at være en gyldig email."
+
+#: views/privacy-tools/notices.php:11
+msgid "Sorry - the link seems to have expired. Please try again!"
+msgstr "Beklager - linket synes at være udløbet. Prøv igen!"
+
+#: views/privacy-tools/notices.php:23
+msgid "Your personal data has been removed!"
+msgstr ""
+"Deine personenbezogenen Daten wurden gelöscht!Dine personlige data er blevet "
+"fjernet!"
+
+#: views/privacy-tools/privacy-tools.php:5
+msgid "You are identified as"
+msgstr "Du er identificeret som"
+
+#: views\admin\general\enable-tac.php:9
+msgctxt "(Admin)"
+msgid "Enable the term and condition page."
+msgstr ""
+"Aktiviere Begriffs- und Bedingungsseite.Aktivér termen og betingelsessiden."
+
+#: src\Admin\AdminTabGeneral.php:51
+msgctxt "(Admin)"
+msgid "Enable Term and Conditions"
+msgstr "Aktivér vilkår og betingelser"
+
+#: gdpr-framework.php:121
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Denne hjemmeside bruger cookies for at sikre, at du får den bedste oplevelse "
+"på vores hjemmeside."
+
+#: gdpr-framework.php:121
+msgid "Decline"
+msgstr "Nedgang"
+
+#: gdpr-framework.php:121
+msgid "Accept"
+msgstr "Acceptere"
+
+#: gdpr-framework.php:133
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: AdminTabGeneral.php:94
+msgctxt "(Admin)"
+msgid "From Email"
+msgstr "Fra Email"
+
+#: AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "From Name"
+msgstr "Fra Navn"
+
+#: AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "Email Setting"
+msgstr "Emailindstilling"
+
+#: AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "Acceptance Popup Setting"
+msgstr "Acceptance Popup Indstilling"
+
+#: AdminTabGeneral.php:109
+msgctxt "(Admin)"
+msgid "Popup Position"
+msgstr "Popup Position"
+
+#: AdminTabGeneral.php:116
+msgctxt "(Admin)"
+msgid "Popup theme"
+msgstr "Popup tema"
+
+#: AdminTabGeneral.php:123
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Background Color"
+msgstr "Cookie Acceptance Baggrundsfarve"
+
+#: AdminTabGeneral.php:130
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Text Color"
+msgstr "Cookie Acceptance Text Color"
+
+#: AdminTabGeneral.php:137
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Backgroung Color"
+msgstr "Cookie Acceptance Button Baggrundsfarve"
+
+#: AdminTabGeneral.php:144
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Color"
+msgstr "Cookie Acceptance Button Color"
+
+#: AdminTabGeneral.php:151
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Border Color"
+msgstr "Cookie Acceptance Border Color"
+
+#: AdminTabGeneral.php:67
+msgctxt "(Admin)"
+msgid "Enable Cookie Acceptance Popup"
+msgstr "Aktivér cookieoptagelse popup"
+
+#: AdminTabGeneral.php:73
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup Content"
+msgstr "Cookie Acceptance Popup indhold"
+
+#: description-position-action.php
+msgctxt "(Admin)"
+msgid "Select position of the Popup"
+msgstr "Vælg position af popupen"
+
+#: description-theme-action.php
+msgctxt "(Admin)"
+msgid "Select theme of the Popup"
+msgstr "Vælg tema for popupen"
+
+#: description-theme-action.php:69
+msgctxt "(Admin)"
+msgid "Disable Comment Checkbox"
+msgstr "Deaktiver kommentarfeltet"
+
+#: description-theme-action.php:76
+msgctxt "(Admin)"
+msgid "Disable Register Form Checkbox"
+msgstr "Deaktiver Registreringsform Checkbox"
+
+#: description-theme-action.php:312
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Comments"
+msgstr "Deaktiver afkrydsningsfeltet for kommentarer"
+
+#: AdminTabGeneral.php:319
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Register Form"
+msgstr "Deaktiver afkrydsningsfeltet for registreringsformular"
+
+#: views/privacy-tools/form-identify.php:15
+msgid "Please identify yourself via e-mail"
+msgstr "Identificer dig selv via e-mail"
+
+#: advanced-integration\header.php:2
+msgctxt "(Admin)"
+msgid "This page allows you to advance integration with ClassiDocs™"
+msgstr ""
+"Denne side giver dig mulighed for at fremme integration med ClassiDocs™"
+
+#: AdminTabAdvancedIntegration.php:97
+msgctxt "(Admin)"
+msgid "ClassiDocs Password"
+msgstr "ClassiDocs Password"
+
+#: AdminTabAdvancedIntegration.php:88
+msgctxt "(Admin)"
+msgid "ClassiDocs Username"
+msgstr "ClassiDocs Brugernavn"
+
+#: AdminTabAdvancedIntegration.php:79
+msgctxt "(Admin)"
+msgid "ClassiDocs URL"
+msgstr "ClassiDocs URL"
+
+#: AdminTabAdvancedIntegration.php:69
+msgctxt "(Admin)"
+msgid "Enable Response with related queries?"
+msgstr "Aktivér svar med relaterede forespørgsler?"
+
+#: AdminTabAdvancedIntegration.php:60
+msgctxt "(Admin)"
+msgid "Submit SAR request details?"
+msgstr "Indsend SAR-anmodning detaljer?"
+
+#: AdminTabAdvancedIntegration.php:51
+msgctxt "(Admin)"
+msgid "Integrate with ClassiDocs?"
+msgstr "Integrere med ClassiDocs?"
+
+#: AdminTabAdvancedIntegration.php:43
+msgctxt "(Admin)"
+msgid "Integration Settings"
+msgstr "Integrationsindstillinger"
+
+#: AdminTabAdvancedIntegration.php:35
+msgctxt "(Admin)"
+msgid "Advanced Integration"
+msgstr "Avanceret integration"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Sign up for free here"
+msgstr "Tilmeld dig gratis her"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Click Here"
+msgstr "Klik her"
+
+#: ClassiDocs-results.php:12
+msgid "Previous Results"
+msgstr "Tidligere resultater"
+
+#: ClassiDocs-results.php:13
+msgid "Current Results"
+msgstr "Nuværende resultater"
+
+#: ClassiDocs-results.php:19
+msgid "Name"
+msgstr "Navn"
+
+#: ClassiDocs-results.php:22
+msgid "Path"
+msgstr "Sti"
+
+#: ClassiDocs-results.php:34
+msgid "Workstation"
+msgstr "Workstation"
+
+#: ClassiDocs-results.php:37
+msgid "Last Scan"
+msgstr "Sidste Scan"
+
+#: ClassiDocs-results.php:62
+msgid "No ClassiDocs data found!"
+msgstr "Ingen ClassiDocs data fundet!"
+
+#: enable_popup_header.php:5
+msgid "Cookies used on the website!"
+msgstr "Cookies utilizadas en el sitio web!"
+
+#: enable_popup_header.php:9
+msgid "Leave blank if don't want header to get display."
+msgstr "Deje en blanco si no quiere que el encabezado se muestre."
+
+#: AdminTabCookiePopup.php:39
+msgctxt "(Admin)"
+msgid "Cookie Popup Settings"
+msgstr "Cookie popup indstillinger"
+
+#: AdminTabCookiePopup.php:17
+msgctxt "(Admin)"
+msgid "Cookie Popup"
+msgstr "Cookie popup"
+
+#: AdminTabCookiePopup.php:49
+msgctxt "(Admin)"
+msgid "Enable One Time Cookie Acceptance Popup"
+msgstr "Aktivér One Time Cookie Acceptance Popup"
+
+#: consent.php:79
+msgctxt "(Admin)"
+msgid "Show Consent types"
+msgstr "Vis samtykke typer"
+
+msgctxt "(Admin)"
+msgid "Hide consent types"
+msgstr "Skjul samtykke typer"
+
+msgctxt "(Admin)"
+msgid "Do you want form to be GDPR compliance."
+msgstr "Ønsker du, at formularen er GDPR-overholdelse."
+
+msgctxt "(Admin)"
+msgid ""
+"You have installed flamingo, To make this GDPR compliance in individual "
+"contact form's privacy tab check the checkbox for include data to be search "
+"on Privacy tool."
+msgstr ""
+"Du har installeret flamingo. For at gøre denne GDPR-overholdelse i den "
+"enkelte kontaktformularens privatlivs-faneblad markér afkrydsningsfeltet "
+"for, at data, der skal søges i Privacy-værktøjet, er inkluderet."
+
+msgctxt "(Admin)"
+msgid "Enable Policy Link On Popup"
+msgstr "Aktivér politiklink på pop op"
+
+msgctxt "(Admin)"
+msgid "Enable Privacy policy on Popup"
+msgstr "Aktivér privatlivspolitik på pop op"
+
+#: AdminTabCookiePopup.php
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup header"
+msgstr "Cookie Acceptance Popup header"
+
+#: views\admin\privacy-manager\header.php:2
+msgctxt "(Admin)"
+msgid "Data443™ Privacy Manager"
+msgstr "Data443™ Privacy Manager"
+
+#: views\admin\privacy-manager\header.php:3
+msgctxt "(Admin)"
+msgid ""
+"ensures privacy regulation compliance, such as GDPR, CCPA, LGPD, etc, at the "
+"next level."
+msgstr ""
+"sikrer overholdelse af reglerne om beskyttelse af privatlivets fred, som f."
+"eks. GDPR, CCPA, LGPD osv. på næste niveau."
+
+#: views\admin\privacy-manager\header.php:4
+msgctxt "(Admin)"
+msgid ""
+"In addition to DSAR tracking and management, Privacy Manager adds the "
+"following features to your data protection compliance resources:"
+msgstr ""
+"Ud over DSAR-tracking og -administration tilføjer Privacy Manager følgende "
+"funktioner til dine databeskyttelsesoverensstemmelsesressourcer:"
+
+#: views\admin\privacy-manager\header.php:6
+msgctxt "(Admin)"
+msgid "Log and store ICO breach notifications"
+msgstr "Log og gem ICO krænker underretninger"
+
+#: views\admin\privacy-manager\header.php:7
+msgctxt "(Admin)"
+msgid "Keeps full record of all requests, ticketed and timeline"
+msgstr "Holder fuld rekord af alle anmodninger, billet og tidslinje"
+
+#: views\admin\privacy-manager\header.php:8
+msgctxt "(Admin)"
+msgid "Gap analysis and breach notifications"
+msgstr "Gap analyse og brud underretninger"
+
+#: views\admin\privacy-manager\header.php:9
+msgctxt "(Admin)"
+msgid "In depth activity log with all GDPR, CCPA, etc actions evidenced"
+msgstr "I dybde aktivitets log med alle GDPR, CCPA, etc handlinger vist"
+
+#: views\admin\privacy-manager\header.php:10
+msgctxt "(Admin)"
+msgid "Highlights areas of concern and where you need to focus"
+msgstr "Fremhæver områder af bekymring og hvor du skal fokusere"
+
+#: views\admin\privacy-manager\header.php:11
+msgctxt "(Admin)"
+msgid ""
+"eLearning platform with access for all staff to ensure privacy regulation "
+"compliance and obligations"
+msgstr ""
+"eLearning platform med adgang for alle medarbejdere til at sikre "
+"overholdelse og forpligtelser til beskyttelse af privatlivets fred"
+
+#: views\admin\privacy-manager\header.php:12
+msgctxt "(Admin)"
+msgid "Tracks who accesses the system, when and why"
+msgstr "Spor, der får adgang til systemet, hvornår og hvorfor"
+
+#: views\admin\privacy-manager\header.php:15
+msgctxt "(Admin)"
+msgid ""
+"Our system enables your business to demonstrate its obligations in "
+"protecting your customer data, show understanding of your business "
+"activities and deliver eLearning and online tests to employees, ensuring "
+"everyone in your company understands your privacy compliance rules and best "
+"practices to operate."
+msgstr ""
+"Vores system gør det muligt for din virksomhed at demonstrere sine "
+"forpligtelser med hensyn til at beskytte dine kundedata, vise forståelse for "
+"dine forretningsaktiviteter og levere eLearning og online test til "
+"medarbejdere, så alle i din virksomhed forstår dine regler for beskyttelse "
+"af personlige oplysninger og bedste praksis til at fungere."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid ""
+"No matter where you are on your data privacy journey, the ultimate goal is "
+"compliance."
+msgstr ""
+"Uanset hvor du er på din datasikkerhedsrejse, er det ultimative mål at "
+"overholde."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid "enables your organization to comply with all privacy regulations."
+msgstr ""
+"gør det muligt for din organisation at overholde alle regler om beskyttelse "
+"af personlige oplysninger."
+
+#: views\admin\support\contents.php:49
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or have a question about the plugin? Submit a support request "
+"and we’ll get right on it!"
+msgstr ""
+"Har du fundet en fejl eller har du et spørgsmål om plugin? Send en "
+"supportanmodning, og vi får det rigtigt!"
+
+#: views\admin\support\contents.php:58
+msgctxt "(Admin)"
+msgid "Need assistance in making your site compliant? We can help!"
+msgstr ""
+"Har du brug for hjælp til at gøre dit websted kompatibelt? Vi kan hjælpe!"
+
+#: views\admin\general\woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool"
+msgstr "Aktivér WooCommerce-data på GDPR-værktøjet"
+
+#: src\Admin\AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Enable WooCommerce Compatibility"
+msgstr "Aktivér WooCommerce-kompatibilitet"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:19
+msgid "Note Regarding Order:"
+msgstr "Bemærkning vedrørende ordre:"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:20
+msgid ""
+"Your order with status Processing will not get deleted until status change."
+msgstr ""
+"Din ordre med status Behandling vil ikke blive slettet, indtil statusændring."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:21
+msgid "Your order with status Completed will get anonymize."
+msgstr "Din ordre med status Afsluttet vil blive anonymiseret."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:22
+msgid "If you delete Completed order you can't apply for refund."
+msgstr "Hvis du sletter Afsluttet ordre, kan du ikke søge om refusion."
+
+#: views\admin\general\woo-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for WooCommerce Version 3.4.0 or later."
+msgstr "Vil arbejde for WooCommerce Version 3.4.0 eller nyere."
+
+#: views\admin\general\edd-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable EDD data on GDPR tool."
+msgstr "Aktivér EDD-data på GDPR-værktøjet."
+
+#: views\admin\general\edd-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for EDD Version 2.0.0 or later."
+msgstr "Vil arbejde for EDD Version 2.0.0 eller senere."
+
+#: src\Admin\AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Enable EDD Compatibility"
+msgstr "Aktiver EDD-kompatibilitet"
+
+#: gdpr-framework.php:298
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid ""
+"This consent is visible by default on woocommerce checkout page. If someone "
+"wishes to withdraw it, they should simply request to delete all their data."
+msgstr ""
+"Dette samtykke er som standard synligt på wokommerce checkout side. Hvis "
+"nogen ønsker at trække det tilbage, skal de blot anmode om at slette alle "
+"deres data."
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid "Woocommerce Policy Consent"
+msgstr "Woocommerce Policy Consent"
+
+#: WoocommerceGdpr.php:150
+msgid "Please acknowledge the Privacy Policy"
+msgstr "Vær venlig at anerkende privatlivspolitikken"
+
+#: woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool."
+msgstr "Aktivér WooCommerce-data på GDPR-værktøjet."
+
+#: views\admin\general\enable-popup.php:12
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+"accepted on popup accept button."
+msgstr ""
+"<b> Bemærk: </ b> Har brug for at tilføje brugerdefineret indhold <b> "
+"gdpr_cookie_consent </ b> det accepteres på popup accept knappen."
+
+#: AdminTabCookiePopup.php:105
+msgctxt "(Admin)"
+msgid "Popup Dismiss Text"
+msgstr "Popup Afvis Tekst"
+
+#: AdminTabCookiePopup.php:98
+msgctxt "(Admin)"
+msgid "Popup Allow Text"
+msgstr "Popup Tillad tekst"
+
+#: AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Woocommerce Integration"
+msgstr "WoCommerce Integration"
+
+#: AdminTabGeneral.php:259
+msgctxt "(Admin)"
+msgid "Easy Digital Download Integration"
+msgstr "Easy Digital Download Integration"
+
+#: has-dpo.php:11
+msgctxt "(Admin)"
+msgid "I have appointed a Data Protection Officer (DPO)"
+msgstr "Jeg har udpeget en databeskyttelsesansvarlig (DPO)"
+
+#: views/admin/general/stylesheet.php:9
+msgctxt "(Admin)"
+msgid "Enable basic styling for Privacy Tools page."
+msgstr "Aktivér grundlæggende styling for siden Privacy Policy."
+
+#: AdminTabPrivacyPolicy.php:204
+msgctxt "(Admin)"
+msgid "Delete Text"
+msgstr "Slet tekst"
+
+#: consent.php:80
+msgctxt "(Admin)"
+msgid "Add consent type"
+msgstr "Tilføj tilladelse type"
+
+#: AdminTabGeneral.php:127
+msgctxt "(Admin)"
+msgid "Privacy Policy Custom URL"
+msgstr "Privacy Policy Brugerdefineret URL"
+
+#: custom-policy-url.php:6
+msgctxt "(Admin)"
+msgid "Leave blank if privacy policy page already selected"
+msgstr ""
+"Forlad blank hvis siden om beskyttelse af personlige oplysninger allerede er "
+"valgt"
+
+#: views/admin/general/description-delete-action.php:2
+msgctxt "(Admin)"
+msgid "What should happen if a data subject requests deleting their data."
+msgstr "Hvad skal der ske, hvis et registrerede ønsker at slette deres data."
+
+#: views/admin/general/description-export-action.php:2
+msgctxt "(Admin)"
+msgid "Optional. Select the page which contains your Terms & Conditions"
+msgstr "Valgfri. Vælg den side, der indeholder dine Vilkår og betingelser"
+
+#: views/admin/general/description-terms-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"What should happen if a data subject requests viewing or exporting their "
+"data."
+msgstr ""
+"Hvad skal der ske, hvis et registreret ønsker at se eller eksportere deres "
+"data."
+
+#: woo-disable_checkbox.php:9
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Privacy Checkbox"
+msgstr "Deaktiver WooCommerce Privacy Checkbox"
+
+#: AdminTabCookiePopup.php:133
+msgctxt "(Admin)"
+msgid "Popup Learn More Text"
+msgstr "Popup Lær mere tekst"
+
+#: AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Register Privacy Checkbox"
+msgstr ""
+"Deaktiver afkrydsningsfeltet WooCommerce Register for beskyttelse af "
+"personlige oplysninger"
+
+#: AdminTabCookiePopup.php:121
+msgctxt "(Admin)"
+msgid "Cookie Acceptance link target"
+msgstr "Cookie-acceptlink-link"
+
+#: popup_link_target.php:3
+msgctxt "(Admin)"
+msgid "Next Tab"
+msgstr "Næste fane"
+
+#: popup_link_target.php:5
+msgctxt "(Admin)"
+msgid "Self"
+msgstr "self"

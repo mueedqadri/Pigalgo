@@ -1,0 +1,1890 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codelight
+# This file is distributed under the same license as the The GDPR Framework package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: The GDPR Framework 1.0\n"
+"Report-Msgid-Bugs-To: gdpr@codelight.eu\n"
+"POT-Creation-Date: 2018-04-16 09:26+0000\n"
+"PO-Revision-Date: 2019-09-19 12:45+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt_PT\n"
+
+#: gdpr-framework.php:26
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Error"
+msgstr "WordPress GDPR &rsaquo; Chyba"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "Invalid PHP version"
+msgstr "Neplatná verzia PHP"
+
+#: gdpr-framework.php:35
+msgctxt "(Admin)"
+msgid "You must be using PHP 5.6.33 or greater."
+msgstr "Musíte používať PHP 5.6.33 alebo vyšší."
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "Invalid WordPress version"
+msgstr "Neplatná verzia programu WordPress"
+
+#: gdpr-framework.php:42
+msgctxt "(Admin)"
+msgid "You must be using WordPress 4.3.0 or greater."
+msgstr "Musíte používať WordPress 4.3.0 alebo vyšší."
+
+#: gdpr-framework.php:52
+msgctxt "(Admin)"
+msgid ""
+"You appear to be running a development version of GDPR. You must run "
+"<code>composer install</code> from the plugin directory."
+msgstr ""
+"Zdá sa, že používate vývojovú verziu GDPR. Musíte spustiť <code> "
+"nainštalovať </code> z adresára pluginov."
+
+#: gdpr-framework.php:53
+msgctxt "(Admin)"
+msgid "Autoloader not found."
+msgstr "Autoloader sa nenašiel."
+
+#: gdpr-framework.php:115
+msgctxt "(Admin)"
+msgid "Anonymous"
+msgstr "anonymný"
+
+#: src/Admin/AdminTab.php:115
+msgctxt "(Admin)"
+msgid "Save"
+msgstr "Uložiť"
+
+#: src/Admin/AdminTab.php:151
+msgctxt "(Admin)"
+msgid "Policy generated!"
+msgstr "Generované pravidlá!"
+
+#: src/Admin/AdminTabGeneral.php:11
+msgctxt "(Admin)"
+msgid "General"
+msgstr "všeobecný"
+
+#: src/Admin/AdminTabGeneral.php:37
+msgctxt "(Admin)"
+msgid "General Settings"
+msgstr "Všeobecné nastavenia"
+
+#: src/Admin/AdminTabGeneral.php:42
+msgctxt "(Admin)"
+msgid "Enable Privacy Tools"
+msgstr "Povoliť nástroje na ochranu osobných údajov"
+
+#: src/Admin/AdminTabGeneral.php:52
+msgctxt "(Admin)"
+msgid "Pages"
+msgstr "stránky"
+
+#: src/Admin/AdminTabGeneral.php:57 src/Admin/WordpressAdmin.php:151
+msgctxt "(Admin)"
+msgid "Privacy Tools Page"
+msgstr "Nástroje ochrany osobných údajov"
+
+#: src/Admin/AdminTabGeneral.php:64 src/Admin/WordpressAdmin.php:147
+msgctxt "(Admin)"
+msgid "Privacy Policy Page"
+msgstr "Zásady ochrany osobných údajov"
+
+#: src/Admin/AdminTabGeneral.php:71
+msgctxt "(Admin)"
+msgid "Terms & Conditions Page"
+msgstr "Zmluvné podmienky."
+
+#: src/Admin/AdminTabGeneral.php:81
+msgctxt "(Admin)"
+msgid "View & Export Data"
+msgstr "Zobrazenie a export údajov"
+
+#: src/Admin/AdminTabGeneral.php:86
+msgctxt "(Admin)"
+msgid "Export action"
+msgstr "Akcia exportu"
+
+#: src/Admin/AdminTabGeneral.php:93 src/Admin/AdminTabGeneral.php:132
+msgctxt "(Admin)"
+msgid "Email to notify"
+msgstr "E-mail na oznámenie"
+
+#: src/Admin/AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "Delete & Anonymize Data"
+msgstr "Odstrániť a anonymizovať údaje"
+
+#: src/Admin/AdminTabGeneral.php:109
+msgctxt "(Admin)"
+msgid "Delete action"
+msgstr "Odstrániť akciu"
+
+#: src/Admin/AdminTabGeneral.php:116
+msgctxt "(Admin)"
+msgid "Delete or reassign content?"
+msgstr "Odstrániť alebo znova priradiť obsah?"
+
+#: src/Admin/AdminTabGeneral.php:124
+msgctxt "(Admin)"
+msgid "Reassign content to"
+msgstr "Opätovné priradenie obsahu k"
+
+#: src/Admin/AdminTabGeneral.php:145
+msgctxt "(Admin)"
+msgid "Compatibility"
+msgstr "kompatibilita"
+
+#: src/Admin/AdminTabGeneral.php:150
+msgctxt "(Admin)"
+msgid "Enable automatic theme compatibility"
+msgstr "Povoliť automatickú kompatibilitu tém"
+
+#: src/Admin/AdminTabGeneral.php:167 src/Admin/AdminTabGeneral.php:183
+#: src/Admin/AdminTabGeneral.php:196 src/Admin/AdminTabGeneral.php:235
+#: views/installer/steps/configuration-settings.php:62
+msgctxt "(Admin)"
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; vybrať &mdash;"
+
+#: src/Admin/WordpressAdmin.php:65
+msgctxt "(Admin)"
+msgid "Privacy & GDPR Settings"
+msgstr "Nastavenia ochrany osobných údajov a GDPR"
+
+#: src/Admin/WordpressAdmin.php:66
+msgctxt "(Admin)"
+msgid "Privacy"
+msgstr "súkromia"
+
+#: src/Components/Consent/AdminTabConsent.php:30
+#: src/Components/Consent/AdminTabConsent.php:49
+msgctxt "(Admin)"
+msgid "Consent"
+msgstr "súhlas"
+
+#: src/Components/Consent/AdminTabConsent.php:157
+msgctxt "(Admin)"
+msgid "Consent slug is a required field!"
+msgstr "Súhlas slug je povinné pole!"
+
+#: src/Components/Consent/AdminTabConsent.php:162
+msgctxt "(Admin)"
+msgid ""
+"You may only use alphanumeric characters, dash and underscore in the consent "
+"slug field."
+msgstr ""
+"V poli súhlasu môžete používať iba alfanumerické znaky, pomlčku a "
+"podčiarkovník."
+
+#: src/Components/Consent/AdminTabConsent.php:167
+msgctxt "(Admin)"
+msgid "Consent title is a required field!"
+msgstr "Názov súhlasu je povinné pole!"
+
+#: src/Components/Consent/ConsentManager.php:46
+#: views/modules/contact-form-7/content-privacy.php:2
+#: views/modules/wordpress-comments/terms-checkbox.php:14
+#: views/modules/wordpress-user/registration-terms-checkbox.php:15
+#, php-format
+msgid "I accept the %sPrivacy Policy%s"
+msgstr "Súhlasím so zásadami% sPrivacy% s"
+
+#: src/Components/Consent/ConsentManager.php:50
+#: src/Components/Consent/ConsentManager.php:69
+msgctxt "(Admin)"
+msgid ""
+"This consent is not visible by default. If someone wishes to withdraw it, "
+"they should simply request to delete all their data."
+msgstr ""
+"Tento súhlas nie je v predvolenom nastavení viditeľný. Ak si ho niekto chce "
+"stiahnuť, mal by jednoducho požiadať o vymazanie všetkých svojich údajov."
+
+#: src/Components/Consent/ConsentManager.php:65
+#, php-format
+msgid "I accept the %sTerms & Conditions%s"
+msgstr "Súhlasím %spodmienky%s"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:19
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:61
+#: views/admin/privacy-policy/generated.php:1 views/installer/header.php:41
+msgctxt "(Admin)"
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobných údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:70
+msgctxt "(Admin)"
+msgid "Company information"
+msgstr "Informácie o spoločnosti"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:75
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:209
+msgctxt "(Admin)"
+msgid "Company Name"
+msgstr "meno spoločnosti"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:82
+msgctxt "(Admin)"
+msgid "Company Email"
+msgstr "Email spoločnosti"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:89
+msgctxt "(Admin)"
+msgid "Company Location"
+msgstr "Poloha spoločnosti"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:105
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:245
+msgctxt "(Admin)"
+msgid "Representative Contact Name"
+msgstr "Zástupca Meno kontaktu"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:112
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:252
+msgctxt "(Admin)"
+msgid "Representative Contact Email"
+msgstr "Reprezentatívny kontaktný email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:119
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:259
+msgctxt "(Admin)"
+msgid "Representative Contact Phone"
+msgstr "Zástupca Kontaktný telefón"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:135
+msgctxt "(Admin)"
+msgid "Data Protection Authority"
+msgstr "Úrad pre ochranu údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:141
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:286
+msgctxt "(Admin)"
+msgid "Data Protection Authority Website"
+msgstr "Webové stránky úradu pre ochranu údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:148
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:293
+msgctxt "(Admin)"
+msgid "Data Protection Authority Email"
+msgstr "E-mail Úrad pre ochranu údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:155
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:300
+msgctxt "(Admin)"
+msgid "Data Protection Authority Phone"
+msgstr "Telefón pre ochranu údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:165
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:175
+msgctxt "(Admin)"
+msgid "Data Protection Officer"
+msgstr "Úradník pre ochranu údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:168
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgstr "Znalostná databáza: Musím vymenovať úradníka pre ochranu údajov?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:182
+msgctxt "(Admin)"
+msgid "Data Protection Officer Name"
+msgstr "Meno úradníka pre ochranu údajov"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:190
+msgctxt "(Admin)"
+msgid "Data Protection Officer Email"
+msgstr "Úradník pre ochranu údajov Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:216
+msgctxt "(Admin)"
+msgid "Contact Email"
+msgstr "kontaktný email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:235
+msgctxt "(Admin)"
+msgid "Representative Contact"
+msgstr "Zástupca Kontakt"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:238
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgstr "Znalostná báza: Musím vymenovať zástupcu so sídlom v EÚ?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:317
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:324
+msgctxt "(Admin)"
+msgid "DPO Name"
+msgstr "DPO NomeNázov DPO"
+
+#: src/Components/PrivacyPolicy/PrivacyPolicy.php:82
+#: src/Installer/Installer.php:271 src/Installer/Steps/PolicySettings.php:199
+#: views/themes/storefront/footer.php:3
+#: views/themes/twentyseventeen/footer.php:3
+#: views/themes/twentysixteen/footer.php:4
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobných údajov"
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:19
+msgid "This page is currently disabled."
+msgstr "Táto stránka je momentálne zakázaná."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:35
+#: src/Installer/Installer.php:279
+#: src/Installer/Steps/ConfigurationPages.php:55
+#: views/themes/storefront/footer.php:7
+#: views/themes/twentyseventeen/footer.php:7
+#: views/themes/twentysixteen/footer.php:9
+msgid "Privacy Tools"
+msgstr "Nástroje na ochranu osobných údajov"
+
+#: src/Components/Support/AdminTabSupport.php:13
+#: src/Components/Support/AdminTabSupport.php:20
+msgctxt "(Admin)"
+msgid "Support"
+msgstr "podpora"
+
+#: src/Components/WordpressComments/WordpressComments.php:90
+#, php-format
+msgid "%sERROR:%s You need to accept the privacy policy to post a comment."
+msgstr ""
+"%sCHYBA:%s Ak chcete uverejniť komentár, musíte prijať zásady ochrany "
+"osobných údajov."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:54
+#: views/privacy-tools/notices.php:19
+msgid "We have received your request and will reply within 30 days."
+msgstr "Dostali sme vašu žiadosť a odpovieme do 30 dní."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:59
+#: views/privacy-tools/notices.php:15
+msgid "Consent withdrawn."
+msgstr "Súhlas bol stiahnutý."
+
+#: src/Components/WordpressUser/RegistrationForm.php:42
+msgid "<strong>ERROR</strong>: You must accept the terms and conditions."
+msgstr "<strong>CHYBA</strong>: Musíte prijať Zmluvné podmienky."
+
+#: src/Components/WordpressUser/WordpressUser.php:63
+#: src/Components/WordpressUser/WordpressUser.php:64
+#: views/modules/wordpress-user/dashboard/data-page/header.php:2
+msgctxt "(Admin)"
+msgid "Privacy Tools"
+msgstr "Nástroje na ochranu osobných údajov"
+
+#: src/DataSubject/AdminTabDataSubject.php:27
+#: src/DataSubject/AdminTabDataSubject.php:41
+msgctxt "(Admin)"
+msgid "Data Subjects"
+msgstr "Dátové subjekty"
+
+#: src/DataSubject/DataRepository.php:143
+msgid "Data exported"
+msgstr "Exportované údaje"
+
+#: src/DataSubject/DataRepository.php:158
+msgid "Data export request"
+msgstr "Žiadosť o export údajov"
+
+#: src/DataSubject/DataRepository.php:171
+msgid "Data removed"
+msgstr "Údaje boli odstránené"
+
+#: src/DataSubject/DataRepository.php:186
+msgid "Data removal request"
+msgstr "Žiadosť o odstránenie údajov"
+
+#: src/DataSubject/DataSubjectIdentificator.php:65
+#: src/DataSubject/DataSubjectIdentificator.php:82
+msgid "Your personal data on"
+msgstr "Vaše osobné údaje"
+
+#: src/Helpers.php:27
+msgctxt "(Admin)"
+msgid "Austria"
+msgstr "Rakúsko"
+
+#: src/Helpers.php:28
+msgctxt "(Admin)"
+msgid "Belgium"
+msgstr "Belgicko"
+
+#: src/Helpers.php:29
+msgctxt "(Admin)"
+msgid "Bulgaria"
+msgstr "Bulharsko"
+
+#: src/Helpers.php:30
+msgctxt "(Admin)"
+msgid "Croatia"
+msgstr "Chorvátsko"
+
+#: src/Helpers.php:31
+msgctxt "(Admin)"
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: src/Helpers.php:32
+msgctxt "(Admin)"
+msgid "Czech Republic"
+msgstr "Česká republika"
+
+#: src/Helpers.php:33
+msgctxt "(Admin)"
+msgid "Denmark"
+msgstr "Dánsko"
+
+#: src/Helpers.php:34
+msgctxt "(Admin)"
+msgid "Estonia"
+msgstr "Estónsko"
+
+#: src/Helpers.php:35
+msgctxt "(Admin)"
+msgid "Finland"
+msgstr "Fínsko"
+
+#: src/Helpers.php:36
+msgctxt "(Admin)"
+msgid "France"
+msgstr "Francúzsko"
+
+#: src/Helpers.php:37
+msgctxt "(Admin)"
+msgid "Germany"
+msgstr "Nemecko"
+
+#: src/Helpers.php:38
+msgctxt "(Admin)"
+msgid "Greece"
+msgstr "Grécko"
+
+#: src/Helpers.php:39
+msgctxt "(Admin)"
+msgid "Hungary"
+msgstr "maďarsko"
+
+#: src/Helpers.php:40
+msgctxt "(Admin)"
+msgid "Ireland"
+msgstr "Írsko"
+
+#: src/Helpers.php:41
+msgctxt "(Admin)"
+msgid "Italy"
+msgstr "Taliansko"
+
+#: src/Helpers.php:42
+msgctxt "(Admin)"
+msgid "Latvia"
+msgstr "Lotyšsko"
+
+#: src/Helpers.php:43
+msgctxt "(Admin)"
+msgid "Lithuania"
+msgstr "Litva"
+
+#: src/Helpers.php:44
+msgctxt "(Admin)"
+msgid "Luxembourg"
+msgstr "Luxembursko"
+
+#: src/Helpers.php:45
+msgctxt "(Admin)"
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Helpers.php:46
+msgctxt "(Admin)"
+msgid "Netherlands"
+msgstr "Holandsko"
+
+#: src/Helpers.php:47
+msgctxt "(Admin)"
+msgid "Poland"
+msgstr "Poľsko"
+
+#: src/Helpers.php:48
+msgctxt "(Admin)"
+msgid "Portugal"
+msgstr "Portugalsko"
+
+#: src/Helpers.php:49
+msgctxt "(Admin)"
+msgid "Romania"
+msgstr "Rumunsko"
+
+#: src/Helpers.php:50
+msgctxt "(Admin)"
+msgid "Slovakia"
+msgstr "Slovensko"
+
+#: src/Helpers.php:51
+msgctxt "(Admin)"
+msgid "Slovenia"
+msgstr "Slovinsko"
+
+#: src/Helpers.php:52
+msgctxt "(Admin)"
+msgid "Spain"
+msgstr "španielsko"
+
+#: src/Helpers.php:53
+msgctxt "(Admin)"
+msgid "Sweden"
+msgstr "Švédsko"
+
+#: src/Helpers.php:54
+msgctxt "(Admin)"
+msgid "United Kingdom"
+msgstr "Spojene kralovstvo"
+
+#: src/Helpers.php:69
+msgctxt "(Admin)"
+msgid "Iceland"
+msgstr "Island"
+
+#: src/Helpers.php:70
+msgctxt "(Admin)"
+msgid "Norway"
+msgstr "Nórsko"
+
+#: src/Helpers.php:71
+msgctxt "(Admin)"
+msgid "Liechtenstein"
+msgstr "Lichtenštajnsko"
+
+#: src/Helpers.php:72
+msgctxt "(Admin)"
+msgid "Switzerland"
+msgstr "švajčiarsko"
+
+#: src/Helpers.php:73
+msgctxt "(Admin)"
+msgid "United States"
+msgstr "Spojené štáty"
+
+#: src/Helpers.php:74
+msgctxt "(Admin)"
+msgid "Rest of the world"
+msgstr "Zvyšok sveta"
+
+#: src/Helpers.php:145
+msgid "An error has occurred. Please contact the site administrator."
+msgstr "Došlo k chybe. Obráťte sa na administrátora stránky."
+
+#: src/Installer/Installer.php:135
+msgctxt "(Admin)"
+msgid "Setup Wizard"
+msgstr "Sprievodca nastavením"
+
+#: src/Installer/Steps/ConfigurationPages.php:23
+#: src/Installer/Steps/PolicySettings.php:23
+#: src/Installer/Steps/PolicySettings.php:48
+msgctxt "(Admin)"
+msgid "&mdash; Create a new page &mdash;"
+msgstr "&mdash; Vytvorte novú stránku &mdash;"
+
+#: src/Installer/Steps/PolicySettings.php:38
+msgctxt "(Admin)"
+msgid ""
+"We have automatically selected your WooCommerce Terms & Conditions page."
+msgstr "Automaticky sme vybrali vašu stránku WooCommerce Zmluvné podmienky."
+
+#: src/Modules/ContactForm7/ContactForm7.php:35
+msgctxt "(Admin)"
+msgid "gdpr terms txt"
+msgstr "gdpr termíny txt"
+
+#: src/Router.php:80 src/Router.php:92 src/Router.php:125 src/Router.php:141
+#, php-format
+msgid "Nonce error for action \"%s\". Please go back and try again!"
+msgstr "Chyba nonce pre akciu \"%s\". Vráťte sa späť a skúste to znova!"
+
+#: src/Router.php:149
+msgctxt "(Admin)"
+msgid "You do not have the required permissions to perform this action!"
+msgstr "Nemáte požadované povolenia na vykonanie tejto akcie!"
+
+#: views/admin/consent.php:3
+msgctxt "(Admin)"
+msgid "Default consent types"
+msgstr "Typy predvoleného súhlasu"
+
+#: views/admin/consent.php:4
+msgctxt "(Admin)"
+msgid ""
+"These are the consent types that have been automatically registered by the "
+"framework or a plugin."
+msgstr ""
+"Sú to typy súhlasu, ktoré boli automaticky zaregistrované v rámci rámca "
+"alebo pluginu."
+
+#: views/admin/consent.php:7 views/admin/consent.php:52
+msgctxt "(Admin)"
+msgid "Slug"
+msgstr "slimák"
+
+#: views/admin/consent.php:8 views/admin/consent.php:38
+#: views/admin/consent.php:60
+msgctxt "(Admin)"
+msgid "Title"
+msgstr "nadpis"
+
+#: views/admin/consent.php:9 views/admin/consent.php:41
+#: views/admin/consent.php:63
+msgctxt "(Admin)"
+msgid "Description"
+msgstr "popis"
+
+#: views/admin/consent.php:10
+msgctxt "(Admin)"
+msgid "Visibility"
+msgstr "viditeľnosť"
+
+#: views/admin/consent.php:18
+msgctxt "(Admin)"
+msgid "Visible"
+msgstr "viditeľný"
+
+#: views/admin/consent.php:20
+msgctxt "(Admin)"
+msgid "Hidden"
+msgstr "skrytý"
+
+#: views/admin/consent.php:29
+msgctxt "(Admin)"
+msgid "Custom consent types"
+msgstr "Typy vlastného súhlasu"
+
+#: views/admin/consent.php:30
+msgctxt "(Admin)"
+msgid ""
+"Here you can add custom consent types to track. They will not be used "
+"anywhere by default - you will need to build an integration for each of them."
+msgstr ""
+"Tu môžete pridať vlastné typy súhlasu na sledovanie. V predvolenom nastavení "
+"sa nepoužijú - budete musieť vytvoriť integráciu pre každú z nich."
+
+#: views/admin/consent.php:35
+msgctxt "(Admin)"
+msgid "Machine-readable slug"
+msgstr "Strojovo čitateľný slug"
+
+#: views/admin/consent.php:44 views/admin/consent.php:68
+msgctxt "(Admin)"
+msgid "Visible?"
+msgstr "Viditeľný?"
+
+#: views/admin/consent.php:72
+msgctxt "(Admin)"
+msgid "Remove"
+msgstr "odstrániť"
+
+#: views/admin/consent.php:93
+msgctxt "(Admin)"
+msgid "Additional info"
+msgstr "Dodatočné informácie"
+
+#: views/admin/consent.php:95
+msgctxt "(Admin)"
+msgid ""
+"This text will be displayed to your data subjects on the Privacy Tools page."
+msgstr ""
+"Tento text sa dotknutým osobám zobrazí na stránke Nástroje ochrany osobných "
+"údajov."
+
+#: views/admin/data-subjects/search-form.php:2
+msgctxt "(Admin)"
+msgid ""
+"On this page, you can find which data subjects personal data you are storing "
+"and download, export or delete it."
+msgstr ""
+"Na tejto stránke nájdete, ktoré dátové subjekty osobné údaje ukladáte a "
+"sťahujete, exportujete alebo odstraňujete."
+
+#: views/admin/data-subjects/search-form.php:10
+msgctxt "(Admin)"
+msgid "Find data subject by email"
+msgstr "Vyhľadajte subjekt údajov e-mailom"
+
+#: views/admin/data-subjects/search-form.php:11
+msgctxt "(Admin)"
+msgid "Email address"
+msgstr "Emailová adresa"
+
+#: views/admin/data-subjects/search-form.php:16
+msgctxt "(Admin)"
+msgid "Search"
+msgstr "Vyhľadávanie"
+
+#: views/admin/data-subjects/search-results.php:7
+msgctxt "(Admin)"
+msgid "Username"
+msgstr "užívateľské meno"
+
+#: views/admin/data-subjects/search-results.php:12
+msgctxt "(Admin)"
+msgid "is not a registered user."
+msgstr "nie je registrovaným používateľom."
+
+#: views/admin/data-subjects/search-results.php:16
+msgctxt "(Admin)"
+msgid "Download data (html)"
+msgstr "Prevziať údaje (html)"
+
+#: views/admin/data-subjects/search-results.php:17
+msgctxt "(Admin)"
+msgid "Export data (json)"
+msgstr "Exportovať údaje (json)"
+
+#: views/admin/data-subjects/search-results.php:21
+msgctxt "(Admin)"
+msgid ""
+"This user has admin capabilities. Deleting data via this interface is "
+"disabled."
+msgstr ""
+"Tento používateľ má možnosti správcu. Vymazanie údajov cez toto rozhranie je "
+"zakázané."
+
+#: views/admin/data-subjects/search-results.php:24
+msgctxt "(Admin)"
+msgid "Anonymize data"
+msgstr "Anonymizovať údaje"
+
+#: views/admin/data-subjects/search-results.php:25
+msgctxt "(Admin)"
+msgid "Delete data"
+msgstr "Vymazať údaje"
+
+#: views/admin/data-subjects/search-results.php:29
+msgctxt "(Admin)"
+msgid "No data found!"
+msgstr "Neboli nájdené žiadne dáta!"
+
+#: views/admin/general/delete-action-email.php:5
+#: views/admin/general/export-action-email.php:5
+#: views/installer/steps/configuration-settings.php:29
+#: views/installer/steps/configuration-settings.php:79
+msgid "Email address"
+msgstr "Emailová adresa"
+
+#: views/admin/general/delete-action-reassign.php:3
+#: views/installer/steps/configuration-settings.php:50
+msgctxt "(Admin)"
+msgid "Delete content"
+msgstr "Odstrániť obsah"
+
+#: views/admin/general/delete-action-reassign.php:6
+#: views/installer/steps/configuration-settings.php:53
+msgctxt "(Admin)"
+msgid "Reassign content to a user"
+msgstr "Opätovné priradenie obsahu používateľovi"
+
+#: views/admin/general/delete-action-reassign.php:10
+msgctxt "(Admin)"
+msgid ""
+"If the user has submitted any content on your site, should it be deleted or "
+"reassigned to another user?"
+msgstr ""
+"Ak používateľ na stránke odoslal akýkoľvek obsah, mal by byť odstránený "
+"alebo opätovne priradený inému používateľovi?"
+
+#: views/admin/general/description-data-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"Select the page where users can go to control their data. This page must "
+"contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Selecione a página onde os usuários podem ir para controlar seus Vyberte "
+"stránku, na ktorej môžu používatelia prejsť na kontrolu svojich údajov. Táto "
+"stránka musí obsahovať krátky kód [gdpr_privacy_tools].dados. Esta página "
+"deve conter o shortcode [gdpr_privacy_tools]."
+
+#: views/admin/general/enable.php:9
+msgctxt "(Admin)"
+msgid "Enable the view, export and forget functionality for users and visitors"
+msgstr ""
+"Povoliť funkciu zobrazenia, exportu a zabudnutia pre používateľov a "
+"návštevníkov"
+
+#: views/admin/general/enable.php:12
+msgctxt "(Admin)"
+msgid ""
+"Enable the Privacy Tools page on front-end and dashboard. This allows "
+"visitors to request viewing and deleting their personal data and withdraw "
+"consents."
+msgstr ""
+"Povoliť stránku Nástroje na ochranu osobných údajov na prednej strane a na "
+"ovládacom paneli. To umožňuje návštevníkom požiadať o prezeranie a vymazanie "
+"svojich osobných údajov a odobrať súhlas."
+
+#: views/admin/general/theme-compatibility.php:9
+#: views/installer/steps/integrations.php:21
+msgctxt "(Admin)"
+msgid ""
+"Automatically add Privacy Policy and Privacy Tools links to your site footer."
+msgstr ""
+"Automatické pridanie zásad ochrany osobných údajov a nástrojov ochrany "
+"osobných údajov do päty stránky."
+
+#: views/admin/notices/header.php:4 views/admin/settings-page.php:3
+#: views/installer/header.php:23
+msgctxt "(Admin)"
+msgid "The GDPR Framework"
+msgstr "Rámec GDPR"
+
+#: views/admin/notices/helper-autoinstall.php:2
+msgctxt "(Admin)"
+msgid ""
+"A Privacy Policy page has been created, but it is empty. You can generate a "
+"policy template on this page."
+msgstr ""
+"Stránka Zásady ochrany osobných údajov bola vytvorená, ale je prázdna. Na "
+"tejto stránke môžete vygenerovať šablónu zásad."
+
+#: views/admin/notices/helper-policy.php:2
+msgctxt "(Admin)"
+msgid ""
+"Heads up - your Privacy Policy still requires some attention. Find the "
+"places marked with [TODO] and replace them with real content!"
+msgstr ""
+"Heads up - vaše zásady ochrany osobných údajov ešte vyžaduje určitú "
+"pozornosť. Nájsť miesta označené [TODO] a nahradiť ich skutočným obsahom!"
+
+#: views/admin/notices/helper-tools.php:2
+msgctxt "(Admin)"
+msgid ""
+"The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgstr "Obsah tejto stránky by mal obsahovať krátky kód [gdpr_privacy_tools]."
+
+#: views/admin/privacy-policy/description-policy-page.php:2
+msgctxt "(Admin)"
+msgid "Select the page which will contain your Privacy Policy"
+msgstr ""
+"Vyberte stránku, ktorá bude obsahovať vaše zásady ochrany osobných údajov"
+
+#: views/admin/privacy-policy/generated.php:3
+msgctxt "(Admin)"
+msgid "Your Privacy Policy has been generated."
+msgstr "Vaše zásady ochrany osobných údajov boli vygenerované."
+
+#: views/admin/privacy-policy/generated.php:20
+msgctxt "(Admin)"
+msgid "&laquo; Back"
+msgstr "&laquo; späť"
+
+#: views/admin/privacy-policy/header.php:2
+msgctxt "(Admin)"
+msgid ""
+"This page allows you to generate a Privacy Policy based on the information "
+"you entered below."
+msgstr ""
+"Táto stránka vám umožňuje vytvárať zásady ochrany osobných údajov založené "
+"na nižšie uvedených informáciách."
+
+#: views/admin/settings-page.php:31
+#, php-format
+msgctxt "(Admin)"
+msgid "The GDPR Framework. Built with &#9829; by %sCodelight%s."
+msgstr "Rámec GDPR. Postavené &#9829; podľa %sCodelight%s."
+
+#: views/admin/support/contents.php:5 views/installer/steps/finish.php:10
+msgctxt "(Admin)"
+msgid "Need more info?"
+msgstr "Potrebujete viac informácií?"
+
+#: views/admin/support/contents.php:11 views/installer/steps/finish.php:16
+msgctxt "(Admin)"
+msgid "Site Owner's guide to GDPR"
+msgstr "Príručka majiteľa lokality k GDPR"
+
+#: views/admin/support/contents.php:14 views/installer/steps/finish.php:19
+msgctxt "(Admin)"
+msgid "Read the full guide on GDPR compliance."
+msgstr "Prečítajte si úplnú príručku o dodržiavaní nariadenia GDPR."
+
+#: views/admin/support/contents.php:20 views/installer/steps/finish.php:25
+msgctxt "(Admin)"
+msgid "Knowledge base"
+msgstr "Vedomostná základňa"
+
+#: views/admin/support/contents.php:23 views/installer/steps/finish.php:28
+msgctxt "(Admin)"
+msgid "Check out the knowledge base for common questions and answers."
+msgstr "Pozrite sa na vedomostnú základňu pre bežné otázky a odpovede."
+
+#: views/admin/support/contents.php:29 views/installer/steps/finish.php:34
+msgctxt "(Admin)"
+msgid "Developer's guide to GDPR"
+msgstr "Sprievodca vývojárom GDPR"
+
+#: views/admin/support/contents.php:32 views/installer/steps/finish.php:37
+msgctxt "(Admin)"
+msgid "We have a thorough guide to help making custom sites compliant."
+msgstr "Máme dôkladnú príručku, ktorá vám pomôže prispôsobiť vlastné stránky."
+
+#: views/admin/support/contents.php:40 views/installer/steps/finish.php:45
+msgctxt "(Admin)"
+msgid "Need help?"
+msgstr "Potrebovať pomoc?"
+
+#: views/admin/support/contents.php:46 views/installer/steps/finish.php:51
+msgctxt "(Admin)"
+msgid "Submit a support request"
+msgstr "Odošlite žiadosť o podporu"
+
+#: views/admin/support/contents.php:49 views/installer/steps/finish.php:54
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or problem with the plugin? Post in the wordpress.org support "
+"forum."
+msgstr ""
+"Našla sa chyba alebo problém s doplnkom? Príspevok v diskusnom fóre "
+"wordpress.org."
+
+#: views/admin/support/contents.php:55 views/installer/steps/finish.php:60
+msgctxt "(Admin)"
+msgid "Request a consultation"
+msgstr "Požiadajte o konzultáciu"
+
+#: views/admin/support/contents.php:58 views/installer/steps/finish.php:63
+msgctxt "(Admin)"
+msgid ""
+"Need development or legal assistance in making your site compliant? We can "
+"help!"
+msgstr ""
+"Potrebujete vývoj alebo právnu pomoc, aby vaše stránky vyhovovali? Môžeme "
+"vám pomôcť!"
+
+#: views/admin/wizard-buttons.php:2
+msgctxt "(Admin)"
+msgid "Restart setup wizard"
+msgstr "Reštartujte sprievodcu nastavením"
+
+#: views/email/action-export.php:8 views/email/action-forget.php:12
+msgctxt "(Admin)"
+msgid ""
+"This email is just for your information. You don't need to take any action"
+msgstr ""
+"Tento e-mail je len pre vaše informácie. Nemusíte podniknúť žiadne kroky"
+
+#: views/email/action-forget.php:8
+msgctxt "(Admin)"
+msgid "The data subject had a user account on your website."
+msgstr "Subjekt údajov mal na vašich webových stránkach používateľský účet."
+
+#: views/email/identify-data-subject.php:2
+msgid "Someone has requested access to your data on"
+msgstr "Niekto požiadal o prístup k vašim údajom"
+
+#: views/email/identify-data-subject.php:3
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Ak to bola chyba, ignorujte tento e-mail a nič sa nestane."
+
+#: views/email/identify-data-subject.php:4
+msgid "To manage your data, visit the following address:"
+msgstr "Ak chcete spravovať svoje údaje, navštívte nasledujúcu adresu:"
+
+#: views/email/identify-data-subject.php:10
+msgid "This link is valid for 15 minutes."
+msgstr "Tento odkaz je platný 15 minút."
+
+#: views/email/no-data.php:2
+msgid "Someone has requested information about your personal data on"
+msgstr "Niekto požiadal o informácie o vašich osobných údajoch"
+
+#: views/email/no-data.php:3
+msgid "None of your personal data is stored on"
+msgstr "Žiadny z vašich osobných údajov nie je uložený"
+
+#: views/email/no-data.php:5
+msgid ""
+"If this was a mistake or you did not request this email, just ignore it and "
+"nothing will happen."
+msgstr ""
+"Ak to bola chyba alebo ste o tento e-mail nepožiadali, jednoducho ho "
+"ignorujte a nič sa nestane."
+
+#: views/email/request-export.php:13 views/email/request-forget.php:13
+msgctxt "(Admin)"
+msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgstr "Ako pripomienka: podľa GDPR máte 30 dní na splnenie."
+
+#: views/global/delete-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically anonymize data"
+msgstr "Automaticky anonymizovať údaje"
+
+#: views/global/delete-action.php:5
+msgctxt "(Admin)"
+msgid "Automatically delete data"
+msgstr "Automaticky odstrániť údaje"
+
+#: views/global/delete-action.php:9
+msgctxt "(Admin)"
+msgid "Automatically anonymize data and notify me via email"
+msgstr "Automaticky anonymizovať údaje a informovať ma prostredníctvom e-mailu"
+
+#: views/global/delete-action.php:13
+msgctxt "(Admin)"
+msgid "Automatically delete data and notify me via email"
+msgstr "Automaticky odstrániť údaje a upozorniť ma prostredníctvom e-mailu"
+
+#: views/global/delete-action.php:16 views/global/export-action.php:10
+msgctxt "(Admin)"
+msgid "Only notify me via email"
+msgstr "Upozornite ma len prostredníctvom e-mailu"
+
+#: views/global/export-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically download data"
+msgstr "Automaticky sťahovať údaje"
+
+#: views/global/export-action.php:6
+msgctxt "(Admin)"
+msgid "Automatically download data and notify me via email"
+msgstr "Automaticky sťahovať údaje a informovať ma prostredníctvom e-mailu"
+
+#: views/installer/continue-notice.php:2
+msgctxt "(Admin)"
+msgid "The The GDPR Framework setup has not been finalized yet."
+msgstr "Nastavenie rámca GDPR ešte nebolo dokončené."
+
+#: views/installer/continue-notice.php:3
+msgctxt "(Admin)"
+msgid "You can continue the setup at any time."
+msgstr "Nastavenie môžete kedykoľvek pokračovať."
+
+#: views/installer/continue-notice.php:6
+msgctxt "(Admin)"
+msgid "Continue the setup wizard"
+msgstr "Pokračujte v sprievodcovi nastavením"
+
+#: views/installer/continue-notice.php:9
+msgctxt "(Admin)"
+msgid "Hide this message"
+msgstr "Skryť túto správu"
+
+#: views/installer/footer.php:7
+msgid "Back"
+msgstr "späť"
+
+#: views/installer/header.php:26
+msgctxt "(Admin)"
+msgid "I need help"
+msgstr "potrebujem pomoc"
+
+#: views/installer/header.php:29
+msgctxt "(Admin)"
+msgid "Developer Docs"
+msgstr "Dokumenty vývojára"
+
+#: views/installer/header.php:36
+msgctxt "(Admin)"
+msgid "Configuration"
+msgstr "konfigurácia"
+
+#: views/installer/header.php:46
+msgctxt "(Admin)"
+msgid "Forms & Consent"
+msgstr "Formuláre a súhlas"
+
+#: views/installer/header.php:51
+msgctxt "(Admin)"
+msgid "Integrations"
+msgstr "integrácia"
+
+#: views/installer/steps/configuration-settings.php:23
+#: views/installer/steps/configuration-settings.php:73
+msgctxt "(Admin)"
+msgid "Enter the email address to notify"
+msgstr "Zadajte e-mailovú adresu, ktorú chcete oznámiť"
+
+#: views/installer/steps/disclaimer.php:21
+msgctxt "(Admin)"
+msgid "I accept"
+msgstr "Súhlasím"
+
+#: views/installer/welcome-notice.php:7
+msgctxt "(Admin)"
+msgid "Run the setup wizard"
+msgstr "Spustite sprievodcu nastavením"
+
+#: views/installer/welcome-notice.php:11
+msgctxt "(Admin)"
+msgid "Auto-install pages"
+msgstr "Automatické inštalovanie stránok"
+
+#: views/installer/welcome-notice.php:15
+msgctxt "(Admin)"
+msgid "Skip and install manually"
+msgstr "Preskočiť a nainštalovať ručne"
+
+#: views/modules/contact-form-7/generator-privacy.php:6
+msgctxt "(Admin)"
+msgid ""
+"This tag generates the default text for Terms & Conditions and/or Privacy "
+"Policy checkbox."
+msgstr ""
+"Táto značka generuje predvolený text pre Zmluvné podmienky a / alebo políčko "
+"Ochrana osobných údajov."
+
+#: views/modules/contact-form-7/generator-privacy.php:15
+msgid "Insert"
+msgstr "insert"
+
+#: views/modules/wordpress-comments/terms-checkbox.php:6
+#: views/modules/wordpress-user/registration-terms-checkbox.php:7
+#, php-format
+msgid "I accept the %sTerms and Conditions%s and the %sPrivacy Policy%s"
+msgstr "Súhlasím s% sTerms and Conditions% s a Zásadami% sPrivacy% s"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:3
+msgid "Manage consents"
+msgstr "Spravovať súhlasy"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:6
+#: views/privacy-tools/form-consent.php:6
+msgid "Here you can withdraw any consents you have given."
+msgstr "Tu si môžete stiahnuť akékoľvek súhlasy, ktoré ste poskytli."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:8
+#: views/privacy-tools/form-consent.php:9
+msgid "Consent types"
+msgstr "Typy súhlasu"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:23
+#: views/privacy-tools/form-consent.php:24
+msgid "Withdraw"
+msgstr "ustúpiť"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:5
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:5
+msgctxt "(Admin)"
+msgid "Delete this user and all data"
+msgstr "Odstráňte tohto používateľa a všetky údaje"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete my data"
+msgstr "Odstrániť moje údaje"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:15
+#: views/privacy-tools/form-delete.php:11
+msgid "Delete all data we have gathered about you."
+msgstr "Vymažte všetky údaje, ktoré sme o vás získali."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:16
+#: views/privacy-tools/form-delete.php:12
+msgid "If you have a user account on our site, it will also be deleted."
+msgstr "Ak máte na našich stránkach užívateľský účet, bude tiež odstránený."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:17
+#: views/privacy-tools/form-delete.php:13
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr "Buďte opatrní - táto akcia je trvalá a NESMIE byť zrušená."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:22
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/"
+"anonymizing via this page is disabled."
+msgstr ""
+"Zdá sa, že máte administrátora alebo ekvivalentnú úlohu, takže vymazanie / "
+"anonymizácia prostredníctvom tejto stránky je zakázaná."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:7
+#: views/privacy-tools/form-export.php:1
+msgid "Download your data"
+msgstr "Prevezmite svoje údaje"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:12
+#: views/privacy-tools/form-export.php:12
+msgid "Download as table"
+msgstr "Stiahnuť ako tabuľku"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:15
+#: views/privacy-tools/form-export.php:19
+msgid "Export as JSON"
+msgstr "Exportovať ako JSON"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:19
+#: views/privacy-tools/form-export.php:4
+msgid "You can download all your data formatted as a table for viewing."
+msgstr ""
+"Všetky údaje naformátované ako tabuľka si môžete prevziať na prezeranie."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:20
+#: views/privacy-tools/form-export.php:5
+msgid "Alternatively, you can export it in machine-readable JSON format."
+msgstr "Prípadne ho môžete exportovať v strojovo čitateľnom formáte JSON."
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete user and all data"
+msgstr "Vymažte používateľa a všetky údaje"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:14
+msgctxt "(Admin)"
+msgid "Anonymize user and all data"
+msgstr "Anonymizovať používateľa a všetky údaje"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:23
+msgctxt "(Admin)"
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/"
+"anonymizing via this page is disabled."
+msgstr ""
+"Zdá sa, že máte administrátora alebo ekvivalentnú úlohu, takže vymazanie / "
+"anonymizácia prostredníctvom tejto stránky je zakázaná."
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:2
+msgctxt "(Admin)"
+msgid "GDPR Data"
+msgstr "Údaje o HDP"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:6
+msgctxt "(Admin)"
+msgid "This user has been anonymized."
+msgstr "Tento používateľ bol anonymizovaný."
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:4
+msgctxt "(Admin)"
+msgid "Consents given"
+msgstr "Súhlasí"
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:17
+msgctxt "(Admin)"
+msgid "No consents given"
+msgstr "Neboli udelené žiadne súhlasy"
+
+#: views/privacy-tools/form-consent.php:2
+msgid "Consent"
+msgstr "súhlas"
+
+#: views/privacy-tools/form-delete.php:1
+#: views/privacy-tools/notice-admin-role.php:1
+msgid "Delete my user and data"
+msgstr "Odstráňte používateľa a údaje"
+
+#: views/privacy-tools/form-delete.php:6
+msgid "Delete my data"
+msgstr "Odstrániť moje údaje"
+
+#: views/privacy-tools/form-identify.php:4
+msgid "Identify yourself!"
+msgstr "Identifikujte sa!"
+
+#: views/privacy-tools/form-identify.php:7
+#: views/privacy-tools/form-identify.php:10
+msgid "Enter your email address"
+msgstr "Vložte svoju e-mailovú adresu"
+
+#: views/privacy-tools/form-identify.php:13
+msgid "Send email"
+msgstr "Poslať email"
+
+#: views/privacy-tools/notice-admin-role.php:4
+msgctxt "(Admin)"
+msgid "Data deletion is disabled for administrative accounts."
+msgstr "Vymazanie údajov je pre administratívne účty zakázané."
+
+#: views/privacy-tools/notices.php:3
+msgid ""
+"We will send you an email with the link to access your data. Please check "
+"your spam folder as well!"
+msgstr ""
+"Pošleme vám e-mail s odkazom na prístup k vašim údajom. Skontrolujte aj "
+"priečinok so spamom!"
+
+#: views/privacy-tools/notices.php:7
+msgid "The email you entered does not appear to be a valid email."
+msgstr "Zadaný e-mail nie je platným e-mailom."
+
+#: views/privacy-tools/notices.php:11
+msgid "Sorry - the link seems to have expired. Please try again!"
+msgstr "Prepáčte - odkaz pravdepodobne vypršal. Prosím skúste znova!"
+
+#: views/privacy-tools/privacy-tools.php:4
+msgid "You are identified as"
+msgstr "Ste identifikovaní ako"
+
+#: views\admin\general\enable-tac.php:9
+msgctxt "(Admin)"
+msgid "Enable the term and condition page."
+msgstr "Povoliť stránku termín a podmienka."
+
+#: src\Admin\AdminTabGeneral.php:51
+msgctxt "(Admin)"
+msgid "Enable Term and Conditions"
+msgstr "Povoliť podmienky a podmienky"
+
+#: gdpr-framework.php:121
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Táto webová stránka používa cookies, aby ste mali čo najlepšie skúsenosti na "
+"našich webových stránkach."
+
+#: gdpr-framework.php:121
+msgid "Decline"
+msgstr "pokles"
+
+#: gdpr-framework.php:121
+msgid "Accept"
+msgstr "súhlasiť"
+
+#: gdpr-framework.php:133
+msgid "Learn more"
+msgstr "Uč sa viac"
+
+#: AdminTabGeneral.php:94
+msgctxt "(Admin)"
+msgid "From Email"
+msgstr "Z e-mailu"
+
+#: AdminTabGeneral.php:87
+msgctxt "(Admin)"
+msgid "From Name"
+msgstr "Z mena"
+
+#: AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "Email Setting"
+msgstr "Nastavenie e-mailu"
+
+#: AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "Acceptance Popup Setting"
+msgstr "Nastavenie prevzatia"
+
+#: AdminTabGeneral.php:109
+msgctxt "(Admin)"
+msgid "Popup Position"
+msgstr "Popup Position"
+
+#: AdminTabGeneral.php:116
+msgctxt "(Admin)"
+msgid "Popup theme"
+msgstr "Popup tému"
+
+#: AdminTabGeneral.php:123
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Background Color"
+msgstr "Farba pozadia prijímania súborov cookie"
+
+#: AdminTabGeneral.php:130
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Text Color"
+msgstr "Farba textu prevzatia súborov cookie"
+
+#: AdminTabGeneral.php:137
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Backgroung Color"
+msgstr "Tlačidlo prijatia súborov cookie Backgroung Color"
+
+#: AdminTabGeneral.php:144
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Color"
+msgstr "Tlačidlo Prijímanie súborov cookie"
+
+#: AdminTabGeneral.php:151
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Border Color"
+msgstr "Farba hranice prijímania súborov cookie"
+
+#: AdminTabGeneral.php:67
+msgctxt "(Admin)"
+msgid "Enable Cookie Acceptance Popup"
+msgstr "Povoliť kontextové okno Prijatie súboru cookie"
+
+#: AdminTabGeneral.php:73
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup Content"
+msgstr "Poplikovanie obsahu cookies"
+
+#: description-position-action.php
+msgctxt "(Admin)"
+msgid "Select position of the Popup"
+msgstr "Vyberte pozíciu vyskakovacieho okna"
+
+#: description-theme-action.php
+msgctxt "(Admin)"
+msgid "Select theme of the Popup"
+msgstr "Vyberte tému Popup"
+
+#: description-theme-action.php:69
+msgctxt "(Admin)"
+msgid "Disable Comment Checkbox"
+msgstr "Zakázať začiarkavacie políčko Komentár"
+
+#: description-theme-action.php:76
+msgctxt "(Admin)"
+msgid "Disable Register Form Checkbox"
+msgstr "Zrušte začiarknutie políčka Registrácia formulára"
+
+#: description-theme-action.php:312
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Comments"
+msgstr ""
+"Desativar a caixa de seleção para comentáriosZakázať políčko pre komentáre"
+
+#: AdminTabGeneral.php:319
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Register Form"
+msgstr "Zakázať políčko pre registračný formulár"
+
+#: views/privacy-tools/form-identify.php:15
+msgid "Please identify yourself via e-mail"
+msgstr "Identifikujte sa prostredníctvom e-mailu"
+
+#: advanced-integration\header.php:2
+msgctxt "(Admin)"
+msgid "This page allows you to advance integration with ClassiDocs™"
+msgstr "Táto stránka vám umožňuje postupnú integráciu s ClassiDocs ™"
+
+#: AdminTabAdvancedIntegration.php:97
+msgctxt "(Admin)"
+msgid "ClassiDocs Password"
+msgstr "Heslo ClassiDocs"
+
+#: AdminTabAdvancedIntegration.php:88
+msgctxt "(Admin)"
+msgid "ClassiDocs Username"
+msgstr "Meno používateľa ClassiDocs"
+
+#: AdminTabAdvancedIntegration.php:79
+msgctxt "(Admin)"
+msgid "ClassiDocs URL"
+msgstr "Adresa URL ClassiDocs"
+
+#: AdminTabAdvancedIntegration.php:69
+msgctxt "(Admin)"
+msgid "Enable Response with related queries?"
+msgstr "Povoliť odpoveď s príslušnými dopytmi?"
+
+#: AdminTabAdvancedIntegration.php:60
+msgctxt "(Admin)"
+msgid "Submit SAR request details?"
+msgstr "Zadajte podrobnosti o požiadavke na SAR?"
+
+#: AdminTabAdvancedIntegration.php:51
+msgctxt "(Admin)"
+msgid "Integrate with ClassiDocs?"
+msgstr "Integrovať s ClassiDocs?"
+
+#: AdminTabAdvancedIntegration.php:43
+msgctxt "(Admin)"
+msgid "Integration Settings"
+msgstr "Nastavenia integrácie"
+
+#: AdminTabAdvancedIntegration.php:35
+msgctxt "(Admin)"
+msgid "Advanced Integration"
+msgstr "Pokročilá integrácia"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Sign up for free here"
+msgstr "Zaregistrujte sa tu zadarmo"
+
+#: checkbox-field.php:10
+msgctxt "(Admin)"
+msgid "Click Here"
+msgstr "Kliknite tu"
+
+#: ClassiDocs-results.php:12
+msgid "Previous Results"
+msgstr "Predchádzajúce výsledky"
+
+#: ClassiDocs-results.php:13
+msgid "Current Results"
+msgstr "Aktuálne výsledky"
+
+#: ClassiDocs-results.php:19
+msgid "Name"
+msgstr "názov"
+
+#: ClassiDocs-results.php:22
+msgid "Path"
+msgstr "cesta"
+
+#: ClassiDocs-results.php:34
+msgid "Workstation"
+msgstr "workstation"
+
+#: ClassiDocs-results.php:37
+msgid "Last Scan"
+msgstr "Posledné vyhľadávanie"
+
+#: ClassiDocs-results.php:62
+msgid "No ClassiDocs data found!"
+msgstr "Nenašli sa žiadne údaje ClassiDocs!"
+
+#: enable_popup_header.php:5
+msgid "Cookies used on the website!"
+msgstr "Cookies použité na stránke!"
+
+#: enable_popup_header.php:9
+msgid "Leave blank if don't want header to get display."
+msgstr "Nechajte prázdne, ak nechcete, aby sa hlavička zobrazovala."
+
+#: AdminTabCookiePopup.php:39
+msgctxt "(Admin)"
+msgid "Cookie Popup Settings"
+msgstr "Nastavenia kontextového súboru cookie"
+
+#: AdminTabCookiePopup.php:17
+msgctxt "(Admin)"
+msgid "Cookie Popup"
+msgstr "Cookie Popup"
+
+#: AdminTabCookiePopup.php:49
+msgctxt "(Admin)"
+msgid "Enable One Time Cookie Acceptance Popup"
+msgstr "Povoliť vyskakovacie okno Jednorázové prevzatie súborov cookie"
+
+#: consent.php:79
+msgctxt "(Admin)"
+msgid "Show Consent types"
+msgstr "Zobraziť typy súhlasu"
+
+msgctxt "(Admin)"
+msgid "Hide consent types"
+msgstr "Skryť typy súhlasu"
+
+msgctxt "(Admin)"
+msgid "Do you want form to be GDPR compliance."
+msgstr "Chcete, aby formulár spĺňal požiadavky GDPR."
+
+msgctxt "(Admin)"
+msgid ""
+"You have installed flamingo, To make this GDPR compliance in individual "
+"contact form's privacy tab check the checkbox for include data to be search "
+"on Privacy tool."
+msgstr ""
+"Nainštalovali ste flamingo. Ak chcete, aby sa toto GDPR dodržalo na karte "
+"súkromia kontaktného formulára, začiarknite políčko pre zahrnutie údajov, "
+"ktoré sa majú vyhľadávať v nástroji Ochrana osobných údajov."
+
+msgctxt "(Admin)"
+msgid "Enable Policy Link On Popup"
+msgstr "Povoliť prepojenie politiky na kontextové okno"
+
+msgctxt "(Admin)"
+msgid "Enable Privacy policy on Popup"
+msgstr "Povoliť zásady ochrany osobných údajov v kontextovom okne"
+
+#: AdminTabCookiePopup.php
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup header"
+msgstr "Hlavička súboru na prevzatie súboru cookie"
+
+#: views\admin\privacy-manager\header.php:2
+msgctxt "(Admin)"
+msgid "Data443™ Privacy Manager"
+msgstr "Data443 ™ Privacy Manager"
+
+#: views\admin\privacy-manager\header.php:3
+msgctxt "(Admin)"
+msgid ""
+"ensures privacy regulation compliance, such as GDPR, CCPA, LGPD, etc, at the "
+"next level."
+msgstr ""
+"zabezpečuje dodržiavanie právnych predpisov o ochrane súkromia, ako "
+"napríklad GDPR, CCPA, LGPD atď., na ďalšej úrovni."
+
+#: views\admin\privacy-manager\header.php:4
+msgctxt "(Admin)"
+msgid ""
+"In addition to DSAR tracking and management, Privacy Manager adds the "
+"following features to your data protection compliance resources:"
+msgstr ""
+"Okrem sledovania a riadenia služby DSAR aplikácia Privacy Manager pridáva k "
+"prostriedkom na zabezpečenie súladu s ochranou údajov tieto funkcie:"
+
+#: views\admin\privacy-manager\header.php:6
+msgctxt "(Admin)"
+msgid "Log and store ICO breach notifications"
+msgstr "Oznamovanie a ukladanie oznámení o narušení ICO"
+
+#: views\admin\privacy-manager\header.php:7
+msgctxt "(Admin)"
+msgid "Keeps full record of all requests, ticketed and timeline"
+msgstr "Uchováva úplný záznam všetkých požiadaviek, leteniek a časovej osi"
+
+#: views\admin\privacy-manager\header.php:8
+msgctxt "(Admin)"
+msgid "Gap analysis and breach notifications"
+msgstr "Analýza medzier a upozornenia na porušenie"
+
+#: views\admin\privacy-manager\header.php:9
+msgctxt "(Admin)"
+msgid "In depth activity log with all GDPR, CCPA, etc actions evidenced"
+msgstr "V hĺbkovom protokole aktivity so všetkými opatreniami GDPR, CCPA atď"
+
+#: views\admin\privacy-manager\header.php:10
+msgctxt "(Admin)"
+msgid "Highlights areas of concern and where you need to focus"
+msgstr "Zdôrazňuje oblasti záujmu a kde sa musíte zamerať"
+
+#: views\admin\privacy-manager\header.php:11
+msgctxt "(Admin)"
+msgid ""
+"eLearning platform with access for all staff to ensure privacy regulation "
+"compliance and obligations"
+msgstr ""
+"Platforma eLearning s prístupom pre všetkých zamestnancov, aby sa "
+"zabezpečilo dodržiavanie nariadení a povinnosti v oblasti ochrany súkromia"
+
+#: views\admin\privacy-manager\header.php:12
+msgctxt "(Admin)"
+msgid "Tracks who accesses the system, when and why"
+msgstr "Skladby, ktoré pristupujú do systému, kedy a prečo"
+
+#: views\admin\privacy-manager\header.php:15
+msgctxt "(Admin)"
+msgid ""
+"Our system enables your business to demonstrate its obligations in "
+"protecting your customer data, show understanding of your business "
+"activities and deliver eLearning and online tests to employees, ensuring "
+"everyone in your company understands your privacy compliance rules and best "
+"practices to operate."
+msgstr ""
+"Náš systém umožňuje vášmu podniku preukázať svoje povinnosti v oblasti "
+"ochrany vašich údajov o zákazníkoch, preukázať pochopenie vašich obchodných "
+"aktivít a poskytovať zamestnancom e-learning a online testy, čím sa "
+"zabezpečí, že každý vo vašej spoločnosti pochopí vaše pravidlá týkajúce sa "
+"dodržiavania súkromia a osvedčené postupy, ktoré sa majú používať."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid ""
+"No matter where you are on your data privacy journey, the ultimate goal is "
+"compliance."
+msgstr ""
+"Bez ohľadu na to, kde sa nachádzate na ceste ochrany osobných údajov, "
+"konečným cieľom je dodržiavanie."
+
+#: views\admin\privacy-manager\header.php:16
+msgctxt "(Admin)"
+msgid "enables your organization to comply with all privacy regulations."
+msgstr ""
+"umožňuje vašej organizácii dodržiavať všetky nariadenia o ochrane osobných "
+"údajov."
+
+#: views\admin\support\contents.php:49
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or have a question about the plugin? Submit a support request "
+"and we’ll get right on it!"
+msgstr ""
+"Našli ste chybu alebo máte otázku týkajúcu sa pluginu? Odošlite žiadosť o "
+"podporu a my sa na ňu dostaneme."
+
+#: views\admin\support\contents.php:58
+msgctxt "(Admin)"
+msgid "Need assistance in making your site compliant? We can help!"
+msgstr "Potrebujete pomoc, aby vaše stránky vyhovovali? Môžeme vám pomôcť!"
+
+#: views\admin\general\woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool"
+msgstr "Povoliť údaje WooCommerce na nástroji GDPR"
+
+#: src\Admin\AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Enable WooCommerce Compatibility"
+msgstr "Povoliť kompatibilitu s WooCommerce"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:19
+msgid "Note Regarding Order:"
+msgstr "Poznámka týkajúca sa objednávky:"
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:20
+msgid ""
+"Your order with status Processing will not get deleted until status change."
+msgstr ""
+"Vaša objednávka so stavom Spracovanie nebude vymazaná, kým sa nezmení stav."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:21
+msgid "Your order with status Completed will get anonymize."
+msgstr "Vaša objednávka so stavom Dokončená bude anonymná."
+
+#: views\modules\wordpress-user\dashboard\data-page\form-delete.php:22
+msgid "If you delete Completed order you can't apply for refund."
+msgstr ""
+"Ak odstránite Dokončenú objednávku, nemôžete požiadať o vrátenie platby."
+
+#: views\admin\general\woo-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for WooCommerce Version 3.4.0 or later."
+msgstr "Bude fungovať pre verziu WooCommerce 3.4.0 alebo novšiu."
+
+#: views\admin\general\edd-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable EDD data on GDPR tool."
+msgstr "Povoliť údaje EDD na nástroji GDPR."
+
+#: views\admin\general\edd-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for EDD Version 2.0.0 or later."
+msgstr "Bude fungovať pre verziu EDD 2.0.0 alebo novšiu."
+
+#: src\Admin\AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Enable EDD Compatibility"
+msgstr "Povoliť kompatibilitu EDD"
+
+#: gdpr-framework.php:298
+msgid "Cookie Policy"
+msgstr "Zásady používania súborov cookie"
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid ""
+"This consent is visible by default on woocommerce checkout page. If someone "
+"wishes to withdraw it, they should simply request to delete all their data."
+msgstr ""
+"Tento súhlas je v predvolenom nastavení viditeľný na stránke pokladne "
+"woocommerce. Ak si ho niekto chce stiahnuť, mal by jednoducho požiadať o "
+"vymazanie všetkých svojich údajov."
+
+#: ConsentManager.php:96
+msgctxt "(Admin)"
+msgid "Woocommerce Policy Consent"
+msgstr "Súhlas s politikou Woocommerce"
+
+#: WoocommerceGdpr.php:150
+msgid "Please acknowledge the Privacy Policy"
+msgstr "Potvrďte zásady ochrany osobných údajov"
+
+#: woo-compatibility.php:9
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool."
+msgstr "Povoliť údaje WooCommerce na nástroji GDPR."
+
+#: views\admin\general\enable-popup.php:12
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+"accepted on popup accept button."
+msgstr ""
+"<b> Poznámka: </b> Potrebujete pridať vlastný obsah <b> gdpr_cookie_consent "
+"</b>, ktorý bol prijatý v okne na prevzatie."
+
+#: AdminTabCookiePopup.php:105
+msgctxt "(Admin)"
+msgid "Popup Dismiss Text"
+msgstr "Popup Dismiss Text"
+
+#: AdminTabCookiePopup.php:98
+msgctxt "(Admin)"
+msgid "Popup Allow Text"
+msgstr "Vyskakovacie okno Povoliť text"
+
+#: AdminTabGeneral.php:241
+msgctxt "(Admin)"
+msgid "Woocommerce Integration"
+msgstr "Integrácia Woocommerce"
+
+#: AdminTabGeneral.php:259
+msgctxt "(Admin)"
+msgid "Easy Digital Download Integration"
+msgstr "Jednoduchá integrácia s digitálnym prevzatím"
+
+#: has-dpo.php:11
+msgctxt "(Admin)"
+msgid "I have appointed a Data Protection Officer (DPO)"
+msgstr "Vymenoval som úradníka pre ochranu údajov (DPO)"
+
+#: views/admin/general/stylesheet.php:9
+msgctxt "(Admin)"
+msgid "Enable basic styling for Privacy Tools page."
+msgstr ""
+"Povolenie základného štýlu pre stránku Nástroje ochrany osobných údajov."
+
+#: AdminTabPrivacyPolicy.php:204
+msgctxt "(Admin)"
+msgid "Delete Text"
+msgstr "Odstrániť text"
+
+#: consent.php:80
+msgctxt "(Admin)"
+msgid "Add consent type"
+msgstr "Pridať typ súhlasu"
+
+#: AdminTabGeneral.php:127
+msgctxt "(Admin)"
+msgid "Privacy Policy Custom URL"
+msgstr "Vlastná adresa URL zásad ochrany osobných údajov"
+
+#: custom-policy-url.php:6
+msgctxt "(Admin)"
+msgid "Leave blank if privacy policy page already selected"
+msgstr ""
+"Ak už bola vybratá stránka so zásadami ochrany osobných údajov, ponechajte "
+"prázdne"
+
+#: views/admin/general/description-delete-action.php:2
+msgctxt "(Admin)"
+msgid "What should happen if a data subject requests deleting their data."
+msgstr ""
+"Čo by sa malo stať, ak dotknutá osoba požiada o vymazanie svojich údajov."
+
+#: views/admin/general/description-export-action.php:2
+msgctxt "(Admin)"
+msgid "Optional. Select the page which contains your Terms & Conditions"
+msgstr "Voliteľné. Vyberte stránku, ktorá obsahuje vaše Zmluvné podmienky"
+
+#: views/admin/general/description-terms-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"What should happen if a data subject requests viewing or exporting their "
+"data."
+msgstr ""
+"Čo by sa malo stať, ak dotknutá osoba požiada o zobrazenie alebo export "
+"údajov."
+
+#: woo-disable_checkbox.php:9
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Privacy Checkbox"
+msgstr "Zakázať políčko WooCommerce Privacy"
+
+#: AdminTabCookiePopup.php:133
+msgctxt "(Admin)"
+msgid "Popup Learn More Text"
+msgstr "Kontextové okno Viac informácií"
+
+#: AdminTabGeneral.php:262
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Register Privacy Checkbox"
+msgstr ""
+"Zrušte začiarknutie políčka Ochrana osobných údajov registrácie WooCommerce"
+
+#: AdminTabCookiePopup.php:121
+msgctxt "(Admin)"
+msgid "Cookie Acceptance link target"
+msgstr "Cieľ odkazu na prijatie súboru cookie"
+
+#: popup_link_target.php:3
+msgctxt "(Admin)"
+msgid "Next Tab"
+msgstr "Ďalšia karta"
+
+#: popup_link_target.php:5
+msgctxt "(Admin)"
+msgid "Self"
+msgstr "sám"

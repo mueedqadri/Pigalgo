@@ -1,0 +1,39 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.esg-grid i[class*="eg-icon-"] {
+	color: #fff;
+	@include transition-color(.5s);
+}
+.esg-grid a:hover i[class*="eg-icon-"] {
+	color: #888;
+}
+.esg-navigationbutton i[class*="eg-icon-"] {
+	color: #888;
+}
+.esg-navigationbutton:hover i[class*="eg-icon-"] {
+	color: #333;
+}
+
+.esg-starring {
+	vertical-align: top;
+}
+.esg-starring .star-rating, .esg-starring-page .star-rating {
+	width: 6em;
+}
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+.esgbox-overlay {
+	z-index: 228010 !important;
+}
+.esgbox-opened {
+	z-index: 228030 !important;
+}

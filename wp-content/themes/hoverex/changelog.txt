@@ -1,0 +1,50 @@
+Version 1.0.0
+	Release
+
+Version 1.1.0
+	Fixed plugin Give - Donation
+	Shortcode 'Blogger' is added to HotSpot
+
+Version 1.2
+	Fixed:
+	All plugins updated
+	Style elements
+
+Version 1.3
+    Add:
+    - Compatibility with MailChimp for WordPress Multilingual, WPML - Sitepress Multilingual CMS, WPML String Translation, WPML Translation Management plugins
+    - Compatibility with The GDPR Framework plugin
+    - Compatibility with Gutenberg
+    - Alert to Demo data installation
+
+    Fixed:
+    - Update documentation
+
+Version 1.3.1
+	Fixed:
+		- WPML support
+		- Update plugins to their latest versions
+		- Use {Y} or {{Y}} shortcode to output current year in Layouts custom post type
+	Changed:
+		- Skin installer
+
+
+Version 1.3.2
+    Fixed:
+    - WPML compatibility improved
+
+Version 1.3.3
+    	Added:
+    		- Compatibility with WP 5.2.1
+    		- Compatibility with PHP7.3
+
+        Fixed:
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Update scripts  libraries
+            - Themes Options
+            - Update plugins to their latest versions
+            - Icons layout
+
+        Changed:
+    		- Update demo data

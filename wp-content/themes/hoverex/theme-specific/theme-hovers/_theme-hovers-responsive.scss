@@ -1,0 +1,13 @@
+@mixin theme-hovers--xs() {
+	/* Theme Hovers */
+	.post_featured.hover_border .post_info .post_info_back	{
+		padding: 2.5em;
+	}
+	.post_featured.hover_border .post_info:before,
+	.post_featured.hover_border .post_info:after {
+		@include abs-pos(20px, 20px, 20px, 20px);
+	}
+	.post_featured.hover_border .post_info .post_title {
+		padding-bottom: 4px;
+	}
+}
